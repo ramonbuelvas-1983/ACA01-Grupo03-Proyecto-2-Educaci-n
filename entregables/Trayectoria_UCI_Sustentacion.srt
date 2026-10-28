@@ -1,0 +1,189 @@
+1
+00:00:00,000 --> 00:00:10,368
+Explorar las trayectorias estudiantiles exige conectar dos preguntas: qué patrones
+aparecen en los datos y qué orientaciones documentales pueden ayudar a comprender las
+opciones de acompañamiento.
+
+2
+00:00:10,468 --> 00:00:15,890
+TRAYECTORIA UCI organiza esa conexión mediante una base SQL y recuperación semántica.
+
+3
+00:00:15,990 --> 00:00:24,488
+El objetivo consiste en transformar el archivo aportado en perfiles descriptivos
+verificables, vinculados temáticamente con documentos educativos.
+
+4
+00:00:24,588 --> 00:00:28,779
+La propuesta conserva la procedencia de cada cifra y de cada pasaje consultado.
+
+5
+00:00:28,917 --> 00:00:36,835
+El punto de partida son cuatro mil cuatrocientos veinticuatro registros, con treinta y
+seis variables y un resultado académico observado.
+
+6
+00:00:36,935 --> 00:00:45,445
+El archivo contiene dos mil doscientos nueve graduados, mil cuatrocientos veintiún casos
+de abandono y setecientos noventa y cuatro estudiantes matriculados.
+
+7
+00:00:45,545 --> 00:00:51,687
+La ingesta comprueba la huella del archivo, las dimensiones de la tabla, los valores
+ausentes y los duplicados.
+
+8
+00:00:51,787 --> 00:00:57,336
+Los registros pertenecen a Portugal; por tanto, sus porcentajes describen ese conjunto
+específico.
+
+9
+00:00:57,436 --> 00:01:06,434
+SQLite organiza siete perfiles: dos según condición de beca, dos según condición de
+deudor y tres según unidades curriculares aprobadas durante el primer semestre.
+
+10
+00:01:06,534 --> 00:01:21,220
+La proporción observada de abandono es del setenta y nueve coma treinta y nueve por
+ciento en el grupo sin unidades aprobadas; baja al treinta y siete coma setenta y nueve
+entre una y cinco, y al diez coma veintitrés con seis o más.
+
+11
+00:01:21,320 --> 00:01:26,847
+Estas diferencias son descriptivas: no estiman efectos causales ni predicen el desenlace
+individual.
+
+12
+00:01:26,946 --> 00:01:42,585
+La dimensión documental reúne tres publicaciones colombianas y ciento cincuenta y cuatro
+páginas: lineamientos de bienestar del Ministerio de Educación Nacional, política de
+éxito estudiantil de la Universidad El Bosque y guía de acompañamiento de posgrado de la
+Universidad Nacional.
+
+13
+00:01:42,685 --> 00:01:48,675
+Las fuentes ofrecen orientaciones y experiencias institucionales sobre apoyos
+económicos, tutorías y seguimiento.
+
+14
+00:01:48,775 --> 00:01:57,077
+Sus contenidos se relacionan con dimensiones del dataset, sin trasladar automáticamente
+sus normas a los registros portugueses ni mezclar poblaciones.
+
+15
+00:01:57,196 --> 00:02:05,346
+La fragmentación conserva párrafos y limita cada unidad a doscientos ochenta tokens, con
+solapamiento acotado para mantener continuidad.
+
+16
+00:02:05,446 --> 00:02:15,744
+La recuperación funciona en dos etapas: E cinco multilingüe genera vectores de
+trescientas ochenta y cuatro dimensiones y Qdrant encuentra veinte candidatos mediante
+similitud coseno.
+
+17
+00:02:15,844 --> 00:02:23,565
+Después, un Cross Encoder multilingüe recibe el título y el pasaje, reordena los
+candidatos y devuelve los tres mejor valorados.
+
+18
+00:02:23,665 --> 00:02:27,090
+La puntuación del reordenador se informa por separado del coseno.
+
+19
+00:02:27,190 --> 00:02:35,967
+SQLite conserva las cifras exactas de los siete perfiles; los identificadores asociados
+a los pasajes recuperados permiten consultar su contexto tabular.
+
+20
+00:02:36,067 --> 00:02:43,613
+La consulta socioeconómica solicita los apoyos contemplados por los lineamientos
+ministeriales para personas con dificultades económicas.
+
+21
+00:02:43,713 --> 00:02:47,220
+La fuente se delimita cuando la pregunta identifica una institución.
+
+22
+00:02:47,320 --> 00:02:55,911
+En pantalla aparecen los fragmentos recuperados, sus páginas y las puntuaciones coseno,
+junto con los perfiles financieros obtenidos de SQL.
+
+23
+00:02:56,011 --> 00:03:05,044
+La relación entre ambas columnas es temática: las cifras describen becas o deudas en
+Portugal, mientras el documento colombiano aporta orientaciones.
+
+24
+00:03:05,144 --> 00:03:11,982
+La búsqueda conserva esa diferencia para evitar convertir una coincidencia de tema en
+una recomendación individual.
+
+25
+00:03:12,082 --> 00:03:17,016
+La consulta académica pregunta por estrategias para asignaturas que concentran pérdidas.
+
+26
+00:03:17,116 --> 00:03:25,580
+Los resultados permiten revisar el pasaje de El Bosque sobre tutorías y acompañamiento,
+junto con los tres perfiles de aprobación del primer semestre.
+
+27
+00:03:25,680 --> 00:03:29,941
+El usuario puede examinar tanto el texto original como el tamaño de cada grupo.
+
+28
+00:03:30,041 --> 00:03:39,456
+Esta demostración corresponde a una ejecución local registrada; las puntuaciones
+muestran afinidad semántica y se contrastan con un cálculo independiente del coseno.
+
+29
+00:03:39,582 --> 00:03:46,734
+La evaluación distingue un banco de desarrollo de doce preguntas y seis preguntas de
+reserva, aplicadas después de fijar la configuración.
+
+30
+00:03:46,834 --> 00:03:51,060
+La pertinencia exige documento, página y evidencia textual del pasaje.
+
+31
+00:03:51,160 --> 00:03:55,792
+Se conserva la línea base de búsqueda densa y se contrasta con la recuperación en dos
+etapas.
+
+32
+00:03:55,892 --> 00:03:59,584
+Hit arroba tres y el rango recíproco medio describen los resultados.
+
+33
+00:03:59,684 --> 00:04:02,691
+La pantalla presenta el desempeño y los fallos observados.
+
+34
+00:04:02,791 --> 00:04:10,024
+Las pruebas permiten examinar este corpus; sus puntuaciones no representan una garantía
+de exactitud para otras consultas.
+
+35
+00:04:10,165 --> 00:04:16,446
+La solución incluye un notebook secuencial, las fuentes, los perfiles SQL y las
+evidencias de recuperación.
+
+36
+00:04:16,546 --> 00:04:22,885
+El modelo abierto se ejecuta sin una API de pago; Qdrant Cloud constituye el destino
+remoto previsto en su capa gratuita.
+
+37
+00:04:22,985 --> 00:04:28,686
+El acceso utiliza HTTPS y credenciales mediante variables de entorno, excluidas del
+proyecto.
+
+38
+00:04:28,786 --> 00:04:31,793
+La ejecución remota requiere verificar una conexión real.
+
+39
+00:04:31,893 --> 00:04:40,263
+El aporte de TRAYECTORIA UCI es unir descripción estadística y consulta documental
+mediante una relación explícita, auditable y reproducible.

@@ -1,0 +1,104 @@
+{
+  "benchmark_id": "trayectoria_uci_holdout_passage_v1",
+  "version": 1,
+  "frozen_at": "2026-10-28T01:14:27.627213+00:00",
+  "split": "holdout",
+  "page_numbering": "Páginas físicas del PDF, base 1",
+  "gold_unit": "document_page_and_passage_evidence",
+  "construction": "Seis preguntas nuevas, dos por documento, anotadas tras la decisión del método de recuperación y antes de evaluar la reserva. El anotador verificó únicamente fuentes y expresiones; no consultó puntuaciones, rankings ni resultados de recuperación. Los pasajes y páginas difieren de los del banco inicial de doce preguntas.",
+  "relevance_rule": "Coincidencia simultánea de document_id, página física dentro de gold.pages y evidence_regex en el texto del fragmento. Aplicar re.IGNORECASE y re.DOTALL después de unir palabras cortadas al fin de línea, normalizar espacios y retirar caracteres de control. Las alternativas de gold son disyuntivas.",
+  "evaluation_scope": "Reserva interna pequeña para una comprobación final, no validación externa. No utilizar sus resultados para ajustar el recuperador, el reranker, sus parámetros ni sus etiquetas.",
+  "development_benchmark_sha256": "92cc358cabdd5140985407948a4e2d81c84f03018e81a9c366623f578b8c6bca",
+  "questions": [
+    {
+      "id": "H01",
+      "query": "Según el MEN, ¿cómo deben aprovecharse las experiencias que deja la implementación de proyectos de bienestar institucional?",
+      "gold": [
+        {
+          "document_id": "men_bienestar_2016",
+          "pages": [
+            35
+          ],
+          "evidence_regex": "sistematizan\\s+y\\s+comparten",
+          "evidence_text": "sistematizan y comparten"
+        }
+      ],
+      "expected_aspect": "Recoger y organizar experiencias y buenas prácticas, compartirlas y convertirlas en insumos de análisis y generación de conocimiento sobre bienestar."
+    },
+    {
+      "id": "H02",
+      "query": "¿Qué propone el MEN para preparar la atención de emergencias y situaciones de alto riesgo dentro del campus?",
+      "gold": [
+        {
+          "document_id": "men_bienestar_2016",
+          "pages": [
+            29
+          ],
+          "evidence_regex": "elaboraci[oó]n\\s+y\\s+socializaci[oó]n\\s+de\\s+protocolos",
+          "evidence_text": "elaboración y socialización de protocolos"
+        }
+      ],
+      "expected_aspect": "Preparar y dar a conocer protocolos de atención, dentro de la dimensión de cultura institucional y ciudadana."
+    },
+    {
+      "id": "H03",
+      "query": "¿Con qué dependencia propone El Bosque articular el fortalecimiento de las competencias de lectura y escritura?",
+      "gold": [
+        {
+          "document_id": "ueb_exito_2024",
+          "pages": [
+            27
+          ],
+          "evidence_regex": "Departamento\\s+de\\s+Humanidades.{0,280}lectura\\s+y\\s+escritura",
+          "evidence_text": "Departamento de Humanidades"
+        }
+      ],
+      "expected_aspect": "Con el Departamento de Humanidades y otras unidades académicas o administrativas pertinentes."
+    },
+    {
+      "id": "H04",
+      "query": "¿Qué componentes comprende el análisis CIMA utilizado por El Bosque para el mejoramiento de su política?",
+      "gold": [
+        {
+          "document_id": "ueb_exito_2024",
+          "pages": [
+            39
+          ],
+          "evidence_regex": "Innovaci[oó]n.{0,30}Mejoramiento.{0,30}Adaptaci[oó]n",
+          "evidence_text": "Innovación, Mejoramiento, Adaptación"
+        }
+      ],
+      "expected_aspect": "Consolidación, innovación, mejoramiento y adaptación; el análisis orienta la identificación de fortalezas y necesidades de ajuste."
+    },
+    {
+      "id": "H05",
+      "query": "Según la guía de posgrado de la UNAL, ¿qué dependencia coordina la movilidad de la comunidad académica?",
+      "gold": [
+        {
+          "document_id": "unal_acompanamiento_2022",
+          "pages": [
+            27
+          ],
+          "evidence_regex": "miembros\\s+de\\s+la\\s+comunidad\\s+acad[eé]mica.{0,90}Direcci[oó]n\\s+de\\s+Relaciones\\s+Exteriores",
+          "evidence_text": "Relaciones Exteriores"
+        }
+      ],
+      "expected_aspect": "La Dirección de Relaciones Exteriores coordina la movilidad de los integrantes de la comunidad académica."
+    },
+    {
+      "id": "H06",
+      "query": "¿En qué documento se establecen las fechas de las ceremonias de grado de la UNAL, según su guía de acompañamiento?",
+      "gold": [
+        {
+          "document_id": "unal_acompanamiento_2022",
+          "pages": [
+            35
+          ],
+          "evidence_regex": "Calendario\\s+Acad[eé]mico\\s+General",
+          "evidence_text": "Calendario Académico General"
+        }
+      ],
+      "expected_aspect": "En el calendario general expedido anualmente por Rectoría y reproducido en los calendarios de las sedes."
+    }
+  ]
+}

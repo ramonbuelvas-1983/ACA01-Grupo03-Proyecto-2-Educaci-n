@@ -6,13 +6,19 @@ El proyecto integra el CSV entregado de UCI 697 con tres documentos oficiales co
 
 Los registros proceden de Portugal. Los documentos conservan el ámbito del Ministerio de Educación Nacional, la Universidad El Bosque y la Universidad Nacional de Colombia; sus orientaciones no se aplican automáticamente a las personas del dataset. El proyecto describe los datos y recupera fuentes, sin entrenar un predictor individual de abandono.
 
+## Entregables
+
+[Ejecutar en Google Colab](https://colab.research.google.com/github/ramonbuelvas-1983/ACA01-Grupo03-Proyecto-2-Educaci-n/blob/main/Trayectoria_UCI_ACA1.ipynb) · [Notebook ejecutado](Trayectoria_UCI_ACA1.ipynb) · [Póster PDF](entregables/Trayectoria_UCI_Poster.pdf) · [Video de sustentación, 4:40](entregables/Trayectoria_UCI_Sustentacion.mp4) · [Subtítulos](entregables/Trayectoria_UCI_Sustentacion.srt)
+
+El notebook registra una ejecución local completa: 15 celdas de código sin errores, 319 pasajes indexados, Hit@3 de 9/12 en desarrollo y 5/6 en reserva. La ejecución remota y su demostración requieren una sesión de Qdrant Cloud y credenciales privadas válidas.
+
 ## Ejecutar el notebook
 
 Abra `Trayectoria_UCI_ACA1.ipynb` en Google Colab o Jupyter y ejecute las celdas en orden desde un kernel recién iniciado. El notebook incluye el código, los manifiestos y las dependencias fijadas; si no encuentra la carpeta del proyecto, la reconstruye y descarga las fuentes desde sus enlaces institucionales.
 
 La restauración del CSV verifica que sus bytes coincidan con el SHA-256 del archivo entregado. Cada PDF también tiene una huella de integridad. Si una fuente cambia, la ejecución se detiene para evitar mezclar versiones.
 
-El paquete completo conserva el CSV y los tres PDF, por lo que no necesita descargarlos nuevamente. La primera ejecución requiere conexión para instalar dependencias y obtener el modelo de Hugging Face. Las dependencias directas se verificaron en Python 3.12; la primera celda contrasta sus versiones con `requirements-lock.txt` y utiliza el canal CPU cuando necesita instalar PyTorch.
+El repositorio conserva el CSV y los manifiestos de las tres fuentes. El notebook descarga los PDF desde sus alojamientos institucionales y comprueba sus hashes; los originales no se redistribuyen en el repositorio. La primera ejecución requiere conexión para instalar dependencias y obtener el modelo de Hugging Face. Las dependencias directas se verificaron en Python 3.12; la primera celda contrasta sus versiones con `requirements-lock.txt` y utiliza el canal CPU cuando necesita instalar PyTorch.
 
 ## Ejecutar desde terminal
 
@@ -21,6 +27,7 @@ Desde la carpeta raíz del proyecto:
 ```bash
 python -m pip install torch==2.14.1 --index-url https://download.pytorch.org/whl/cpu
 python -m pip install -r requirements.txt
+python -m src.prepare_data --root .
 python -m src.pipeline --root . --backend local --provider e5 --retrieval rerank
 ```
 
@@ -86,7 +93,8 @@ python -m src.pipeline --root . --backend local --provider e5 --retrieval rerank
 | `Trayectoria_UCI_ACA1.ipynb` | Desarrollo metodológico, gráficos, ejecución y referencias |
 | `src/pipeline.py` | Canalización modular y adaptadores |
 | `data/raw/student_outcomes.csv` | CSV entregado, con integridad verificada |
-| `data/documents/` | Tres PDF originales |
+| `data/documents/` | Destino local de los tres PDF descargados |
+| `src/prepare_data.py` | Descarga y verificación SHA-256 de las fuentes |
 | `data/dataset.json` | Procedencia y huella del CSV |
 | `data/sources.json` | Metadatos y referencias del corpus |
 | `data/evaluation.json` | Doce preguntas de desarrollo y evidencia pertinente |
@@ -102,3 +110,12 @@ python -m src.pipeline --root . --backend local --provider e5 --retrieval rerank
 | `results/out_of_scope.json` | Control de una consulta ajena al dominio |
 
 Conserve las atribuciones al reutilizar los materiales. El dataset UCI se distribuye bajo CC BY 4.0; los documentos institucionales mantienen sus autorías y versiones. El puntaje semántico no equivale a probabilidad de verdad ni sustituye la lectura de la fuente.
+
+
+## Diagnóstico de los resultados
+
+En el banco de desarrollo, la recuperación densa local acierta 7 de 12 preguntas y la configuración con reordenamiento acierta 9 de 12; la mejora observada añade coste de inferencia, pues la latencia mediana pasa de 24,0 a 1.519,1 ms. La reserva interna registra 5 aciertos en 6 preguntas con la configuración fijada. Estas cifras corresponden a las consultas y al entorno documentados, sin estimar el desempeño en otras poblaciones de preguntas.
+
+El examen de los veinte candidatos localiza los fallos restantes: en T05 y T08, el pasaje esperado no entra al conjunto candidato; en T02, sí aparece en la posición densa 9, pero ocupa la posición 5 después del reordenamiento y queda fuera del Top-3. La única consulta fallida de reserva, H01, tampoco incluye la evidencia esperada entre sus veinte candidatos. La cobertura de evidencia en el conjunto candidato es 10/12 en desarrollo y 5/6 en reserva; todas las anclas existen en los fragmentos del corpus. El diagnóstico conserva preguntas, etiquetas y parámetros, y distingue la etapa en que se pierde la evidencia sin atribuirle una causa lingüística definitiva.
+
+[El análisis por pregunta](results/error_analysis.json) conserva fuente, página, anclas, UUID, posiciones, puntuaciones, hashes de entrada y el resultado de las nueve pruebas automatizadas. Cualquier modificación posterior del recuperador debe evaluarse con preguntas nuevas, preservando esta reserva.

@@ -1,0 +1,2102 @@
+[
+  {
+    "id": "H01",
+    "gold": [
+      {
+        "document_id": "men_bienestar_2016",
+        "pages": [
+          35
+        ],
+        "evidence_regex": "sistematizan\\s+y\\s+comparten",
+        "evidence_text": "sistematizan y comparten"
+      }
+    ],
+    "latencies_ms": [
+      1308.117526001297,
+      1510.821281997778,
+      1511.0595379956067
+    ],
+    "query": "Según el MEN, ¿cómo deben aprovecharse las experiencias que deja la implementación de proyectos de bienestar institucional?",
+    "backend": "local",
+    "hits": [
+      {
+        "rank": 1,
+        "dense_rank": 13,
+        "score": 0.8640866776676785,
+        "cosine_numpy": 0.8640867471694946,
+        "cosine_error": 6.950181608011974e-08,
+        "chunk_id": "ea34958a-e6d4-524c-a3f8-90583e30db84",
+        "text": "En ese sentido es necesario que todos estos acontecimientos relacionados con la pla­ neación, ejecución y evaluación de los proyectos de bienestar de cada institución puedan ser sistematizados y recogidos para generar análisis y conocimiento. Incluso es deseable que las instituciones promuevan líneas de investigación en torno al tema a partir de la in­ formación recolectada sobre caracterización de grupos de población y resultados de las estrategias y así puedan darse a la tarea de evaluarlas, estudiar impactos, analizar nuevas maneras de abordar el bienestar, explorar las diferencias por grupos, hacer estudios y estados del arte y plantear nuevos abordajes.\n\n8. Responsabilidades de los actores en la implementación\n\nde la política\n\nPara la implementación de la política de bienestar en las instituciones de educación supe­ rior, los diferentes actores deberán contribuir desde sus propias perspectivas, alcance y competencia, así:\n\n- El Consejo Nacional de Educación Superior (CESU) deberá actualizar el acuerdo en el\n\nque precise las responsabilidades que las instituciones de educación superior deben asumir para la implementación de esta política y su aplicación en los entornos insti­ tucionales. Asimismo, deberá emitir un acuerdo para la precisión o modificación, en lo que sea pertinente, de las condiciones de calidad para la acreditación de programas e instituciones, de modo que se incorpore lo dispuesto en esta política de bienestar.",
+        "doc_id": "men_bienestar_2016",
+        "page": 35,
+        "title": "Lineamientos de política de bienestar para instituciones de educación superior",
+        "url": "https://usbcali.edu.co/wp-content/uploads/2023/10/lineamientos_de_politica_de_bienestar_para_ies.pdf",
+        "thematic": "management",
+        "profile_ids": [
+          "approval_0",
+          "approval_1_5",
+          "approval_6_plus",
+          "scholarship_0",
+          "debtor_0",
+          "scholarship_1",
+          "debtor_1"
+        ],
+        "rerank_score": 1.7361961603164673
+      },
+      {
+        "rank": 2,
+        "dense_rank": 2,
+        "score": 0.876164835750173,
+        "cosine_numpy": 0.8761648535728455,
+        "cosine_error": 1.7822672448986054e-08,
+        "chunk_id": "61e346d4-5605-513d-bc53-c7170f5fbf28",
+        "text": "la comunidad institucional en todos los ámbitos donde tiene\n\npresencia, generando la suficiente flexibilidad curricular para\n\nhacer uso de los recursos. El bienestar institucional implica la\n\nexistencia de programas de intervención interna y del entorno\n\nque disminuyan las situaciones de riesgo psicosocial.7\n\nMinisterio de Educación Nacional\n\nLas características asociadas al factor de “Estructura y funcionamiento del bienestar insti­ tucional” ofrecen lineamientos más concisos sobre cómo debe ser el bienestar:\n\n1. Existencia y aplicación de políticas de bienestar institucional. 2. Descripción de los campos de acción y cobertura de programas de bienestar\n\nuniversitario, sus usuarios y el impacto de sus programas. 3. Recursos humanos provistos y financieros ejecutados por la institución para\n\ngarantizar un óptimo desarrollo de los programas de bienestar universitario. 4. Estrategias de divulgación de los servicios de bienestar universitario. 5. Existencia de una variada oferta de servicios ofrecidos por bienestar y\n\ncondiciones para que la comunidad institucional pueda hacer uso de ella. 6. Evaluación periódica de los servicios ofrecidos. 7. Acciones orientadas al diagnóstico y prevención de los riesgos psicosociales,\n\nmédicos y ambientales de la comunidad institucional. 8. Estrategias encaminadas a la inclusión de la población vulnerable y con\n\ndiscapacidad. 9. Programas y actividades tendientes a prevenir desastres y atender emergencias. 10. Existencia de mecanismos para la resolución armónica de conflictos en la",
+        "doc_id": "men_bienestar_2016",
+        "page": 18,
+        "title": "Lineamientos de política de bienestar para instituciones de educación superior",
+        "url": "https://usbcali.edu.co/wp-content/uploads/2023/10/lineamientos_de_politica_de_bienestar_para_ies.pdf",
+        "thematic": "management",
+        "profile_ids": [
+          "approval_0",
+          "approval_1_5",
+          "approval_6_plus",
+          "scholarship_0",
+          "debtor_0",
+          "scholarship_1",
+          "debtor_1"
+        ],
+        "rerank_score": 1.66294264793396
+      },
+      {
+        "rank": 3,
+        "dense_rank": 14,
+        "score": 0.86242798020854,
+        "cosine_numpy": 0.8624279499053955,
+        "cosine_error": 3.030314443819293e-08,
+        "chunk_id": "7c6b5b06-b851-50b5-8810-697665526191",
+        "text": "2.8 Gestión del conocimiento El proceso de implementación no sería completo si no se recogieran todos los aprendiza­ jes y buenas prácticas para usarlos a favor de la consecución de los objetivos planteados de generar el bienestar a la comunidad académica como un todo y en cada individuo, para que puedan desarrollar todas sus capacidades y aprovechar las oportunidades a las que puedan tener acceso.\n\nMinisterio de Educación Nacional\n\nPara esto es necesario no solo el componente anterior, sino el análisis, reflexión e inves­ tigación que surjan a partir de los datos e información recopilados y cómo se aplican para el mejoramiento de las estrategias.\n\nTambién se hace referencia a la gestión de este conocimiento para su socialización y di­ vulgación dentro de cada institución, pero también entre ellas. Asimismo, la conformación de un comité o grupo de los diferentes directores o encargados del bienestar podrá contri­ buir a generar escenarios de intercambio y mejoramiento continuo.\n\n- Elementos para tener en cuenta\n\n1. Pautas claras para la recolección de información a lo largo del proceso para que\n\npueda ser utilizada posteriormente con este fin. 2. Adopción y promoción de políticas asociadas a la generación del conocimiento en el\n\ntema de bienestar. 3. Establecer espacios para la socialización en la institución. 4. Crear redes para el intercambio de conocimiento y experiencias entre instituciones.",
+        "doc_id": "men_bienestar_2016",
+        "page": 50,
+        "title": "Lineamientos de política de bienestar para instituciones de educación superior",
+        "url": "https://usbcali.edu.co/wp-content/uploads/2023/10/lineamientos_de_politica_de_bienestar_para_ies.pdf",
+        "thematic": "management",
+        "profile_ids": [
+          "approval_0",
+          "approval_1_5",
+          "approval_6_plus",
+          "scholarship_0",
+          "debtor_0",
+          "scholarship_1",
+          "debtor_1"
+        ],
+        "rerank_score": 1.4750895500183105
+      }
+    ],
+    "cohorts": [
+      {
+        "profile_id": "approval_0",
+        "thematic": "academic",
+        "grouping": "aprobadas_sem1",
+        "group_value": "0",
+        "n": 718,
+        "dropout_count": 570,
+        "graduate_count": 77,
+        "enrolled_count": 71,
+        "dropout_rate": 0.7938718662952646
+      },
+      {
+        "profile_id": "approval_1_5",
+        "thematic": "academic",
+        "grouping": "aprobadas_sem1",
+        "group_value": "1-5",
+        "n": 1712,
+        "dropout_count": 647,
+        "graduate_count": 559,
+        "enrolled_count": 506,
+        "dropout_rate": 0.37792056074766356
+      },
+      {
+        "profile_id": "approval_6_plus",
+        "thematic": "academic",
+        "grouping": "aprobadas_sem1",
+        "group_value": "6+",
+        "n": 1994,
+        "dropout_count": 204,
+        "graduate_count": 1573,
+        "enrolled_count": 217,
+        "dropout_rate": 0.10230692076228685
+      },
+      {
+        "profile_id": "debtor_0",
+        "thematic": "financial",
+        "grouping": "deudor",
+        "group_value": "0",
+        "n": 3921,
+        "dropout_count": 1109,
+        "graduate_count": 2108,
+        "enrolled_count": 704,
+        "dropout_rate": 0.28283601122162716
+      },
+      {
+        "profile_id": "debtor_1",
+        "thematic": "financial",
+        "grouping": "deudor",
+        "group_value": "1",
+        "n": 503,
+        "dropout_count": 312,
+        "graduate_count": 101,
+        "enrolled_count": 90,
+        "dropout_rate": 0.6202783300198808
+      },
+      {
+        "profile_id": "scholarship_0",
+        "thematic": "financial",
+        "grouping": "beca",
+        "group_value": "0",
+        "n": 3325,
+        "dropout_count": 1287,
+        "graduate_count": 1374,
+        "enrolled_count": 664,
+        "dropout_rate": 0.38706766917293234
+      },
+      {
+        "profile_id": "scholarship_1",
+        "thematic": "financial",
+        "grouping": "beca",
+        "group_value": "1",
+        "n": 1099,
+        "dropout_count": 134,
+        "graduate_count": 835,
+        "enrolled_count": 130,
+        "dropout_rate": 0.12192902638762511
+      }
+    ],
+    "cohort_theme": "management",
+    "ranking_method": "rerank",
+    "candidate_count": 20,
+    "source_scope": {
+      "mode": "explicit_single_source",
+      "document_id": "men_bienestar_2016",
+      "matched_source_ids": [
+        "men_bienestar_2016"
+      ],
+      "matched_aliases": {
+        "men_bienestar_2016": [
+          "MEN"
+        ]
+      },
+      "policy": "solo_una_fuente_explicita_activa_filtro; cero_o_varias_consultan_todo_el_corpus"
+    },
+    "reranker_pair_format": "query | Titulo: title + Pasaje: text",
+    "candidate_trace": [
+      {
+        "chunk_id": "3e00623f-0d89-5b0a-9bca-5d01a8e23e8a",
+        "doc_id": "men_bienestar_2016",
+        "page": 50,
+        "dense_rank": 1,
+        "score": 0.8761769200378637,
+        "cosine_error": 9.288251590078289e-08,
+        "rerank_score": 0.4000236392021179
+      },
+      {
+        "chunk_id": "61e346d4-5605-513d-bc53-c7170f5fbf28",
+        "doc_id": "men_bienestar_2016",
+        "page": 18,
+        "dense_rank": 2,
+        "score": 0.876164835750173,
+        "cosine_error": 1.7822672448986054e-08,
+        "rerank_score": 1.66294264793396
+      },
+      {
+        "chunk_id": "7c1fd7b7-85dc-5cb8-8e95-d22492c28780",
+        "doc_id": "men_bienestar_2016",
+        "page": 39,
+        "dense_rank": 3,
+        "score": 0.8758902913862776,
+        "cosine_error": 8.279737717664659e-08,
+        "rerank_score": 0.3974950909614563
+      },
+      {
+        "chunk_id": "50414aa6-4be0-5477-b12e-1a25b317d5df",
+        "doc_id": "men_bienestar_2016",
+        "page": 34,
+        "dense_rank": 4,
+        "score": 0.8742796757596886,
+        "cosine_error": 6.17128456115168e-08,
+        "rerank_score": -3.055009603500366
+      },
+      {
+        "chunk_id": "42fb1012-9f89-5aec-942a-e0620332cc24",
+        "doc_id": "men_bienestar_2016",
+        "page": 48,
+        "dense_rank": 5,
+        "score": 0.8714787414519781,
+        "cosine_error": 5.455327090064799e-08,
+        "rerank_score": -0.7383745312690735
+      },
+      {
+        "chunk_id": "226f08b1-5e2e-5f0c-a70d-2b60134b6050",
+        "doc_id": "men_bienestar_2016",
+        "page": 40,
+        "dense_rank": 6,
+        "score": 0.8713736978963149,
+        "cosine_error": 7.472483987136513e-08,
+        "rerank_score": -3.0102059841156006
+      },
+      {
+        "chunk_id": "ca08f846-2dd8-5e30-ac14-63a469ab6897",
+        "doc_id": "men_bienestar_2016",
+        "page": 9,
+        "dense_rank": 7,
+        "score": 0.8688773095501137,
+        "cosine_error": 1.0133855821159443e-07,
+        "rerank_score": -2.680494785308838
+      },
+      {
+        "chunk_id": "bad21cfb-20a8-5234-a0b5-28a5b93fe3e8",
+        "doc_id": "men_bienestar_2016",
+        "page": 38,
+        "dense_rank": 8,
+        "score": 0.8687521881176187,
+        "cosine_error": 5.3017024881363284e-08,
+        "rerank_score": 0.872296929359436
+      },
+      {
+        "chunk_id": "dfb11a18-9685-527a-8031-51a37b35a91c",
+        "doc_id": "men_bienestar_2016",
+        "page": 41,
+        "dense_rank": 9,
+        "score": 0.8659454195658296,
+        "cosine_error": 3.884634081074978e-08,
+        "rerank_score": -0.052066534757614136
+      },
+      {
+        "chunk_id": "9bc1ca12-019a-5cfb-acda-34dd058bdf9c",
+        "doc_id": "men_bienestar_2016",
+        "page": 39,
+        "dense_rank": 10,
+        "score": 0.8648817494082823,
+        "cosine_error": 6.411787123461465e-08,
+        "rerank_score": -1.2038676738739014
+      },
+      {
+        "chunk_id": "39864e2f-9ac8-5fee-8e9e-0a7333896bea",
+        "doc_id": "men_bienestar_2016",
+        "page": 30,
+        "dense_rank": 11,
+        "score": 0.8645824110735048,
+        "cosine_error": 8.321942024380746e-09,
+        "rerank_score": 0.6072606444358826
+      },
+      {
+        "chunk_id": "dbbc4a70-4084-5fb2-9a31-d8f15e513319",
+        "doc_id": "men_bienestar_2016",
+        "page": 38,
+        "dense_rank": 12,
+        "score": 0.8643420341425545,
+        "cosine_error": 5.93251578973053e-08,
+        "rerank_score": -1.504927158355713
+      },
+      {
+        "chunk_id": "ea34958a-e6d4-524c-a3f8-90583e30db84",
+        "doc_id": "men_bienestar_2016",
+        "page": 35,
+        "dense_rank": 13,
+        "score": 0.8640866776676785,
+        "cosine_error": 6.950181608011974e-08,
+        "rerank_score": 1.7361961603164673
+      },
+      {
+        "chunk_id": "7c6b5b06-b851-50b5-8810-697665526191",
+        "doc_id": "men_bienestar_2016",
+        "page": 50,
+        "dense_rank": 14,
+        "score": 0.86242798020854,
+        "cosine_error": 3.030314443819293e-08,
+        "rerank_score": 1.4750895500183105
+      },
+      {
+        "chunk_id": "0609bb27-684c-5291-82ac-3f19973bdbe3",
+        "doc_id": "men_bienestar_2016",
+        "page": 37,
+        "dense_rank": 15,
+        "score": 0.8621633632212656,
+        "cosine_error": 6.12706166913668e-08,
+        "rerank_score": -1.054886817932129
+      },
+      {
+        "chunk_id": "027fb404-7880-528f-80a6-cee063fa1e4a",
+        "doc_id": "men_bienestar_2016",
+        "page": 40,
+        "dense_rank": 16,
+        "score": 0.86192904582324,
+        "cosine_error": 1.3205385451797724e-08,
+        "rerank_score": -0.4582087993621826
+      },
+      {
+        "chunk_id": "17e1b5cb-a534-591e-b99a-6f9aeaf848c7",
+        "doc_id": "men_bienestar_2016",
+        "page": 16,
+        "dense_rank": 17,
+        "score": 0.8593987880466003,
+        "cosine_error": 5.381130985249172e-08,
+        "rerank_score": -3.1273555755615234
+      },
+      {
+        "chunk_id": "d131f0d6-9758-548d-b5b5-9ad56c329b6a",
+        "doc_id": "men_bienestar_2016",
+        "page": 51,
+        "dense_rank": 18,
+        "score": 0.859283859548144,
+        "cosine_error": 6.455463918975113e-08,
+        "rerank_score": -1.9403074979782104
+      },
+      {
+        "chunk_id": "89ddb6f5-0256-581b-8ec7-08a7ad5f230e",
+        "doc_id": "men_bienestar_2016",
+        "page": 46,
+        "dense_rank": 19,
+        "score": 0.8590801740624598,
+        "cosine_error": 2.1364481073149477e-08,
+        "rerank_score": -0.9575696587562561
+      },
+      {
+        "chunk_id": "637f8106-5640-5ec2-8994-d0d4264d4258",
+        "doc_id": "men_bienestar_2016",
+        "page": 5,
+        "dense_rank": 20,
+        "score": 0.8586145312897828,
+        "cosine_error": 3.2652172743397045e-08,
+        "rerank_score": -4.644808292388916
+      }
+    ],
+    "candidate_max_cosine_error": 1.0133855821159443e-07,
+    "reranker_model": "cross-encoder/mmarco-mMiniLMv2-L12-H384-v1",
+    "reranker_revision": "1427fd652930e4ba29e8149678df786c240d8825",
+    "pair_max_tokens": 323,
+    "cohort_join": "payload.profile_ids -> SQLite.cohort_profiles.profile_id",
+    "interpretation": "Los perfiles describen cohortes portuguesas; la asociación con documentos colombianos es temática, sin enlace de personas ni inferencia causal."
+  },
+  {
+    "id": "H02",
+    "gold": [
+      {
+        "document_id": "men_bienestar_2016",
+        "pages": [
+          29
+        ],
+        "evidence_regex": "elaboraci[oó]n\\s+y\\s+socializaci[oó]n\\s+de\\s+protocolos",
+        "evidence_text": "elaboración y socialización de protocolos"
+      }
+    ],
+    "latencies_ms": [
+      1767.8391020017443,
+      1526.8492940012948,
+      1651.9545840055798
+    ],
+    "query": "¿Qué propone el MEN para preparar la atención de emergencias y situaciones de alto riesgo dentro del campus?",
+    "backend": "local",
+    "hits": [
+      {
+        "rank": 1,
+        "dense_rank": 4,
+        "score": 0.832645326132921,
+        "cosine_numpy": 0.8326454162597656,
+        "cosine_error": 9.012684465403709e-08,
+        "chunk_id": "44ed1478-f8cd-5d2e-8a47-b125356c3ce0",
+        "text": "sentido de pertenencia institucional, convivencia, formación ciudadana y re­ lación con el entorno. En esta dimensión se incluyen también las estrategias relacionadas con procesos para desarrollar prácticas que fortalezcan la seguri­ dad vial bajo un enfoque de corresponsabilidad y autocuidado y la atención de situaciones de emergencia y alto riesgo en el campus de las instituciones me­ diante la elaboración y socialización de protocolos. De acuerdo con sus políticas y recursos, las instituciones podrán definir acciones orientadas a la comunidad en general.\n\n7. Componentes del bienestar en las instituciones de\n\neducación superior\n\nEl Ministerio reconoce que el estado de avance de las políticas, sistemas y procesos re­ lacionados con el bienestar es diferente y, por ello, propone unos componentes que pue­ dan ser adoptados, de modo que todas las instituciones de educación superior logren un mejor nivel.\n\n7.1 Conceptualización del bienestar en las instituciones de educación\n\nsuperior Un punto de partida para la institución es el ejercicio de interiorizar, interpretar, redefinir y adaptar el concepto de bienestar propuesto en la página 26 de estos lineamientos de política, en virtud de lo estipulado en la Ley 30 de 1992 respecto a su autonomía, y a",
+        "doc_id": "men_bienestar_2016",
+        "page": 29,
+        "title": "Lineamientos de política de bienestar para instituciones de educación superior",
+        "url": "https://usbcali.edu.co/wp-content/uploads/2023/10/lineamientos_de_politica_de_bienestar_para_ies.pdf",
+        "thematic": "management",
+        "profile_ids": [
+          "approval_0",
+          "approval_1_5",
+          "approval_6_plus",
+          "scholarship_0",
+          "debtor_0",
+          "scholarship_1",
+          "debtor_1"
+        ],
+        "rerank_score": 2.7596781253814697
+      },
+      {
+        "rank": 2,
+        "dense_rank": 18,
+        "score": 0.8215186287448528,
+        "cosine_numpy": 0.8215187191963196,
+        "cosine_error": 9.045146676101012e-08,
+        "chunk_id": "a8ac10fe-ed35-5e52-95c0-f439b0e94177",
+        "text": "discapacidad. 9. Programas y actividades tendientes a prevenir desastres y atender emergencias. 10. Existencia de mecanismos para la resolución armónica de conflictos en la\n\ncomunidad institucional.\n\nA pesar de que existe este enfoque particular en el bienestar, es posible encontrar en otros factores de calidad (misión y proyecto institucional, estudiantes y docentes) elementos re­ lacionados con este concepto. Por ejemplo, aspectos como la inclusión de estrategias para la formación integral y el fortalecimiento de la comunidad académica en el proyecto educa­ tivo institucional, el reconocimiento de los deberes y derechos de los estudiantes, la aplica­ ción equitativa de criterios de admisión y la permanencia, la garantía para la integración de los estudiantes a la institución según sus condiciones particulares, junto con la aplicación del estatuto de profesores respecto a sus deberes y derechos.\n\nEn los lineamientos para la acreditación de programas de pregrado del CNA, se mencio­ nan algunos aspectos relevantes en el factor de bienestar que establece que “un programa\n\n7. CONSEJO NACIONAL DE EDUCACIÓN SUPERIOR (CESU). Acuerdo 03 del 2014, por el cual se aprueban los lineamientos para",
+        "doc_id": "men_bienestar_2016",
+        "page": 18,
+        "title": "Lineamientos de política de bienestar para instituciones de educación superior",
+        "url": "https://usbcali.edu.co/wp-content/uploads/2023/10/lineamientos_de_politica_de_bienestar_para_ies.pdf",
+        "thematic": "management",
+        "profile_ids": [
+          "approval_0",
+          "approval_1_5",
+          "approval_6_plus",
+          "scholarship_0",
+          "debtor_0",
+          "scholarship_1",
+          "debtor_1"
+        ],
+        "rerank_score": -2.9051859378814697
+      },
+      {
+        "rank": 3,
+        "dense_rank": 3,
+        "score": 0.8330611267330105,
+        "cosine_numpy": 0.8330612182617188,
+        "cosine_error": 9.152870827922044e-08,
+        "chunk_id": "61e346d4-5605-513d-bc53-c7170f5fbf28",
+        "text": "la comunidad institucional en todos los ámbitos donde tiene\n\npresencia, generando la suficiente flexibilidad curricular para\n\nhacer uso de los recursos. El bienestar institucional implica la\n\nexistencia de programas de intervención interna y del entorno\n\nque disminuyan las situaciones de riesgo psicosocial.7\n\nMinisterio de Educación Nacional\n\nLas características asociadas al factor de “Estructura y funcionamiento del bienestar insti­ tucional” ofrecen lineamientos más concisos sobre cómo debe ser el bienestar:\n\n1. Existencia y aplicación de políticas de bienestar institucional. 2. Descripción de los campos de acción y cobertura de programas de bienestar\n\nuniversitario, sus usuarios y el impacto de sus programas. 3. Recursos humanos provistos y financieros ejecutados por la institución para\n\ngarantizar un óptimo desarrollo de los programas de bienestar universitario. 4. Estrategias de divulgación de los servicios de bienestar universitario. 5. Existencia de una variada oferta de servicios ofrecidos por bienestar y\n\ncondiciones para que la comunidad institucional pueda hacer uso de ella. 6. Evaluación periódica de los servicios ofrecidos. 7. Acciones orientadas al diagnóstico y prevención de los riesgos psicosociales,\n\nmédicos y ambientales de la comunidad institucional. 8. Estrategias encaminadas a la inclusión de la población vulnerable y con\n\ndiscapacidad. 9. Programas y actividades tendientes a prevenir desastres y atender emergencias. 10. Existencia de mecanismos para la resolución armónica de conflictos en la",
+        "doc_id": "men_bienestar_2016",
+        "page": 18,
+        "title": "Lineamientos de política de bienestar para instituciones de educación superior",
+        "url": "https://usbcali.edu.co/wp-content/uploads/2023/10/lineamientos_de_politica_de_bienestar_para_ies.pdf",
+        "thematic": "management",
+        "profile_ids": [
+          "approval_0",
+          "approval_1_5",
+          "approval_6_plus",
+          "scholarship_0",
+          "debtor_0",
+          "scholarship_1",
+          "debtor_1"
+        ],
+        "rerank_score": -3.1518328189849854
+      }
+    ],
+    "cohorts": [
+      {
+        "profile_id": "approval_0",
+        "thematic": "academic",
+        "grouping": "aprobadas_sem1",
+        "group_value": "0",
+        "n": 718,
+        "dropout_count": 570,
+        "graduate_count": 77,
+        "enrolled_count": 71,
+        "dropout_rate": 0.7938718662952646
+      },
+      {
+        "profile_id": "approval_1_5",
+        "thematic": "academic",
+        "grouping": "aprobadas_sem1",
+        "group_value": "1-5",
+        "n": 1712,
+        "dropout_count": 647,
+        "graduate_count": 559,
+        "enrolled_count": 506,
+        "dropout_rate": 0.37792056074766356
+      },
+      {
+        "profile_id": "approval_6_plus",
+        "thematic": "academic",
+        "grouping": "aprobadas_sem1",
+        "group_value": "6+",
+        "n": 1994,
+        "dropout_count": 204,
+        "graduate_count": 1573,
+        "enrolled_count": 217,
+        "dropout_rate": 0.10230692076228685
+      },
+      {
+        "profile_id": "debtor_0",
+        "thematic": "financial",
+        "grouping": "deudor",
+        "group_value": "0",
+        "n": 3921,
+        "dropout_count": 1109,
+        "graduate_count": 2108,
+        "enrolled_count": 704,
+        "dropout_rate": 0.28283601122162716
+      },
+      {
+        "profile_id": "debtor_1",
+        "thematic": "financial",
+        "grouping": "deudor",
+        "group_value": "1",
+        "n": 503,
+        "dropout_count": 312,
+        "graduate_count": 101,
+        "enrolled_count": 90,
+        "dropout_rate": 0.6202783300198808
+      },
+      {
+        "profile_id": "scholarship_0",
+        "thematic": "financial",
+        "grouping": "beca",
+        "group_value": "0",
+        "n": 3325,
+        "dropout_count": 1287,
+        "graduate_count": 1374,
+        "enrolled_count": 664,
+        "dropout_rate": 0.38706766917293234
+      },
+      {
+        "profile_id": "scholarship_1",
+        "thematic": "financial",
+        "grouping": "beca",
+        "group_value": "1",
+        "n": 1099,
+        "dropout_count": 134,
+        "graduate_count": 835,
+        "enrolled_count": 130,
+        "dropout_rate": 0.12192902638762511
+      }
+    ],
+    "cohort_theme": "management",
+    "ranking_method": "rerank",
+    "candidate_count": 20,
+    "source_scope": {
+      "mode": "explicit_single_source",
+      "document_id": "men_bienestar_2016",
+      "matched_source_ids": [
+        "men_bienestar_2016"
+      ],
+      "matched_aliases": {
+        "men_bienestar_2016": [
+          "MEN"
+        ]
+      },
+      "policy": "solo_una_fuente_explicita_activa_filtro; cero_o_varias_consultan_todo_el_corpus"
+    },
+    "reranker_pair_format": "query | Titulo: title + Pasaje: text",
+    "candidate_trace": [
+      {
+        "chunk_id": "027fb404-7880-528f-80a6-cee063fa1e4a",
+        "doc_id": "men_bienestar_2016",
+        "page": 40,
+        "dense_rank": 1,
+        "score": 0.8350755608009841,
+        "cosine_error": 5.603556374467189e-08,
+        "rerank_score": -3.880545139312744
+      },
+      {
+        "chunk_id": "d45a2fb1-3796-5025-abdb-45f23aeaec10",
+        "doc_id": "men_bienestar_2016",
+        "page": 41,
+        "dense_rank": 2,
+        "score": 0.8334653620103875,
+        "cosine_error": 3.534755321776828e-08,
+        "rerank_score": -5.2778706550598145
+      },
+      {
+        "chunk_id": "61e346d4-5605-513d-bc53-c7170f5fbf28",
+        "doc_id": "men_bienestar_2016",
+        "page": 18,
+        "dense_rank": 3,
+        "score": 0.8330611267330105,
+        "cosine_error": 9.152870827922044e-08,
+        "rerank_score": -3.1518328189849854
+      },
+      {
+        "chunk_id": "44ed1478-f8cd-5d2e-8a47-b125356c3ce0",
+        "doc_id": "men_bienestar_2016",
+        "page": 29,
+        "dense_rank": 4,
+        "score": 0.832645326132921,
+        "cosine_error": 9.012684465403709e-08,
+        "rerank_score": 2.7596781253814697
+      },
+      {
+        "chunk_id": "19676fe0-bdde-5cef-9c8f-e3c3978ca429",
+        "doc_id": "men_bienestar_2016",
+        "page": 44,
+        "dense_rank": 5,
+        "score": 0.8296212066550699,
+        "cosine_error": 4.874272674371127e-08,
+        "rerank_score": -6.181016445159912
+      },
+      {
+        "chunk_id": "ca08f846-2dd8-5e30-ac14-63a469ab6897",
+        "doc_id": "men_bienestar_2016",
+        "page": 9,
+        "dense_rank": 6,
+        "score": 0.8295726678161125,
+        "cosine_error": 6.940083696616028e-08,
+        "rerank_score": -5.616485595703125
+      },
+      {
+        "chunk_id": "d131f0d6-9758-548d-b5b5-9ad56c329b6a",
+        "doc_id": "men_bienestar_2016",
+        "page": 51,
+        "dense_rank": 7,
+        "score": 0.8289391242902476,
+        "cosine_error": 7.515738420504903e-08,
+        "rerank_score": -5.4940667152404785
+      },
+      {
+        "chunk_id": "602ace05-7d41-5392-a279-530afc728766",
+        "doc_id": "men_bienestar_2016",
+        "page": 8,
+        "dense_rank": 8,
+        "score": 0.8287748230360925,
+        "cosine_error": 4.640589357229885e-08,
+        "rerank_score": -5.50234842300415
+      },
+      {
+        "chunk_id": "da404542-421f-5787-a1c0-053258740aa2",
+        "doc_id": "men_bienestar_2016",
+        "page": 14,
+        "dense_rank": 9,
+        "score": 0.8275829740403677,
+        "cosine_error": 4.0924689637122924e-08,
+        "rerank_score": -5.4011030197143555
+      },
+      {
+        "chunk_id": "dfb11a18-9685-527a-8031-51a37b35a91c",
+        "doc_id": "men_bienestar_2016",
+        "page": 41,
+        "dense_rank": 10,
+        "score": 0.8275802381925442,
+        "cosine_error": 3.4958853478705976e-08,
+        "rerank_score": -5.331920623779297
+      },
+      {
+        "chunk_id": "7679c5a1-026a-54a8-a41e-f996c49d87c3",
+        "doc_id": "men_bienestar_2016",
+        "page": 45,
+        "dense_rank": 11,
+        "score": 0.8271520359423488,
+        "cosine_error": 9.704562731194244e-08,
+        "rerank_score": -5.2684712409973145
+      },
+      {
+        "chunk_id": "6f10581f-57ac-5fea-9ec8-1fc085f0a91b",
+        "doc_id": "men_bienestar_2016",
+        "page": 10,
+        "dense_rank": 12,
+        "score": 0.8260995382777513,
+        "cosine_error": 3.6288136162632156e-08,
+        "rerank_score": -5.799358367919922
+      },
+      {
+        "chunk_id": "cc889e0c-ae3c-5ea2-a49c-e003435e34f8",
+        "doc_id": "men_bienestar_2016",
+        "page": 42,
+        "dense_rank": 13,
+        "score": 0.8256706687230231,
+        "cosine_error": 5.0423705433289e-08,
+        "rerank_score": -4.876272678375244
+      },
+      {
+        "chunk_id": "b2dacc19-7bcd-596e-ab44-3eea77b2bede",
+        "doc_id": "men_bienestar_2016",
+        "page": 31,
+        "dense_rank": 14,
+        "score": 0.8246082603468852,
+        "cosine_error": 6.561136678406854e-08,
+        "rerank_score": -5.114809036254883
+      },
+      {
+        "chunk_id": "a4b5abf1-30a6-5de8-b5bb-fcbc4e8e85ed",
+        "doc_id": "men_bienestar_2016",
+        "page": 28,
+        "dense_rank": 15,
+        "score": 0.8240912055999409,
+        "cosine_error": 1.0966952934676755e-07,
+        "rerank_score": -4.919784069061279
+      },
+      {
+        "chunk_id": "3e00623f-0d89-5b0a-9bca-5d01a8e23e8a",
+        "doc_id": "men_bienestar_2016",
+        "page": 50,
+        "dense_rank": 16,
+        "score": 0.8240001117025275,
+        "cosine_error": 6.806508112688903e-08,
+        "rerank_score": -5.367546558380127
+      },
+      {
+        "chunk_id": "f8e9c397-3cd7-53a7-881a-12f16fdb316c",
+        "doc_id": "men_bienestar_2016",
+        "page": 38,
+        "dense_rank": 17,
+        "score": 0.8215198940772308,
+        "cosine_error": 7.681662905767439e-08,
+        "rerank_score": -6.579245090484619
+      },
+      {
+        "chunk_id": "a8ac10fe-ed35-5e52-95c0-f439b0e94177",
+        "doc_id": "men_bienestar_2016",
+        "page": 18,
+        "dense_rank": 18,
+        "score": 0.8215186287448528,
+        "cosine_error": 9.045146676101012e-08,
+        "rerank_score": -2.9051859378814697
+      },
+      {
+        "chunk_id": "21a0369c-b8af-5a96-81ee-1268f36e9afd",
+        "doc_id": "men_bienestar_2016",
+        "page": 49,
+        "dense_rank": 19,
+        "score": 0.8206723397796949,
+        "cosine_error": 5.306545891592407e-08,
+        "rerank_score": -5.67978572845459
+      },
+      {
+        "chunk_id": "6996c969-639b-5d65-929e-b67ba44acc1e",
+        "doc_id": "men_bienestar_2016",
+        "page": 36,
+        "dense_rank": 20,
+        "score": 0.8206313129480667,
+        "cosine_error": 7.1901481657477e-08,
+        "rerank_score": -4.794378280639648
+      }
+    ],
+    "candidate_max_cosine_error": 1.0966952934676755e-07,
+    "reranker_model": "cross-encoder/mmarco-mMiniLMv2-L12-H384-v1",
+    "reranker_revision": "1427fd652930e4ba29e8149678df786c240d8825",
+    "pair_max_tokens": 322,
+    "cohort_join": "payload.profile_ids -> SQLite.cohort_profiles.profile_id",
+    "interpretation": "Los perfiles describen cohortes portuguesas; la asociación con documentos colombianos es temática, sin enlace de personas ni inferencia causal."
+  },
+  {
+    "id": "H03",
+    "gold": [
+      {
+        "document_id": "ueb_exito_2024",
+        "pages": [
+          27
+        ],
+        "evidence_regex": "Departamento\\s+de\\s+Humanidades.{0,280}lectura\\s+y\\s+escritura",
+        "evidence_text": "Departamento de Humanidades"
+      }
+    ],
+    "latencies_ms": [
+      1437.8734650017577,
+      1285.021682997467,
+      1374.5932210003957
+    ],
+    "query": "¿Con qué dependencia propone El Bosque articular el fortalecimiento de las competencias de lectura y escritura?",
+    "backend": "local",
+    "hits": [
+      {
+        "rank": 1,
+        "dense_rank": 5,
+        "score": 0.8415161210033584,
+        "cosine_numpy": 0.8415161371231079,
+        "cosine_error": 1.6119749535192796e-08,
+        "chunk_id": "c7334acf-c32e-5912-870c-751c320eb9b9",
+        "text": "• Definir y comunicar por los diferentes medios institucionales el portafolio de alternativas de financiación de matrícula, descuentos, becas y demás opciones de pago de los derechos pecuniarios de los estudiantes, y disponer de personal calificado para asesorarlos con las diferentes alternativas del portafolio.\n\n• Diseñar, definir e implementar con el Departamento de Matemáticas estrategias para fortalecer el pensamiento lógico matemático.\n\n• Diseñar, definir e implementar de manera articulada con el Departamento de Humanidades y demás unidades académicas o administrativas con las que se puedan generar estrategias que fortalezcan el logro de competencias en procesos de lectura y escritura.\n\n• Diseñar e implementar estrategias para el fortalecimiento del aprendizaje de los estudiantes desde un enfoque diferencial en articulación con el Centro de Diversidad, Equidad e Inclusión vinculando a los diferentes actores y redes de apoyo (DIGINEXA, programa académico, docentes, familia y comunidad educativa).\n\n• Fortalecer los procesos de adaptación y acompañamiento de los estudiantes de movilidad nacional e internacional, tanto entrante como saliente, en articulación con la Oficina de Relaciones Internacionales.\n\nLineamientos para el fortalecimiento de competencias globales para el éxito académico",
+        "doc_id": "ueb_exito_2024",
+        "page": 27,
+        "title": "Política para el éxito estudiantil y lineamientos",
+        "url": "https://www.unbosque.edu.co/sites/default/files/2024-10/PoliticadeExitoEstudiantil.pdf",
+        "thematic": "academic",
+        "profile_ids": [
+          "approval_0",
+          "approval_1_5",
+          "approval_6_plus"
+        ],
+        "rerank_score": 1.5748696327209473
+      },
+      {
+        "rank": 2,
+        "dense_rank": 20,
+        "score": 0.8267803429507738,
+        "cosine_numpy": 0.8267803192138672,
+        "cosine_error": 2.3736906662463753e-08,
+        "chunk_id": "49dad41e-c7dc-5ac4-ac3d-838937089e53",
+        "text": "• Decidir sobre el apoyo de los padres de familia o acudientes en los casos en los que se requiera.\n\n• Sugerir la carga académica que deberá asumir el estudiante para su bienestar pedagógico.\n\n• Generar compromisos de parte del estudiante, la familia, el programa académico y psicopedagogía.\n\n• Realizar seguimiento oportuno al cumplimiento de los compromisos adquiridos por los diferentes actores.\n\n• Activar al inicio de cada semestre el acompañamiento integral en caso de requerirse.\n\nDepartamento de Humanidades\n\n• Diseñar, definir e implementar estrategias que fortalezcan el logro de competencias en procesos de lectura y escritura, de manera articulada con DIGINEXA y las demás unidades académicas.\n\nDepartamento de Matemáticas\n\n• Diseñar, definir e implementar estrategias para fortalecer el pensamiento lógico matemático en los estudiantes en articulación con DIGINEXA.",
+        "doc_id": "ueb_exito_2024",
+        "page": 36,
+        "title": "Política para el éxito estudiantil y lineamientos",
+        "url": "https://www.unbosque.edu.co/sites/default/files/2024-10/PoliticadeExitoEstudiantil.pdf",
+        "thematic": "academic",
+        "profile_ids": [
+          "approval_0",
+          "approval_1_5",
+          "approval_6_plus"
+        ],
+        "rerank_score": 0.14982707798480988
+      },
+      {
+        "rank": 3,
+        "dense_rank": 1,
+        "score": 0.8641710912571314,
+        "cosine_numpy": 0.864171028137207,
+        "cosine_error": 6.311992439833602e-08,
+        "chunk_id": "dc68c131-0fa1-5c6a-be51-013b5de65e59",
+        "text": "Lineamientos para el fortalecimiento de competencias globales para el éxito académico\n\nLa Universidad El Bosque, en el Plan de Desarrollo Institucional 20222027 se plantea la importancia de desarrollar competencias para el desempeño en un mundo globalizado. Así, competencias como el bilingüismo, la multiculturalidad, el aprender a aprender y habilidades digitales, entre otras, se constituyen como necesarias para el éxito estudiantil. Estos lineamientos presentan como elemento fundamental el apoyo al aprendizaje, el aporte a la formación integral de los estudiantes y su adaptación a las realidades de un mundo cambiante cada vez más globalizado. Se definen los siguientes:\n\n• Diseñar y ofrecer junto a los programas académicos, la División de Innovación Digital en Educación (DIDE) y la Coordinación de éxito estudiantil una oferta permanente de actividades formativas para fortalecer las habilidades de manejo de herramientas y aplicaciones digitales.",
+        "doc_id": "ueb_exito_2024",
+        "page": 27,
+        "title": "Política para el éxito estudiantil y lineamientos",
+        "url": "https://www.unbosque.edu.co/sites/default/files/2024-10/PoliticadeExitoEstudiantil.pdf",
+        "thematic": "academic",
+        "profile_ids": [
+          "approval_0",
+          "approval_1_5",
+          "approval_6_plus"
+        ],
+        "rerank_score": -0.8872470855712891
+      }
+    ],
+    "cohorts": [
+      {
+        "profile_id": "approval_0",
+        "thematic": "academic",
+        "grouping": "aprobadas_sem1",
+        "group_value": "0",
+        "n": 718,
+        "dropout_count": 570,
+        "graduate_count": 77,
+        "enrolled_count": 71,
+        "dropout_rate": 0.7938718662952646
+      },
+      {
+        "profile_id": "approval_1_5",
+        "thematic": "academic",
+        "grouping": "aprobadas_sem1",
+        "group_value": "1-5",
+        "n": 1712,
+        "dropout_count": 647,
+        "graduate_count": 559,
+        "enrolled_count": 506,
+        "dropout_rate": 0.37792056074766356
+      },
+      {
+        "profile_id": "approval_6_plus",
+        "thematic": "academic",
+        "grouping": "aprobadas_sem1",
+        "group_value": "6+",
+        "n": 1994,
+        "dropout_count": 204,
+        "graduate_count": 1573,
+        "enrolled_count": 217,
+        "dropout_rate": 0.10230692076228685
+      }
+    ],
+    "cohort_theme": "management",
+    "ranking_method": "rerank",
+    "candidate_count": 20,
+    "source_scope": {
+      "mode": "explicit_single_source",
+      "document_id": "ueb_exito_2024",
+      "matched_source_ids": [
+        "ueb_exito_2024"
+      ],
+      "matched_aliases": {
+        "ueb_exito_2024": [
+          "El Bosque"
+        ]
+      },
+      "policy": "solo_una_fuente_explicita_activa_filtro; cero_o_varias_consultan_todo_el_corpus"
+    },
+    "reranker_pair_format": "query | Titulo: title + Pasaje: text",
+    "candidate_trace": [
+      {
+        "chunk_id": "dc68c131-0fa1-5c6a-be51-013b5de65e59",
+        "doc_id": "ueb_exito_2024",
+        "page": 27,
+        "dense_rank": 1,
+        "score": 0.8641710912571314,
+        "cosine_error": 6.311992439833602e-08,
+        "rerank_score": -0.8872470855712891
+      },
+      {
+        "chunk_id": "6b19c180-09e6-591a-a5f0-eea1cf3b4efa",
+        "doc_id": "ueb_exito_2024",
+        "page": 26,
+        "dense_rank": 2,
+        "score": 0.8467492246817448,
+        "cosine_error": 3.8165936744327666e-08,
+        "rerank_score": -5.9131622314453125
+      },
+      {
+        "chunk_id": "f2f28cf7-db55-56ac-b4bd-794600fcd390",
+        "doc_id": "ueb_exito_2024",
+        "page": 12,
+        "dense_rank": 3,
+        "score": 0.8462152761858239,
+        "cosine_error": 3.152673100359493e-08,
+        "rerank_score": -5.573566913604736
+      },
+      {
+        "chunk_id": "fd2fc762-ae2d-5e91-bb5e-fc7dfb5768db",
+        "doc_id": "ueb_exito_2024",
+        "page": 17,
+        "dense_rank": 4,
+        "score": 0.8445595035481093,
+        "cosine_error": 1.2867414689310408e-08,
+        "rerank_score": -2.4745616912841797
+      },
+      {
+        "chunk_id": "c7334acf-c32e-5912-870c-751c320eb9b9",
+        "doc_id": "ueb_exito_2024",
+        "page": 27,
+        "dense_rank": 5,
+        "score": 0.8415161210033584,
+        "cosine_error": 1.6119749535192796e-08,
+        "rerank_score": 1.5748696327209473
+      },
+      {
+        "chunk_id": "5b571fe6-f665-5de6-84ae-9061fc73366d",
+        "doc_id": "ueb_exito_2024",
+        "page": 21,
+        "dense_rank": 6,
+        "score": 0.8403566606842569,
+        "cosine_error": 4.6888680160783736e-08,
+        "rerank_score": -3.9452099800109863
+      },
+      {
+        "chunk_id": "c0c8039b-922b-527b-82e7-260908321937",
+        "doc_id": "ueb_exito_2024",
+        "page": 31,
+        "dense_rank": 7,
+        "score": 0.8381638814188341,
+        "cosine_error": 2.872718374291594e-08,
+        "rerank_score": -5.5651774406433105
+      },
+      {
+        "chunk_id": "d02d33fd-7e0e-5d7d-b381-c748e0b5a149",
+        "doc_id": "ueb_exito_2024",
+        "page": 47,
+        "dense_rank": 8,
+        "score": 0.8369941346030589,
+        "cosine_error": 3.6539519188139025e-08,
+        "rerank_score": -6.465102672576904
+      },
+      {
+        "chunk_id": "c0ec1a95-3274-5eeb-b44f-861c609e363c",
+        "doc_id": "ueb_exito_2024",
+        "page": 16,
+        "dense_rank": 9,
+        "score": 0.8369745356978954,
+        "cosine_error": 3.408809312599459e-08,
+        "rerank_score": -5.833824634552002
+      },
+      {
+        "chunk_id": "b08a6422-a67b-5d26-9a9f-9b4c67ba4cc1",
+        "doc_id": "ueb_exito_2024",
+        "page": 37,
+        "dense_rank": 10,
+        "score": 0.8367065684254134,
+        "cosine_error": 1.0306123510162024e-08,
+        "rerank_score": -2.092487096786499
+      },
+      {
+        "chunk_id": "729fee8b-c0d1-5b6f-b923-25ce4d10ee0c",
+        "doc_id": "ueb_exito_2024",
+        "page": 33,
+        "dense_rank": 11,
+        "score": 0.8354843002796155,
+        "cosine_error": 2.560615719460202e-08,
+        "rerank_score": -3.944258451461792
+      },
+      {
+        "chunk_id": "7b353062-de87-5943-940e-e7f5576dfcb5",
+        "doc_id": "ueb_exito_2024",
+        "page": 26,
+        "dense_rank": 12,
+        "score": 0.8353682231084752,
+        "cosine_error": 5.2533919769892634e-08,
+        "rerank_score": -4.715675354003906
+      },
+      {
+        "chunk_id": "3e9564ab-96b7-512b-a432-0a4a63915414",
+        "doc_id": "ueb_exito_2024",
+        "page": 13,
+        "dense_rank": 13,
+        "score": 0.8336996478300824,
+        "cosine_error": 5.538647029901256e-08,
+        "rerank_score": -6.446135997772217
+      },
+      {
+        "chunk_id": "6b6a73da-0e3e-5b6c-801d-34d68ba87d7d",
+        "doc_id": "ueb_exito_2024",
+        "page": 43,
+        "dense_rank": 14,
+        "score": 0.832227125433989,
+        "cosine_error": 1.4571257089812661e-08,
+        "rerank_score": -8.598402976989746
+      },
+      {
+        "chunk_id": "600f7cd7-4303-553a-a221-ad7d2fa2f3b5",
+        "doc_id": "ueb_exito_2024",
+        "page": 41,
+        "dense_rank": 15,
+        "score": 0.8315685036532237,
+        "cosine_error": 2.4115259789070365e-08,
+        "rerank_score": -7.029575824737549
+      },
+      {
+        "chunk_id": "0af4104b-710c-59b1-85c2-5836b2d04c86",
+        "doc_id": "ueb_exito_2024",
+        "page": 17,
+        "dense_rank": 16,
+        "score": 0.8315301654970968,
+        "cosine_error": 1.1745723504930083e-08,
+        "rerank_score": -5.3512396812438965
+      },
+      {
+        "chunk_id": "a662a191-5dab-5061-9492-94dab9ddb48c",
+        "doc_id": "ueb_exito_2024",
+        "page": 23,
+        "dense_rank": 17,
+        "score": 0.8308756058635045,
+        "cosine_error": 2.928359021936444e-08,
+        "rerank_score": -5.9310383796691895
+      },
+      {
+        "chunk_id": "c6ad0e0d-5f9c-5ec9-b2f0-371f96a08c71",
+        "doc_id": "ueb_exito_2024",
+        "page": 24,
+        "dense_rank": 18,
+        "score": 0.8283093073256477,
+        "cosine_error": 9.764002162349072e-09,
+        "rerank_score": -8.184895515441895
+      },
+      {
+        "chunk_id": "314bab37-ccd8-5e02-ba50-80e647f5381d",
+        "doc_id": "ueb_exito_2024",
+        "page": 7,
+        "dense_rank": 19,
+        "score": 0.8281994488472866,
+        "cosine_error": 6.225060689146744e-08,
+        "rerank_score": -6.187849521636963
+      },
+      {
+        "chunk_id": "49dad41e-c7dc-5ac4-ac3d-838937089e53",
+        "doc_id": "ueb_exito_2024",
+        "page": 36,
+        "dense_rank": 20,
+        "score": 0.8267803429507738,
+        "cosine_error": 2.3736906662463753e-08,
+        "rerank_score": 0.14982707798480988
+      }
+    ],
+    "candidate_max_cosine_error": 6.311992439833602e-08,
+    "reranker_model": "cross-encoder/mmarco-mMiniLMv2-L12-H384-v1",
+    "reranker_revision": "1427fd652930e4ba29e8149678df786c240d8825",
+    "pair_max_tokens": 318,
+    "cohort_join": "payload.profile_ids -> SQLite.cohort_profiles.profile_id",
+    "interpretation": "Los perfiles describen cohortes portuguesas; la asociación con documentos colombianos es temática, sin enlace de personas ni inferencia causal."
+  },
+  {
+    "id": "H04",
+    "gold": [
+      {
+        "document_id": "ueb_exito_2024",
+        "pages": [
+          39
+        ],
+        "evidence_regex": "Innovaci[oó]n.{0,30}Mejoramiento.{0,30}Adaptaci[oó]n",
+        "evidence_text": "Innovación, Mejoramiento, Adaptación"
+      }
+    ],
+    "latencies_ms": [
+      1647.8362620036933,
+      1604.0962810002384,
+      1444.0469500041218
+    ],
+    "query": "¿Qué componentes comprende el análisis CIMA utilizado por El Bosque para el mejoramiento de su política?",
+    "backend": "local",
+    "hits": [
+      {
+        "rank": 1,
+        "dense_rank": 3,
+        "score": 0.8540776384005455,
+        "cosine_numpy": 0.8540776968002319,
+        "cosine_error": 5.8399686420074204e-08,
+        "chunk_id": "93c127d3-55fd-57c2-9140-5262c71926b7",
+        "text": "Tabla 2. Acciones para el mejoramiento de la Política.\n\nAcción Descripción Justificación Frecuencia\n\nBienal\n\nRevisión de la Política\n\nMantener la Política actualizada y relevante para la Institución y su comunidad.\n\nRealizar revisiones periódicas de la Política para asegurar su alineación con los objetivos estratégicos y las necesidades actuales de la comunidad universitaria.\n\nAnálisis CIMA\n\nOrientar las acciones de mejora continua de forma estructurada y eficaz. Bienal\n\nAplicar el análisis CIMA (Consolidación, Innovación, Mejoramiento, Adaptación) a las políticas para identificar áreas de fortaleza, innovación, mejoramiento y necesidad de adaptación.\n\nBienal\n\nInforme de impacto\n\nDesarrollar y presentar informes de impacto sobre la Política y sus lineamientos, destacando logros y áreas de mejora.\n\nProporcionar una base para la toma de decisiones informada y transparente sobre futuras acciones de mejora.\n\nFuente. DIGINEXA, mayo 2024.\n\nAdemás, se definen los siguientes indicadores que nos permitirán medir la efectividad de las acciones implementadas y el impacto general de la Política. Estos indicadores son fundamentales para una evaluación objetiva y nos guiarán en futuras interacciones del proceso de mejoramiento.\n\nTabla 3. Indicadores para la evaluación de la Política.\n\nIndicador Descripción Fórmula Frecuencia\n\nAnual",
+        "doc_id": "ueb_exito_2024",
+        "page": 39,
+        "title": "Política para el éxito estudiantil y lineamientos",
+        "url": "https://www.unbosque.edu.co/sites/default/files/2024-10/PoliticadeExitoEstudiantil.pdf",
+        "thematic": "management",
+        "profile_ids": [
+          "approval_0",
+          "approval_1_5",
+          "approval_6_plus",
+          "scholarship_0",
+          "debtor_0",
+          "scholarship_1",
+          "debtor_1"
+        ],
+        "rerank_score": 3.398446798324585
+      },
+      {
+        "rank": 2,
+        "dense_rank": 2,
+        "score": 0.865770538624105,
+        "cosine_numpy": 0.8657705783843994,
+        "cosine_error": 3.976029439023421e-08,
+        "chunk_id": "600f7cd7-4303-553a-a221-ad7d2fa2f3b5",
+        "text": "Fuente. DIGINEXA, mayo 2024.\n\nLa evaluación de los indicadores proporciona una base sólida para la toma de decisiones informadas y el ajuste continuo de nuestras políticas. Este enfoque cíclico asegura que las políticas de la Universidad El Bosque no solo respondan a las necesidades actuales de nuestra comunidad, sino que también se anticipen y adapten a los cambios futuros. Mediante la revisión periódica de estos indicadores, podemos garantizar que nuestras acciones de mejoramiento sean siempre relevantes, efectivas y alineadas con nuestra Misión institucional de excelencia educativa y compromiso social.",
+        "doc_id": "ueb_exito_2024",
+        "page": 41,
+        "title": "Política para el éxito estudiantil y lineamientos",
+        "url": "https://www.unbosque.edu.co/sites/default/files/2024-10/PoliticadeExitoEstudiantil.pdf",
+        "thematic": "management",
+        "profile_ids": [
+          "approval_0",
+          "approval_1_5",
+          "approval_6_plus",
+          "scholarship_0",
+          "debtor_0",
+          "scholarship_1",
+          "debtor_1"
+        ],
+        "rerank_score": 0.36824876070022583
+      },
+      {
+        "rank": 3,
+        "dense_rank": 1,
+        "score": 0.866336586541304,
+        "cosine_numpy": 0.8663365840911865,
+        "cosine_error": 2.4501174422653094e-09,
+        "chunk_id": "fa53d800-269e-5ded-85a3-653fe84357d0",
+        "text": "6. \u0007EVALUACIÓN Y MEJORA CONTINUA\n\nLa Universidad El Bosque entiende que el camino hacia la excelencia es un proceso continuo que exige atención constante y esfuerzos dirigidos hacia el mejoramiento de nuestras políticas institucionales. Para garantizar que cada política no solo alcance sus objetivos, sino que también se adapte y evolucione con las dinámicas internas y externas, establecemos un Enfoque Proactivo de Mejoramiento. Este proceso se basa en un conjunto estructurado de acciones diseñadas para fortalecer y optimizar nuestras políticas, acompañado de una evaluación precisa mediante indicadores clave.\n\nEn la siguiente tabla, se describen las acciones específicas que se implementarán para promover el mejoramiento continuo de la Política en cuestión. Cada acción se justifica en función de su contribución a los objetivos de la Política.",
+        "doc_id": "ueb_exito_2024",
+        "page": 38,
+        "title": "Política para el éxito estudiantil y lineamientos",
+        "url": "https://www.unbosque.edu.co/sites/default/files/2024-10/PoliticadeExitoEstudiantil.pdf",
+        "thematic": "management",
+        "profile_ids": [
+          "approval_0",
+          "approval_1_5",
+          "approval_6_plus",
+          "scholarship_0",
+          "debtor_0",
+          "scholarship_1",
+          "debtor_1"
+        ],
+        "rerank_score": 0.3173230290412903
+      }
+    ],
+    "cohorts": [
+      {
+        "profile_id": "approval_0",
+        "thematic": "academic",
+        "grouping": "aprobadas_sem1",
+        "group_value": "0",
+        "n": 718,
+        "dropout_count": 570,
+        "graduate_count": 77,
+        "enrolled_count": 71,
+        "dropout_rate": 0.7938718662952646
+      },
+      {
+        "profile_id": "approval_1_5",
+        "thematic": "academic",
+        "grouping": "aprobadas_sem1",
+        "group_value": "1-5",
+        "n": 1712,
+        "dropout_count": 647,
+        "graduate_count": 559,
+        "enrolled_count": 506,
+        "dropout_rate": 0.37792056074766356
+      },
+      {
+        "profile_id": "approval_6_plus",
+        "thematic": "academic",
+        "grouping": "aprobadas_sem1",
+        "group_value": "6+",
+        "n": 1994,
+        "dropout_count": 204,
+        "graduate_count": 1573,
+        "enrolled_count": 217,
+        "dropout_rate": 0.10230692076228685
+      },
+      {
+        "profile_id": "debtor_0",
+        "thematic": "financial",
+        "grouping": "deudor",
+        "group_value": "0",
+        "n": 3921,
+        "dropout_count": 1109,
+        "graduate_count": 2108,
+        "enrolled_count": 704,
+        "dropout_rate": 0.28283601122162716
+      },
+      {
+        "profile_id": "debtor_1",
+        "thematic": "financial",
+        "grouping": "deudor",
+        "group_value": "1",
+        "n": 503,
+        "dropout_count": 312,
+        "graduate_count": 101,
+        "enrolled_count": 90,
+        "dropout_rate": 0.6202783300198808
+      },
+      {
+        "profile_id": "scholarship_0",
+        "thematic": "financial",
+        "grouping": "beca",
+        "group_value": "0",
+        "n": 3325,
+        "dropout_count": 1287,
+        "graduate_count": 1374,
+        "enrolled_count": 664,
+        "dropout_rate": 0.38706766917293234
+      },
+      {
+        "profile_id": "scholarship_1",
+        "thematic": "financial",
+        "grouping": "beca",
+        "group_value": "1",
+        "n": 1099,
+        "dropout_count": 134,
+        "graduate_count": 835,
+        "enrolled_count": 130,
+        "dropout_rate": 0.12192902638762511
+      }
+    ],
+    "cohort_theme": "management",
+    "ranking_method": "rerank",
+    "candidate_count": 20,
+    "source_scope": {
+      "mode": "explicit_single_source",
+      "document_id": "ueb_exito_2024",
+      "matched_source_ids": [
+        "ueb_exito_2024"
+      ],
+      "matched_aliases": {
+        "ueb_exito_2024": [
+          "El Bosque"
+        ]
+      },
+      "policy": "solo_una_fuente_explicita_activa_filtro; cero_o_varias_consultan_todo_el_corpus"
+    },
+    "reranker_pair_format": "query | Titulo: title + Pasaje: text",
+    "candidate_trace": [
+      {
+        "chunk_id": "fa53d800-269e-5ded-85a3-653fe84357d0",
+        "doc_id": "ueb_exito_2024",
+        "page": 38,
+        "dense_rank": 1,
+        "score": 0.866336586541304,
+        "cosine_error": 2.4501174422653094e-09,
+        "rerank_score": 0.3173230290412903
+      },
+      {
+        "chunk_id": "600f7cd7-4303-553a-a221-ad7d2fa2f3b5",
+        "doc_id": "ueb_exito_2024",
+        "page": 41,
+        "dense_rank": 2,
+        "score": 0.865770538624105,
+        "cosine_error": 3.976029439023421e-08,
+        "rerank_score": 0.36824876070022583
+      },
+      {
+        "chunk_id": "93c127d3-55fd-57c2-9140-5262c71926b7",
+        "doc_id": "ueb_exito_2024",
+        "page": 39,
+        "dense_rank": 3,
+        "score": 0.8540776384005455,
+        "cosine_error": 5.8399686420074204e-08,
+        "rerank_score": 3.398446798324585
+      },
+      {
+        "chunk_id": "3e9564ab-96b7-512b-a432-0a4a63915414",
+        "doc_id": "ueb_exito_2024",
+        "page": 13,
+        "dense_rank": 4,
+        "score": 0.8470047214592173,
+        "cosine_error": 4.977338763367811e-08,
+        "rerank_score": -1.222906231880188
+      },
+      {
+        "chunk_id": "5b571fe6-f665-5de6-84ae-9061fc73366d",
+        "doc_id": "ueb_exito_2024",
+        "page": 21,
+        "dense_rank": 5,
+        "score": 0.8334229986226122,
+        "cosine_error": 1.9832893216609193e-08,
+        "rerank_score": -2.8023452758789062
+      },
+      {
+        "chunk_id": "c0c8039b-922b-527b-82e7-260908321937",
+        "doc_id": "ueb_exito_2024",
+        "page": 31,
+        "dense_rank": 6,
+        "score": 0.8324964836913168,
+        "cosine_error": 4.016579990828717e-08,
+        "rerank_score": -0.41273176670074463
+      },
+      {
+        "chunk_id": "314bab37-ccd8-5e02-ba50-80e647f5381d",
+        "doc_id": "ueb_exito_2024",
+        "page": 7,
+        "dense_rank": 7,
+        "score": 0.8298593007911376,
+        "cosine_error": 1.5557891974715687e-08,
+        "rerank_score": -1.974256157875061
+      },
+      {
+        "chunk_id": "7b353062-de87-5943-940e-e7f5576dfcb5",
+        "doc_id": "ueb_exito_2024",
+        "page": 26,
+        "dense_rank": 8,
+        "score": 0.8273759521870366,
+        "cosine_error": 5.584671580738387e-08,
+        "rerank_score": -0.7654038667678833
+      },
+      {
+        "chunk_id": "a662a191-5dab-5061-9492-94dab9ddb48c",
+        "doc_id": "ueb_exito_2024",
+        "page": 23,
+        "dense_rank": 9,
+        "score": 0.8251467059220097,
+        "cosine_error": 2.8792498385499243e-08,
+        "rerank_score": -2.478834867477417
+      },
+      {
+        "chunk_id": "6b19c180-09e6-591a-a5f0-eea1cf3b4efa",
+        "doc_id": "ueb_exito_2024",
+        "page": 26,
+        "dense_rank": 10,
+        "score": 0.8224613227478215,
+        "cosine_error": 4.390562091671768e-08,
+        "rerank_score": -2.780258893966675
+      },
+      {
+        "chunk_id": "f2f28cf7-db55-56ac-b4bd-794600fcd390",
+        "doc_id": "ueb_exito_2024",
+        "page": 12,
+        "dense_rank": 11,
+        "score": 0.8220531575306178,
+        "cosine_error": 3.651540270155351e-08,
+        "rerank_score": -2.7362873554229736
+      },
+      {
+        "chunk_id": "fd2fc762-ae2d-5e91-bb5e-fc7dfb5768db",
+        "doc_id": "ueb_exito_2024",
+        "page": 17,
+        "dense_rank": 12,
+        "score": 0.8218919136928597,
+        "cosine_error": 4.978904333263756e-08,
+        "rerank_score": -1.8656997680664062
+      },
+      {
+        "chunk_id": "729fee8b-c0d1-5b6f-b923-25ce4d10ee0c",
+        "doc_id": "ueb_exito_2024",
+        "page": 33,
+        "dense_rank": 13,
+        "score": 0.8216340526227612,
+        "cosine_error": 1.561198725852364e-09,
+        "rerank_score": -1.2404701709747314
+      },
+      {
+        "chunk_id": "6b6a73da-0e3e-5b6c-801d-34d68ba87d7d",
+        "doc_id": "ueb_exito_2024",
+        "page": 43,
+        "dense_rank": 14,
+        "score": 0.8202834030211095,
+        "cosine_error": 9.912240139797746e-09,
+        "rerank_score": -3.730156660079956
+      },
+      {
+        "chunk_id": "3f4c7eb2-156c-5438-ba21-56e82edddf70",
+        "doc_id": "ueb_exito_2024",
+        "page": 13,
+        "dense_rank": 15,
+        "score": 0.8159219598987403,
+        "cosine_error": 6.196710444772435e-08,
+        "rerank_score": -2.952694892883301
+      },
+      {
+        "chunk_id": "0af4104b-710c-59b1-85c2-5836b2d04c86",
+        "doc_id": "ueb_exito_2024",
+        "page": 17,
+        "dense_rank": 16,
+        "score": 0.8133346730235888,
+        "cosine_error": 3.042184582024987e-08,
+        "rerank_score": -2.153022050857544
+      },
+      {
+        "chunk_id": "d02d33fd-7e0e-5d7d-b381-c748e0b5a149",
+        "doc_id": "ueb_exito_2024",
+        "page": 47,
+        "dense_rank": 17,
+        "score": 0.8130511961584844,
+        "cosine_error": 2.7596398388674004e-08,
+        "rerank_score": -4.636596202850342
+      },
+      {
+        "chunk_id": "93ca2794-2f9f-5f64-a7db-961d00e18532",
+        "doc_id": "ueb_exito_2024",
+        "page": 14,
+        "dense_rank": 18,
+        "score": 0.8106852087617977,
+        "cosine_error": 6.822337073053575e-08,
+        "rerank_score": -6.828978061676025
+      },
+      {
+        "chunk_id": "b08a6422-a67b-5d26-9a9f-9b4c67ba4cc1",
+        "doc_id": "ueb_exito_2024",
+        "page": 37,
+        "dense_rank": 19,
+        "score": 0.8104111927819564,
+        "cosine_error": 2.204653481996388e-08,
+        "rerank_score": -1.325090765953064
+      },
+      {
+        "chunk_id": "dc68c131-0fa1-5c6a-be51-013b5de65e59",
+        "doc_id": "ueb_exito_2024",
+        "page": 27,
+        "dense_rank": 20,
+        "score": 0.8082514522271189,
+        "cosine_error": 4.7902580790903926e-08,
+        "rerank_score": -2.0585105419158936
+      }
+    ],
+    "candidate_max_cosine_error": 6.822337073053575e-08,
+    "reranker_model": "cross-encoder/mmarco-mMiniLMv2-L12-H384-v1",
+    "reranker_revision": "1427fd652930e4ba29e8149678df786c240d8825",
+    "pair_max_tokens": 318,
+    "cohort_join": "payload.profile_ids -> SQLite.cohort_profiles.profile_id",
+    "interpretation": "Los perfiles describen cohortes portuguesas; la asociación con documentos colombianos es temática, sin enlace de personas ni inferencia causal."
+  },
+  {
+    "id": "H05",
+    "gold": [
+      {
+        "document_id": "unal_acompanamiento_2022",
+        "pages": [
+          27
+        ],
+        "evidence_regex": "miembros\\s+de\\s+la\\s+comunidad\\s+acad[eé]mica.{0,90}Direcci[oó]n\\s+de\\s+Relaciones\\s+Exteriores",
+        "evidence_text": "Relaciones Exteriores"
+      }
+    ],
+    "latencies_ms": [
+      1518.3583970065229,
+      1454.270677997556,
+      1383.6889550002525
+    ],
+    "query": "Según la guía de posgrado de la UNAL, ¿qué dependencia coordina la movilidad de la comunidad académica?",
+    "backend": "local",
+    "hits": [
+      {
+        "rank": 1,
+        "dense_rank": 1,
+        "score": 0.8783051042964155,
+        "cosine_numpy": 0.8783050775527954,
+        "cosine_error": 2.6743620096247867e-08,
+        "chunk_id": "6c23fa7e-a765-58fd-8c9c-8fc2c29b2066",
+        "text": "Movilidad interna entre Sedes: se define la movilidad interna entre Sedes de la Universidad Nacional de Colombia como la posibilidad que tienen sus es­ tudiantes de cursar un periodo académico en una Sede diferente a la Sede en la cual están cursando su programa curricular (Sede origen) con el fin de aprovechar al máximo las asignaturas que ofrece la Universidad en otra sede (Sede destino) y apoyar la flexibilidad de los planes de estudio.\n\nMovilidad entrante\n\nEs el movimiento de estudiantes, docentes, investigadores y administrati­ vos de otras instituciones de educación superior, de carácter local, regional, nacional o internacional que, de manera temporal, cursan asignaturas, rea­ lizan proyectos académicos, profundización, práctica académica o tesis en programas de pregrado, posgrado o de educación continuada que ofrece la Universidad Nacional de Colombia en sus diferentes Sedes. (Fuente: página web de la Dirección de Relaciones Exteriores). (Ir a Manual de Movilidad Académica Entrante -DRE-).\n\nLa movilidad de todos los miembros de la comunidad académica está coor­ dinada por la Dirección de Relaciones Exteriores. (www.dre.unal.edu.co).",
+        "doc_id": "unal_acompanamiento_2022",
+        "page": 27,
+        "title": "Guía de acompañamiento para estudiantes y tutores de Posgrado de la Universidad Nacional de Colombia",
+        "url": "https://posgrados.unal.edu.co/wp-content/uploads/2024/01/GuiaAcompanamientoEstudiantesTutores_Agosto2022.pdf",
+        "thematic": "academic",
+        "profile_ids": [
+          "approval_0",
+          "approval_1_5",
+          "approval_6_plus"
+        ],
+        "rerank_score": 6.467970371246338
+      },
+      {
+        "rank": 2,
+        "dense_rank": 2,
+        "score": 0.8648374850362223,
+        "cosine_numpy": 0.8648375272750854,
+        "cosine_error": 4.223886318488468e-08,
+        "chunk_id": "09df7b3b-42cf-5ade-85e1-097cddb5652c",
+        "text": "CAPÍTULO CUATRO\n\nMOVILIDAD\n\n¿QUÉ ES LA MOVILIDAD ESTUDIANTIL Y A QUIÉN ACUDIR PARA LOGRAR ASESORÍA?\n\nMovilidad saliente\n\nEs el movimiento de los estudiantes de la Universidad Nacional de Colombia hacia otras instituciones académicas, empresariales, científicas, culturales, artísticas, gubernamentales o deportivas de carácter local, regional, nacio­ nal o internacional.\n\nLos estudiantes podrán realizar una movilidad académica en cualquiera de las siguientes modalidades:\n\nCursar asignaturas: Proceso en el que se adelantan cursos o asignaturas com­ plementarias al plan de estudios en otra institución con una duración máxi­ ma de dos periodos académicos.\n\nPasantía: tiempo de un semestre o más en que el estudiante es ubicado en una empresa o institución donde puede poner en práctica sus conocimientos profesionales como requisito para optar a un título profesional.\n\nInvestigación: actividad académica en la que se llevan a cabo estudios, aná­ lisis, exposiciones o experimentaciones complementarias a sus prácticas in­ vestigativas bajo la tutoría del investigador líder en la institución de destino, hasta por dos periodos académicos como máximo.",
+        "doc_id": "unal_acompanamiento_2022",
+        "page": 26,
+        "title": "Guía de acompañamiento para estudiantes y tutores de Posgrado de la Universidad Nacional de Colombia",
+        "url": "https://posgrados.unal.edu.co/wp-content/uploads/2024/01/GuiaAcompanamientoEstudiantesTutores_Agosto2022.pdf",
+        "thematic": "academic",
+        "profile_ids": [
+          "approval_0",
+          "approval_1_5",
+          "approval_6_plus"
+        ],
+        "rerank_score": 1.2990221977233887
+      },
+      {
+        "rank": 3,
+        "dense_rank": 10,
+        "score": 0.8484632898597868,
+        "cosine_numpy": 0.8484632968902588,
+        "cosine_error": 7.030471982361064e-09,
+        "chunk_id": "e6df57b5-1280-53f4-86f6-f0ec148335b4",
+        "text": "CAPÍTULO OCHO\n\nNORMAS MÁS IMPORTANTES\n\nNORMATIVA GENERAL PARA LOS PROGRAMAS CURRICULARES DE POSGRADOS (ACUERDO 070 DE 2012 DEL CSU, ARTÍCULO 2, NUMERAL 7)\n\nA mediados de 2010, la Universidad, a través de la Secretaría General, im­ plemento en su página web el Sistema de información normativa, jurispru­ dencial y de conceptos. Régimen legal, en el cual la comunidad académica y el público en general pueden encontrar toda la información de normativa concerniente a la Universidad Nacional de Colombia. (http://www.legal.unal.edu.co/rlunal/home/.jsp)\n\nA continuación, presentamos una lista de algunos Acuerdos y Resoluciones distribuidos por componentes, que deben ser tenidos en cuenta para resol­ ver los asuntos académicos estudiantiles de los posgrados de la Universidad Nacional de Colombia. Esta reglamentación tambien la puede consultar en la página web http://www.posgrados.unal.edu.co/web/normativa/.\n\nADMISIONES",
+        "doc_id": "unal_acompanamiento_2022",
+        "page": 36,
+        "title": "Guía de acompañamiento para estudiantes y tutores de Posgrado de la Universidad Nacional de Colombia",
+        "url": "https://posgrados.unal.edu.co/wp-content/uploads/2024/01/GuiaAcompanamientoEstudiantesTutores_Agosto2022.pdf",
+        "thematic": "academic",
+        "profile_ids": [
+          "approval_0",
+          "approval_1_5",
+          "approval_6_plus"
+        ],
+        "rerank_score": 0.5861800909042358
+      }
+    ],
+    "cohorts": [
+      {
+        "profile_id": "approval_0",
+        "thematic": "academic",
+        "grouping": "aprobadas_sem1",
+        "group_value": "0",
+        "n": 718,
+        "dropout_count": 570,
+        "graduate_count": 77,
+        "enrolled_count": 71,
+        "dropout_rate": 0.7938718662952646
+      },
+      {
+        "profile_id": "approval_1_5",
+        "thematic": "academic",
+        "grouping": "aprobadas_sem1",
+        "group_value": "1-5",
+        "n": 1712,
+        "dropout_count": 647,
+        "graduate_count": 559,
+        "enrolled_count": 506,
+        "dropout_rate": 0.37792056074766356
+      },
+      {
+        "profile_id": "approval_6_plus",
+        "thematic": "academic",
+        "grouping": "aprobadas_sem1",
+        "group_value": "6+",
+        "n": 1994,
+        "dropout_count": 204,
+        "graduate_count": 1573,
+        "enrolled_count": 217,
+        "dropout_rate": 0.10230692076228685
+      }
+    ],
+    "cohort_theme": "academic",
+    "ranking_method": "rerank",
+    "candidate_count": 20,
+    "source_scope": {
+      "mode": "explicit_single_source",
+      "document_id": "unal_acompanamiento_2022",
+      "matched_source_ids": [
+        "unal_acompanamiento_2022"
+      ],
+      "matched_aliases": {
+        "unal_acompanamiento_2022": [
+          "UNAL"
+        ]
+      },
+      "policy": "solo_una_fuente_explicita_activa_filtro; cero_o_varias_consultan_todo_el_corpus"
+    },
+    "reranker_pair_format": "query | Titulo: title + Pasaje: text",
+    "candidate_trace": [
+      {
+        "chunk_id": "6c23fa7e-a765-58fd-8c9c-8fc2c29b2066",
+        "doc_id": "unal_acompanamiento_2022",
+        "page": 27,
+        "dense_rank": 1,
+        "score": 0.8783051042964155,
+        "cosine_error": 2.6743620096247867e-08,
+        "rerank_score": 6.467970371246338
+      },
+      {
+        "chunk_id": "09df7b3b-42cf-5ade-85e1-097cddb5652c",
+        "doc_id": "unal_acompanamiento_2022",
+        "page": 26,
+        "dense_rank": 2,
+        "score": 0.8648374850362223,
+        "cosine_error": 4.223886318488468e-08,
+        "rerank_score": 1.2990221977233887
+      },
+      {
+        "chunk_id": "1eff5fa9-b6a6-5a27-9146-e4eff20244e1",
+        "doc_id": "unal_acompanamiento_2022",
+        "page": 3,
+        "dense_rank": 3,
+        "score": 0.8608904231858513,
+        "cosine_error": 2.4907563012099843e-08,
+        "rerank_score": -0.41613200306892395
+      },
+      {
+        "chunk_id": "cc09c8ba-20f2-59b3-8377-0d9ef3841a1c",
+        "doc_id": "unal_acompanamiento_2022",
+        "page": 7,
+        "dense_rank": 4,
+        "score": 0.8558780502606489,
+        "cosine_error": 6.443966849012384e-08,
+        "rerank_score": -0.4759828448295593
+      },
+      {
+        "chunk_id": "1eea5c08-b4f4-5535-8d85-7367c5e15520",
+        "doc_id": "unal_acompanamiento_2022",
+        "page": 5,
+        "dense_rank": 5,
+        "score": 0.8555787228348108,
+        "cosine_error": 2.2652002495959778e-09,
+        "rerank_score": -1.3698949813842773
+      },
+      {
+        "chunk_id": "41fba333-cb43-5548-9c45-92e27d29f4d9",
+        "doc_id": "unal_acompanamiento_2022",
+        "page": 13,
+        "dense_rank": 6,
+        "score": 0.8551821090463705,
+        "cosine_error": 6.182154943523699e-08,
+        "rerank_score": -1.161880612373352
+      },
+      {
+        "chunk_id": "a4e47d1b-bc60-5535-8dc4-70e52e7cce03",
+        "doc_id": "unal_acompanamiento_2022",
+        "page": 28,
+        "dense_rank": 7,
+        "score": 0.8526662589675993,
+        "cosine_error": 1.5564860511574352e-10,
+        "rerank_score": -1.0029277801513672
+      },
+      {
+        "chunk_id": "23d8ba5d-d0f7-57f8-814d-e72ac72be6bc",
+        "doc_id": "unal_acompanamiento_2022",
+        "page": 8,
+        "dense_rank": 8,
+        "score": 0.8521544549152459,
+        "cosine_error": 3.8416663294960074e-08,
+        "rerank_score": -1.0310726165771484
+      },
+      {
+        "chunk_id": "c7208cd4-fa88-53b2-bac1-0d621be94f45",
+        "doc_id": "unal_acompanamiento_2022",
+        "page": 19,
+        "dense_rank": 9,
+        "score": 0.8491021114327844,
+        "cosine_error": 2.804017706914408e-08,
+        "rerank_score": -0.7548726797103882
+      },
+      {
+        "chunk_id": "e6df57b5-1280-53f4-86f6-f0ec148335b4",
+        "doc_id": "unal_acompanamiento_2022",
+        "page": 36,
+        "dense_rank": 10,
+        "score": 0.8484632898597868,
+        "cosine_error": 7.030471982361064e-09,
+        "rerank_score": 0.5861800909042358
+      },
+      {
+        "chunk_id": "998c5d4f-93aa-5d82-9a85-4767cab3909c",
+        "doc_id": "unal_acompanamiento_2022",
+        "page": 49,
+        "dense_rank": 11,
+        "score": 0.8477253346948349,
+        "cosine_error": 2.911540231131937e-09,
+        "rerank_score": -3.8760015964508057
+      },
+      {
+        "chunk_id": "348f1364-989f-5523-9da5-d55a475e6610",
+        "doc_id": "unal_acompanamiento_2022",
+        "page": 7,
+        "dense_rank": 12,
+        "score": 0.8477100523182554,
+        "cosine_error": 2.06759768195397e-08,
+        "rerank_score": 0.09568115323781967
+      },
+      {
+        "chunk_id": "24dfeef3-a12d-5ecd-8f9c-834f94500293",
+        "doc_id": "unal_acompanamiento_2022",
+        "page": 12,
+        "dense_rank": 13,
+        "score": 0.8471545859331682,
+        "cosine_error": 3.137640214312398e-08,
+        "rerank_score": -1.0149463415145874
+      },
+      {
+        "chunk_id": "a4ca97de-5824-5225-bb6d-39207859bdba",
+        "doc_id": "unal_acompanamiento_2022",
+        "page": 13,
+        "dense_rank": 14,
+        "score": 0.8464895520665039,
+        "cosine_error": 3.3833373880298723e-09,
+        "rerank_score": -1.6862611770629883
+      },
+      {
+        "chunk_id": "569fcc39-75de-5622-a6c2-8c817b514768",
+        "doc_id": "unal_acompanamiento_2022",
+        "page": 40,
+        "dense_rank": 15,
+        "score": 0.844857419838239,
+        "cosine_error": 3.4461687725695356e-08,
+        "rerank_score": 0.0667128711938858
+      },
+      {
+        "chunk_id": "23d57d28-8330-5d64-94fe-394fe091f2c4",
+        "doc_id": "unal_acompanamiento_2022",
+        "page": 14,
+        "dense_rank": 16,
+        "score": 0.8420997683592137,
+        "cosine_error": 7.705017956993743e-08,
+        "rerank_score": -3.3771698474884033
+      },
+      {
+        "chunk_id": "7b7b57e2-fb9e-56e5-bb72-d5810578782e",
+        "doc_id": "unal_acompanamiento_2022",
+        "page": 41,
+        "dense_rank": 17,
+        "score": 0.8412351349249942,
+        "cosine_error": 8.55072872507634e-08,
+        "rerank_score": -2.8718793392181396
+      },
+      {
+        "chunk_id": "e51e6fbc-844b-54ef-84fc-13ff31814d2c",
+        "doc_id": "unal_acompanamiento_2022",
+        "page": 7,
+        "dense_rank": 18,
+        "score": 0.8409744855780088,
+        "cosine_error": 2.413802513423491e-08,
+        "rerank_score": -2.3369364738464355
+      },
+      {
+        "chunk_id": "31dfa347-7f59-5c2a-9ebf-d6ce98907b69",
+        "doc_id": "unal_acompanamiento_2022",
+        "page": 21,
+        "dense_rank": 19,
+        "score": 0.8396891785437279,
+        "cosine_error": 7.621701425541971e-08,
+        "rerank_score": -1.6078355312347412
+      },
+      {
+        "chunk_id": "7d7a3666-6d1c-5deb-9158-e1d75c9df04f",
+        "doc_id": "unal_acompanamiento_2022",
+        "page": 42,
+        "dense_rank": 20,
+        "score": 0.8393225241471904,
+        "cosine_error": 4.2838893543617473e-08,
+        "rerank_score": -2.4450738430023193
+      }
+    ],
+    "candidate_max_cosine_error": 8.55072872507634e-08,
+    "reranker_model": "cross-encoder/mmarco-mMiniLMv2-L12-H384-v1",
+    "reranker_revision": "1427fd652930e4ba29e8149678df786c240d8825",
+    "pair_max_tokens": 315,
+    "cohort_join": "payload.profile_ids -> SQLite.cohort_profiles.profile_id",
+    "interpretation": "Los perfiles describen cohortes portuguesas; la asociación con documentos colombianos es temática, sin enlace de personas ni inferencia causal."
+  },
+  {
+    "id": "H06",
+    "gold": [
+      {
+        "document_id": "unal_acompanamiento_2022",
+        "pages": [
+          35
+        ],
+        "evidence_regex": "Calendario\\s+Acad[eé]mico\\s+General",
+        "evidence_text": "Calendario Académico General"
+      }
+    ],
+    "latencies_ms": [
+      1426.0050160009996,
+      1544.656081001449,
+      1401.2547730017104
+    ],
+    "query": "¿En qué documento se establecen las fechas de las ceremonias de grado de la UNAL, según su guía de acompañamiento?",
+    "backend": "local",
+    "hits": [
+      {
+        "rank": 1,
+        "dense_rank": 1,
+        "score": 0.8865248988695563,
+        "cosine_numpy": 0.8865249752998352,
+        "cosine_error": 7.64302788835991e-08,
+        "chunk_id": "8830a7da-7284-5bee-8142-7b099f0f479f",
+        "text": "CAPÍTULO SIETE\n\nGRADOS\n\n¿DÓNDE SE ESTABLECEN LAS FECHAS DE LAS CEREMONIAS DE GRADO?\n\nSe establecen en el Calendario Académico General expedido anualmente por la Rectoría y replicado por los Calendarios Académicos de las Sedes. Para estar informado sobre estas fechas, puede buscar las fechas en dichos Calendarios (www.posgrados.unal.edu.co/web/calendario/).\n\n¿CUÁL ES EL PROCEDIMIENTO PARA SOLICITAR INSCRIPCIÓN A UNA CEREMONIA DE GRADO?\n\nLo primero que debe tener en cuenta es que debe haber cumplido todos los requisitos de su plan de estudios, incluida la evaluación del Trabajo final o la sustentación de la Tesis. Revise, además, los documentos de soporte que debe enviar y los paz y salvos que necesita. El procedimiento de tallado lo encuentra en la norma de la Secretaría General. Por último, puede entrar al Módulo de Atención de Solicitudes Estudiantiles del Sistema de Información Académica -SIA- para inscribirse a la ceremonia de grado. Cualquier informa­ ción adicional puede solicitarla en la secretaría de su programa curricular.",
+        "doc_id": "unal_acompanamiento_2022",
+        "page": 35,
+        "title": "Guía de acompañamiento para estudiantes y tutores de Posgrado de la Universidad Nacional de Colombia",
+        "url": "https://posgrados.unal.edu.co/wp-content/uploads/2024/01/GuiaAcompanamientoEstudiantesTutores_Agosto2022.pdf",
+        "thematic": "academic",
+        "profile_ids": [
+          "approval_0",
+          "approval_1_5",
+          "approval_6_plus"
+        ],
+        "rerank_score": 9.500836372375488
+      },
+      {
+        "rank": 2,
+        "dense_rank": 2,
+        "score": 0.8674306449183874,
+        "cosine_numpy": 0.8674307465553284,
+        "cosine_error": 1.0163694097453657e-07,
+        "chunk_id": "a4ca97de-5824-5225-bb6d-39207859bdba",
+        "text": "Para conocer las fechas y el procedimiento de admisión a los progra­ mas curriculares de posgrado, debe consultar la página web https:// admisiones.unal.edu.co/posgrado/. En este enlace encontrará fechas y una guía paso a paso para la inscripción y la presentación de la prue­ ba o pruebas que constituyen el examen de admisión. Tenga en cuen­ ta que para los programas curriculares de posgrado no hay una única prueba, por lo que deberá comunicarse directamente con el programa curricular para consultar la información específica sobre el examen. También puede consultar los requisitos generales de la admisión en la pá­ gina www.posgrados.unal.edu.co, en la pestaña programas de posgrado.",
+        "doc_id": "unal_acompanamiento_2022",
+        "page": 13,
+        "title": "Guía de acompañamiento para estudiantes y tutores de Posgrado de la Universidad Nacional de Colombia",
+        "url": "https://posgrados.unal.edu.co/wp-content/uploads/2024/01/GuiaAcompanamientoEstudiantesTutores_Agosto2022.pdf",
+        "thematic": "academic",
+        "profile_ids": [
+          "approval_0",
+          "approval_1_5",
+          "approval_6_plus"
+        ],
+        "rerank_score": 2.39736270904541
+      },
+      {
+        "rank": 3,
+        "dense_rank": 4,
+        "score": 0.8451956179878166,
+        "cosine_numpy": 0.8451956510543823,
+        "cosine_error": 3.3066565707784434e-08,
+        "chunk_id": "41fba333-cb43-5548-9c45-92e27d29f4d9",
+        "text": "Por su parte, los énfasis de profundización son establecidos para algunos planes de profundización de maestrías (no todos). Mediante tales énfasis, los planes de estudio pueden estar estructurados de tal manera que los es­ tudiantes tengan la opción de cursar sus créditos de asignaturas obligatorias según dos o más rutas establecidas por los Consejos de Facultad. Esta información la puede obtener directamente en la Secretaría del progra­ ma curricular o puede consultar en la página www.posgrados.unal.edu.co y hacer clic en la pestaña programas de posgrado.\n\n¿CUÁL ES EL TIPO DE PROCESO DE ADMISIÓN QUE PUEDE REALIZAR?\n\nDependiendo de su situación, puede escoger una u otra ruta de admisión a los programas de posgrado de la Universidad Nacional de Colombia (Resolución 035 de 2014 y Resolución 029 de 2018 de la VRA).",
+        "doc_id": "unal_acompanamiento_2022",
+        "page": 13,
+        "title": "Guía de acompañamiento para estudiantes y tutores de Posgrado de la Universidad Nacional de Colombia",
+        "url": "https://posgrados.unal.edu.co/wp-content/uploads/2024/01/GuiaAcompanamientoEstudiantesTutores_Agosto2022.pdf",
+        "thematic": "academic",
+        "profile_ids": [
+          "approval_0",
+          "approval_1_5",
+          "approval_6_plus"
+        ],
+        "rerank_score": 1.1087971925735474
+      }
+    ],
+    "cohorts": [
+      {
+        "profile_id": "approval_0",
+        "thematic": "academic",
+        "grouping": "aprobadas_sem1",
+        "group_value": "0",
+        "n": 718,
+        "dropout_count": 570,
+        "graduate_count": 77,
+        "enrolled_count": 71,
+        "dropout_rate": 0.7938718662952646
+      },
+      {
+        "profile_id": "approval_1_5",
+        "thematic": "academic",
+        "grouping": "aprobadas_sem1",
+        "group_value": "1-5",
+        "n": 1712,
+        "dropout_count": 647,
+        "graduate_count": 559,
+        "enrolled_count": 506,
+        "dropout_rate": 0.37792056074766356
+      },
+      {
+        "profile_id": "approval_6_plus",
+        "thematic": "academic",
+        "grouping": "aprobadas_sem1",
+        "group_value": "6+",
+        "n": 1994,
+        "dropout_count": 204,
+        "graduate_count": 1573,
+        "enrolled_count": 217,
+        "dropout_rate": 0.10230692076228685
+      }
+    ],
+    "cohort_theme": "management",
+    "ranking_method": "rerank",
+    "candidate_count": 20,
+    "source_scope": {
+      "mode": "explicit_single_source",
+      "document_id": "unal_acompanamiento_2022",
+      "matched_source_ids": [
+        "unal_acompanamiento_2022"
+      ],
+      "matched_aliases": {
+        "unal_acompanamiento_2022": [
+          "UNAL"
+        ]
+      },
+      "policy": "solo_una_fuente_explicita_activa_filtro; cero_o_varias_consultan_todo_el_corpus"
+    },
+    "reranker_pair_format": "query | Titulo: title + Pasaje: text",
+    "candidate_trace": [
+      {
+        "chunk_id": "8830a7da-7284-5bee-8142-7b099f0f479f",
+        "doc_id": "unal_acompanamiento_2022",
+        "page": 35,
+        "dense_rank": 1,
+        "score": 0.8865248988695563,
+        "cosine_error": 7.64302788835991e-08,
+        "rerank_score": 9.500836372375488
+      },
+      {
+        "chunk_id": "a4ca97de-5824-5225-bb6d-39207859bdba",
+        "doc_id": "unal_acompanamiento_2022",
+        "page": 13,
+        "dense_rank": 2,
+        "score": 0.8674306449183874,
+        "cosine_error": 1.0163694097453657e-07,
+        "rerank_score": 2.39736270904541
+      },
+      {
+        "chunk_id": "1eff5fa9-b6a6-5a27-9146-e4eff20244e1",
+        "doc_id": "unal_acompanamiento_2022",
+        "page": 3,
+        "dense_rank": 3,
+        "score": 0.8513877022935172,
+        "cosine_error": 9.649264609556951e-08,
+        "rerank_score": 0.7739754319190979
+      },
+      {
+        "chunk_id": "41fba333-cb43-5548-9c45-92e27d29f4d9",
+        "doc_id": "unal_acompanamiento_2022",
+        "page": 13,
+        "dense_rank": 4,
+        "score": 0.8451956179878166,
+        "cosine_error": 3.3066565707784434e-08,
+        "rerank_score": 1.1087971925735474
+      },
+      {
+        "chunk_id": "5caf6ca7-928f-5608-8f09-2c26b8519af9",
+        "doc_id": "unal_acompanamiento_2022",
+        "page": 49,
+        "dense_rank": 5,
+        "score": 0.8421297369277998,
+        "cosine_error": 3.0013270757578425e-08,
+        "rerank_score": 0.08936287462711334
+      },
+      {
+        "chunk_id": "31dfa347-7f59-5c2a-9ebf-d6ce98907b69",
+        "doc_id": "unal_acompanamiento_2022",
+        "page": 21,
+        "dense_rank": 6,
+        "score": 0.840853153260672,
+        "cosine_error": 6.100324401181467e-08,
+        "rerank_score": 0.2291792333126068
+      },
+      {
+        "chunk_id": "cc09c8ba-20f2-59b3-8377-0d9ef3841a1c",
+        "doc_id": "unal_acompanamiento_2022",
+        "page": 7,
+        "dense_rank": 7,
+        "score": 0.8390811449133502,
+        "cosine_error": 2.3261393478080095e-08,
+        "rerank_score": -0.760450005531311
+      },
+      {
+        "chunk_id": "e2cb3be8-e458-523a-9a57-1a03cc674976",
+        "doc_id": "unal_acompanamiento_2022",
+        "page": 15,
+        "dense_rank": 8,
+        "score": 0.8363134648827057,
+        "cosine_error": 8.082118219121526e-08,
+        "rerank_score": -1.4196784496307373
+      },
+      {
+        "chunk_id": "7d7a3666-6d1c-5deb-9158-e1d75c9df04f",
+        "doc_id": "unal_acompanamiento_2022",
+        "page": 42,
+        "dense_rank": 9,
+        "score": 0.8358725931602765,
+        "cosine_error": 2.6184369117387973e-09,
+        "rerank_score": -1.8899540901184082
+      },
+      {
+        "chunk_id": "a4e47d1b-bc60-5535-8dc4-70e52e7cce03",
+        "doc_id": "unal_acompanamiento_2022",
+        "page": 28,
+        "dense_rank": 10,
+        "score": 0.8327430680655803,
+        "cosine_error": 4.0206972196088486e-08,
+        "rerank_score": -2.826498031616211
+      },
+      {
+        "chunk_id": "b8b94dcb-a32e-5f59-b6a7-ed89a5467e75",
+        "doc_id": "unal_acompanamiento_2022",
+        "page": 40,
+        "dense_rank": 11,
+        "score": 0.8305655867819194,
+        "cosine_error": 4.460769853498192e-08,
+        "rerank_score": -1.8415230512619019
+      },
+      {
+        "chunk_id": "c7208cd4-fa88-53b2-bac1-0d621be94f45",
+        "doc_id": "unal_acompanamiento_2022",
+        "page": 19,
+        "dense_rank": 12,
+        "score": 0.8302928828130418,
+        "cosine_error": 1.1693137347279503e-07,
+        "rerank_score": 0.11592943966388702
+      },
+      {
+        "chunk_id": "b86b86e8-7d83-50f1-b713-4fff07da1805",
+        "doc_id": "unal_acompanamiento_2022",
+        "page": 38,
+        "dense_rank": 13,
+        "score": 0.8287022384859353,
+        "cosine_error": 3.249871438626428e-08,
+        "rerank_score": -2.020878553390503
+      },
+      {
+        "chunk_id": "176ca887-ca59-5f71-b846-d23907afea38",
+        "doc_id": "unal_acompanamiento_2022",
+        "page": 44,
+        "dense_rank": 14,
+        "score": 0.8278379572942637,
+        "cosine_error": 1.0594578758738038e-07,
+        "rerank_score": -3.4510018825531006
+      },
+      {
+        "chunk_id": "e6df57b5-1280-53f4-86f6-f0ec148335b4",
+        "doc_id": "unal_acompanamiento_2022",
+        "page": 36,
+        "dense_rank": 15,
+        "score": 0.8269284924121652,
+        "cosine_error": 6.355325843365733e-08,
+        "rerank_score": 0.9128032326698303
+      },
+      {
+        "chunk_id": "998c5d4f-93aa-5d82-9a85-4767cab3909c",
+        "doc_id": "unal_acompanamiento_2022",
+        "page": 49,
+        "dense_rank": 16,
+        "score": 0.8252904146694802,
+        "cosine_error": 2.6843581357738344e-08,
+        "rerank_score": -2.83135724067688
+      },
+      {
+        "chunk_id": "0034e1ca-2f07-5461-a7b4-f3428fc0a194",
+        "doc_id": "unal_acompanamiento_2022",
+        "page": 42,
+        "dense_rank": 17,
+        "score": 0.8245556335884074,
+        "cosine_error": 6.14685078392796e-08,
+        "rerank_score": -1.9288965463638306
+      },
+      {
+        "chunk_id": "01b3b395-3a19-56a4-b9e6-b930863bef71",
+        "doc_id": "unal_acompanamiento_2022",
+        "page": 43,
+        "dense_rank": 18,
+        "score": 0.8236488737312,
+        "cosine_error": 5.586474727259372e-08,
+        "rerank_score": -0.9686924815177917
+      },
+      {
+        "chunk_id": "9dd79037-e6b7-5b5b-bf27-4f01d03c2612",
+        "doc_id": "unal_acompanamiento_2022",
+        "page": 39,
+        "dense_rank": 19,
+        "score": 0.8226434126567234,
+        "cosine_error": 4.6186507840495494e-08,
+        "rerank_score": -1.5733907222747803
+      },
+      {
+        "chunk_id": "6e571932-e876-5366-b264-5b4c960619ae",
+        "doc_id": "unal_acompanamiento_2022",
+        "page": 6,
+        "dense_rank": 20,
+        "score": 0.822601400441392,
+        "cosine_error": 9.673191736503384e-08,
+        "rerank_score": -2.9185690879821777
+      }
+    ],
+    "candidate_max_cosine_error": 1.1693137347279503e-07,
+    "reranker_model": "cross-encoder/mmarco-mMiniLMv2-L12-H384-v1",
+    "reranker_revision": "1427fd652930e4ba29e8149678df786c240d8825",
+    "pair_max_tokens": 319,
+    "cohort_join": "payload.profile_ids -> SQLite.cohort_profiles.profile_id",
+    "interpretation": "Los perfiles describen cohortes portuguesas; la asociación con documentos colombianos es temática, sin enlace de personas ni inferencia causal."
+  }
+]

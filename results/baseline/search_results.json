@@ -1,0 +1,1602 @@
+[
+  {
+    "id": "T01",
+    "gold": [
+      {
+        "document_id": "men_bienestar_2016",
+        "pages": [
+          28
+        ],
+        "evidence_regex": "otorgamiento\\s+de\\s+becas.{0,80}subsidios",
+        "evidence_text": "otorgamiento de becas, subsidios"
+      }
+    ],
+    "latencies_ms": [
+      23.83988200017484,
+      20.170427997072693,
+      22.184822002600413
+    ],
+    "query": "Según los lineamientos del MEN, ¿qué apoyos contempla la promoción socioeconómica para personas con dificultades económicas?",
+    "backend": "local",
+    "hits": [
+      {
+        "rank": 1,
+        "score": 0.8498537234713215,
+        "cosine_numpy": 0.8498537540435791,
+        "cosine_error": 3.057225761438076e-08,
+        "text": "educación superior\n\nPara la promoción del bienestar en las instituciones de educación superior, esta política propone el diseño y puesta en marcha de estrategias de intervención en todas las dimen­ siones del ser humano. No obstante, su aplicación dependerá de la capacidad de los recur­ sos financieros y de infraestructura de cada institución. Por ello, las instituciones podrán incluir otro tipo de acciones y otros actores aparte de los estudiantes, profesores y personal administrativo.\n\na) Orientación educativa: estrategias dirigidas a mejorar el desempeño, la integración\n\ny la adaptación al ambiente educativo de los estudiantes, docentes y personal ad­ ministrativo. b) Acompañamiento para el desarrollo de competencias para la vida: estrategias di­\n\nrigidas a los actores directos (estudiantes, docentes y administrativos) con el fin de promover competencias relacionadas con el autoconocimiento, la capacidad de relacionarse y comunicarse asertivamente con los demás y el entorno. c) Promoción socioeconómica: estrategias dirigidas a estudiantes, docentes y per­\n\nsonal administrativo con dificultades económicas, con el fin de contribuir al me­ joramiento de la calidad de vida. Por ejemplo, otorgamiento de becas, subsidios para el sostenimiento (alimentación y transporte), educación financiera y apoyo al emprendimiento.",
+        "doc_id": "men_bienestar_2016",
+        "page": 28,
+        "title": "Lineamientos de política de bienestar para instituciones de educación superior",
+        "url": "https://usbcali.edu.co/wp-content/uploads/2023/10/lineamientos_de_politica_de_bienestar_para_ies.pdf",
+        "thematic": "financial",
+        "profile_ids": [
+          "scholarship_0",
+          "debtor_0",
+          "scholarship_1",
+          "debtor_1"
+        ]
+      },
+      {
+        "rank": 2,
+        "score": 0.8466513529703346,
+        "cosine_numpy": 0.8466514348983765,
+        "cosine_error": 8.192804190620961e-08,
+        "text": "En concordancia, el Ministerio de Educación Nacional (MEN) publicó en 2015 la Guía para la Implementación del Modelo de Gestión de Permanencia y Graduación Estudiantil en Instituciones de Educación Superior que ha servido de marco referencial para potencializar la retención estudiantil en las IES y reconocer a los estudiantes como seres multidimensionales; y en 2022, la Nota técnica de “Inclusión y Equidad: hacia la construcción de una Política de Educación Inclusiva para Colombia” en la que tomando como punto de partida el derecho a la educación y su incidencia en el desarrollo humano, establece que “la inclusión y equidad en la educación es un proceso permanente que reconoce, valora y responde de manera pertinente a la diversidad de características, intereses, posibilidades y expectativas de todas las personas en su trayectoria educativa” (p. 9), con lo cual se debe propender por el desarrollo integral y la participación en ambientes de aprendizaje que contribuyan a reducir las brechas en el contexto educativo sin discriminación o exclusión (MEN, 2022)3.",
+        "doc_id": "ueb_exito_2024",
+        "page": 11,
+        "title": "Política para el éxito estudiantil y lineamientos",
+        "url": "https://www.unbosque.edu.co/sites/default/files/2024-10/PoliticadeExitoEstudiantil.pdf",
+        "thematic": "management",
+        "profile_ids": [
+          "approval_0",
+          "approval_1_5",
+          "approval_6_plus",
+          "scholarship_0",
+          "debtor_0",
+          "scholarship_1",
+          "debtor_1"
+        ]
+      },
+      {
+        "rank": 3,
+        "score": 0.8440068397659377,
+        "cosine_numpy": 0.8440068960189819,
+        "cosine_error": 5.625304422274269e-08,
+        "text": "• Definir junto a los programas académicos y el Centro de Diversidad, Equidad e Inclusión (DEI) las estrategias de acompañamiento y orientación académica diferenciales para estudiantes neurodivergentes, con discapacidades temporales o crónicas y rendimiento académico excepcional.\n\n• Determinar de acuerdo con las características de la población estudiantil, los estudiantes que por sus niveles de riesgo deben tener atención psicopedagógica individual o grupal por parte de los profesionales de la Coordinación de éxito estudiantil o definir la necesidad de remisión al área de apoyo institucional que se requiera.\n\n• Identificar las asignaturas con mayor porcentaje de pérdida académica y aplicar estrategias como: tutores pares, tutorías disciplinares, entre otras, de acuerdo con los conceptos y definiciones establecidos en la presente Política.\n\n• Orientar a los estudiantes en las posibles trayectorias de aprendizaje y rutas de formación que ofrece la Universidad acorde con sus características, intereses y necesidades de inmersión en la vida laboral.\n\n15 . \u0007La designación del tiempo de trabajo, la cantidad de coordinadores por estudiantes y la actualización de funciones en pro de los lineamientos de la presente Política, se definirán en conjunto con los programas académicos y DIGINEXA, previa aprobación de las instancias directivas de la Universidad El Bosque.",
+        "doc_id": "ueb_exito_2024",
+        "page": 26,
+        "title": "Política para el éxito estudiantil y lineamientos",
+        "url": "https://www.unbosque.edu.co/sites/default/files/2024-10/PoliticadeExitoEstudiantil.pdf",
+        "thematic": "academic",
+        "profile_ids": [
+          "approval_0",
+          "approval_1_5",
+          "approval_6_plus"
+        ]
+      }
+    ],
+    "cohorts": [
+      {
+        "profile_id": "debtor_0",
+        "thematic": "financial",
+        "grouping": "deudor",
+        "group_value": "0",
+        "n": 3921,
+        "dropout_count": 1109,
+        "graduate_count": 2108,
+        "enrolled_count": 704,
+        "dropout_rate": 0.28283601122162716
+      },
+      {
+        "profile_id": "debtor_1",
+        "thematic": "financial",
+        "grouping": "deudor",
+        "group_value": "1",
+        "n": 503,
+        "dropout_count": 312,
+        "graduate_count": 101,
+        "enrolled_count": 90,
+        "dropout_rate": 0.6202783300198808
+      },
+      {
+        "profile_id": "scholarship_0",
+        "thematic": "financial",
+        "grouping": "beca",
+        "group_value": "0",
+        "n": 3325,
+        "dropout_count": 1287,
+        "graduate_count": 1374,
+        "enrolled_count": 664,
+        "dropout_rate": 0.38706766917293234
+      },
+      {
+        "profile_id": "scholarship_1",
+        "thematic": "financial",
+        "grouping": "beca",
+        "group_value": "1",
+        "n": 1099,
+        "dropout_count": 134,
+        "graduate_count": 835,
+        "enrolled_count": 130,
+        "dropout_rate": 0.12192902638762511
+      }
+    ],
+    "cohort_theme": "financial",
+    "cohort_join": "payload.profile_ids -> SQLite.cohort_profiles.profile_id",
+    "interpretation": "Los perfiles describen cohortes portuguesas; la asociación con documentos colombianos es temática, sin enlace de personas ni inferencia causal."
+  },
+  {
+    "id": "T02",
+    "gold": [
+      {
+        "document_id": "men_bienestar_2016",
+        "pages": [
+          32
+        ],
+        "evidence_regex": "ejercicio\\s+din[aá]mico.{0,35}sistem[aá]tico",
+        "evidence_text": "ejercicio dinámico, sistemático"
+      }
+    ],
+    "latencies_ms": [
+      21.467395999934524,
+      21.204775002843235,
+      19.72139999998035
+    ],
+    "query": "¿Cómo debería actualizarse la caracterización de la comunidad educativa, según el MEN?",
+    "backend": "local",
+    "hits": [
+      {
+        "rank": 1,
+        "score": 0.8725032800842998,
+        "cosine_numpy": 0.8725032806396484,
+        "cosine_error": 5.553486559506382e-10,
+        "text": "En concordancia, el Ministerio de Educación Nacional (MEN) publicó en 2015 la Guía para la Implementación del Modelo de Gestión de Permanencia y Graduación Estudiantil en Instituciones de Educación Superior que ha servido de marco referencial para potencializar la retención estudiantil en las IES y reconocer a los estudiantes como seres multidimensionales; y en 2022, la Nota técnica de “Inclusión y Equidad: hacia la construcción de una Política de Educación Inclusiva para Colombia” en la que tomando como punto de partida el derecho a la educación y su incidencia en el desarrollo humano, establece que “la inclusión y equidad en la educación es un proceso permanente que reconoce, valora y responde de manera pertinente a la diversidad de características, intereses, posibilidades y expectativas de todas las personas en su trayectoria educativa” (p. 9), con lo cual se debe propender por el desarrollo integral y la participación en ambientes de aprendizaje que contribuyan a reducir las brechas en el contexto educativo sin discriminación o exclusión (MEN, 2022)3.",
+        "doc_id": "ueb_exito_2024",
+        "page": 11,
+        "title": "Política para el éxito estudiantil y lineamientos",
+        "url": "https://www.unbosque.edu.co/sites/default/files/2024-10/PoliticadeExitoEstudiantil.pdf",
+        "thematic": "management",
+        "profile_ids": [
+          "approval_0",
+          "approval_1_5",
+          "approval_6_plus",
+          "scholarship_0",
+          "debtor_0",
+          "scholarship_1",
+          "debtor_1"
+        ]
+      },
+      {
+        "rank": 2,
+        "score": 0.8613394841431679,
+        "cosine_numpy": 0.8613395690917969,
+        "cosine_error": 8.494862901997635e-08,
+        "text": "Ministerio de Educación Nacional. (2022). Nota Técnica de “Inclusión y Equidad: Hacia la Construcción de una Política de Educación Inclusiva para Colombia”. https://www.mineducacion.gov.co/1780/articles-363488_recurso_17.pdf\n\nMinisterio de Educación Nacional. (2023). Estadísticas de Deserción y Permanencia en Educación Superior SPADIES 3.0 - Indicadores 2021. “Documento cambio metodológico SPADIES 3.0.” https://www.mineducacion.gov.co/sistemasdeinformacion/1783/articles-415244_cambio_mtodologico_spadies_3.pdf\n\nMonné Marsellés Pilar y Pujals Pérez Gemma. (2005). Innovación en las prácticas escolares en la formación inicial del profesorado; una contribución para la transformación educativa. Revista Electrónica Iberoamericana sobre Calidad, Eficacia y Cambio en Educación, Vol. 3, No. 1, pp. 846-857. http://hdl. handle.net/10486/660960",
+        "doc_id": "ueb_exito_2024",
+        "page": 45,
+        "title": "Política para el éxito estudiantil y lineamientos",
+        "url": "https://www.unbosque.edu.co/sites/default/files/2024-10/PoliticadeExitoEstudiantil.pdf",
+        "thematic": "management",
+        "profile_ids": [
+          "approval_0",
+          "approval_1_5",
+          "approval_6_plus",
+          "scholarship_0",
+          "debtor_0",
+          "scholarship_1",
+          "debtor_1"
+        ]
+      },
+      {
+        "rank": 3,
+        "score": 0.8580195029140422,
+        "cosine_numpy": 0.8580195307731628,
+        "cosine_error": 2.785912067704288e-08,
+        "text": "conflicto, población de frontera, desmovilizados y grupos étnicos, así como la necesidad de llevar la educación al contexto rural mediante la regionalización o modalidades más flexi­ bles como la virtual que a su vez implican repensar el papel de la educación superior. Todo esto conlleva a un cuestionamiento respecto del papel que deben desempeñar las institu­ ciones de educación superior desde una perspectiva de formación integral, para ofrecer una educación inclusiva, pertinente y de calidad.\n\nMinisterio de Educación Nacional\n\nLa importancia que hoy en día tiene el bienestar en las agendas de discusión de la edu­ cación superior es innegable, los diferentes grupos de interés coinciden en señalar este elemento como clave en la definición y reconfiguración de los sistemas educativos.\n\nLas universidades tienen entre sus fines la formación de\n\nprofesionales, pero más allá de esto, deben contribuir al de­\n\nsarrollo individual y social al formar ciudadanos capaces de\n\nconstruir sociedades solidarias, de progreso y con calidad de\n\nvida. En este sentido, propiciar el bienestar de la comunidad\n\nuniversitaria es fundamental, y aunque puede verse como un\n\nmedio para poder alcanzar los fines académicos, también pue­\n\nde verse como un fin en sí mismo.3\n\nPor su parte, un documento producido en 2013 por la Mesa Ampliada Nacional Estudiantil (MANE), señaló que:",
+        "doc_id": "men_bienestar_2016",
+        "page": 14,
+        "title": "Lineamientos de política de bienestar para instituciones de educación superior",
+        "url": "https://usbcali.edu.co/wp-content/uploads/2023/10/lineamientos_de_politica_de_bienestar_para_ies.pdf",
+        "thematic": "academic",
+        "profile_ids": [
+          "approval_0",
+          "approval_1_5",
+          "approval_6_plus"
+        ]
+      }
+    ],
+    "cohorts": [
+      {
+        "profile_id": "approval_0",
+        "thematic": "academic",
+        "grouping": "aprobadas_sem1",
+        "group_value": "0",
+        "n": 718,
+        "dropout_count": 570,
+        "graduate_count": 77,
+        "enrolled_count": 71,
+        "dropout_rate": 0.7938718662952646
+      },
+      {
+        "profile_id": "approval_1_5",
+        "thematic": "academic",
+        "grouping": "aprobadas_sem1",
+        "group_value": "1-5",
+        "n": 1712,
+        "dropout_count": 647,
+        "graduate_count": 559,
+        "enrolled_count": 506,
+        "dropout_rate": 0.37792056074766356
+      },
+      {
+        "profile_id": "approval_6_plus",
+        "thematic": "academic",
+        "grouping": "aprobadas_sem1",
+        "group_value": "6+",
+        "n": 1994,
+        "dropout_count": 204,
+        "graduate_count": 1573,
+        "enrolled_count": 217,
+        "dropout_rate": 0.10230692076228685
+      },
+      {
+        "profile_id": "debtor_0",
+        "thematic": "financial",
+        "grouping": "deudor",
+        "group_value": "0",
+        "n": 3921,
+        "dropout_count": 1109,
+        "graduate_count": 2108,
+        "enrolled_count": 704,
+        "dropout_rate": 0.28283601122162716
+      },
+      {
+        "profile_id": "debtor_1",
+        "thematic": "financial",
+        "grouping": "deudor",
+        "group_value": "1",
+        "n": 503,
+        "dropout_count": 312,
+        "graduate_count": 101,
+        "enrolled_count": 90,
+        "dropout_rate": 0.6202783300198808
+      },
+      {
+        "profile_id": "scholarship_0",
+        "thematic": "financial",
+        "grouping": "beca",
+        "group_value": "0",
+        "n": 3325,
+        "dropout_count": 1287,
+        "graduate_count": 1374,
+        "enrolled_count": 664,
+        "dropout_rate": 0.38706766917293234
+      },
+      {
+        "profile_id": "scholarship_1",
+        "thematic": "financial",
+        "grouping": "beca",
+        "group_value": "1",
+        "n": 1099,
+        "dropout_count": 134,
+        "graduate_count": 835,
+        "enrolled_count": 130,
+        "dropout_rate": 0.12192902638762511
+      }
+    ],
+    "cohort_theme": "management",
+    "cohort_join": "payload.profile_ids -> SQLite.cohort_profiles.profile_id",
+    "interpretation": "Los perfiles describen cohortes portuguesas; la asociación con documentos colombianos es temática, sin enlace de personas ni inferencia causal."
+  },
+  {
+    "id": "T03",
+    "gold": [
+      {
+        "document_id": "men_bienestar_2016",
+        "pages": [
+          28
+        ],
+        "evidence_regex": "Coherente.{0,550}Flexible.{0,400}Sostenible",
+        "evidence_text": "Coherente. Flexible. Sostenible."
+      }
+    ],
+    "latencies_ms": [
+      22.152944999106694,
+      19.829619996016845,
+      19.04659600404557
+    ],
+    "query": "¿Qué características propone el MEN para un sistema institucional de bienestar?",
+    "backend": "local",
+    "hits": [
+      {
+        "rank": 1,
+        "score": 0.8726172481602537,
+        "cosine_numpy": 0.8726173043251038,
+        "cosine_error": 5.616485010406791e-08,
+        "text": "la comunidad institucional en todos los ámbitos donde tiene\n\npresencia, generando la suficiente flexibilidad curricular para\n\nhacer uso de los recursos. El bienestar institucional implica la\n\nexistencia de programas de intervención interna y del entorno\n\nque disminuyan las situaciones de riesgo psicosocial.7\n\nMinisterio de Educación Nacional\n\nLas características asociadas al factor de “Estructura y funcionamiento del bienestar insti­ tucional” ofrecen lineamientos más concisos sobre cómo debe ser el bienestar:\n\n1. Existencia y aplicación de políticas de bienestar institucional. 2. Descripción de los campos de acción y cobertura de programas de bienestar\n\nuniversitario, sus usuarios y el impacto de sus programas. 3. Recursos humanos provistos y financieros ejecutados por la institución para\n\ngarantizar un óptimo desarrollo de los programas de bienestar universitario. 4. Estrategias de divulgación de los servicios de bienestar universitario. 5. Existencia de una variada oferta de servicios ofrecidos por bienestar y\n\ncondiciones para que la comunidad institucional pueda hacer uso de ella. 6. Evaluación periódica de los servicios ofrecidos. 7. Acciones orientadas al diagnóstico y prevención de los riesgos psicosociales,\n\nmédicos y ambientales de la comunidad institucional. 8. Estrategias encaminadas a la inclusión de la población vulnerable y con\n\ndiscapacidad. 9. Programas y actividades tendientes a prevenir desastres y atender emergencias. 10. Existencia de mecanismos para la resolución armónica de conflictos en la",
+        "doc_id": "men_bienestar_2016",
+        "page": 18,
+        "title": "Lineamientos de política de bienestar para instituciones de educación superior",
+        "url": "https://usbcali.edu.co/wp-content/uploads/2023/10/lineamientos_de_politica_de_bienestar_para_ies.pdf",
+        "thematic": "management",
+        "profile_ids": [
+          "approval_0",
+          "approval_1_5",
+          "approval_6_plus",
+          "scholarship_0",
+          "debtor_0",
+          "scholarship_1",
+          "debtor_1"
+        ]
+      },
+      {
+        "rank": 2,
+        "score": 0.8686588677911065,
+        "cosine_numpy": 0.8686589598655701,
+        "cosine_error": 9.20744636090376e-08,
+        "text": "5. Características del sistema de bienestar en las\n\ninstituciones de educación superior\n\nEn virtud del concepto de bienestar y de los principios de la presente política, las instituciones de educación superior deben fortalecer o consolidar un sistema de bienestar compuesto de políticas, procesos y acciones, así como de una cultura del bienestar, que permita la articula­ ción entre todas las áreas y estamentos y que tenga las siguientes características:\n\nMinisterio de Educación Nacional\n\n- Coherente. Se construye y se implementa de acuerdo con las normativas nacio­\n\nnales, los lineamientos ministeriales y el contexto y es consistente con la misión institucional y el proyecto educativo. - Flexible. Puede adaptarse a las características de cada institución, a su contexto y\n\nsu comunidad educativa, así como a los cambios internos de la institución y exter­ nos del contexto. - Sostenible. Asegura sus condiciones para permanecer en el tiempo.\n\n6. Dimensiones del bienestar en las instituciones de\n\neducación superior",
+        "doc_id": "men_bienestar_2016",
+        "page": 28,
+        "title": "Lineamientos de política de bienestar para instituciones de educación superior",
+        "url": "https://usbcali.edu.co/wp-content/uploads/2023/10/lineamientos_de_politica_de_bienestar_para_ies.pdf",
+        "thematic": "management",
+        "profile_ids": [
+          "approval_0",
+          "approval_1_5",
+          "approval_6_plus",
+          "scholarship_0",
+          "debtor_0",
+          "scholarship_1",
+          "debtor_1"
+        ]
+      },
+      {
+        "rank": 3,
+        "score": 0.8668598435648068,
+        "cosine_numpy": 0.8668598532676697,
+        "cosine_error": 9.70286284651678e-09,
+        "text": "»» La resistencia de algunos actores\n\ncompromiso y sentido de pertenencia. »» El apoyo de las directivas. »» La socialización del concepto y alcances del\n\npara participar en la construcción o socialización. »» Una definición genérica si no se adoptan\n\nbienestar entre todos los estamentos. »» La sensibilización sobre la importancia del\n\nelementos propios.\n\nbienestar.\n\n2.2 Posicionamiento del bienestar Una vez se tenga un concepto de bienestar es más fácil continuar con la implementación de la política. El interés del Ministerio de Educación Nacional es lograr que el bienestar sea un asunto transversal y estratégico en las instituciones y para que esto suceda el",
+        "doc_id": "men_bienestar_2016",
+        "page": 40,
+        "title": "Lineamientos de política de bienestar para instituciones de educación superior",
+        "url": "https://usbcali.edu.co/wp-content/uploads/2023/10/lineamientos_de_politica_de_bienestar_para_ies.pdf",
+        "thematic": "management",
+        "profile_ids": [
+          "approval_0",
+          "approval_1_5",
+          "approval_6_plus",
+          "scholarship_0",
+          "debtor_0",
+          "scholarship_1",
+          "debtor_1"
+        ]
+      }
+    ],
+    "cohorts": [
+      {
+        "profile_id": "approval_0",
+        "thematic": "academic",
+        "grouping": "aprobadas_sem1",
+        "group_value": "0",
+        "n": 718,
+        "dropout_count": 570,
+        "graduate_count": 77,
+        "enrolled_count": 71,
+        "dropout_rate": 0.7938718662952646
+      },
+      {
+        "profile_id": "approval_1_5",
+        "thematic": "academic",
+        "grouping": "aprobadas_sem1",
+        "group_value": "1-5",
+        "n": 1712,
+        "dropout_count": 647,
+        "graduate_count": 559,
+        "enrolled_count": 506,
+        "dropout_rate": 0.37792056074766356
+      },
+      {
+        "profile_id": "approval_6_plus",
+        "thematic": "academic",
+        "grouping": "aprobadas_sem1",
+        "group_value": "6+",
+        "n": 1994,
+        "dropout_count": 204,
+        "graduate_count": 1573,
+        "enrolled_count": 217,
+        "dropout_rate": 0.10230692076228685
+      },
+      {
+        "profile_id": "debtor_0",
+        "thematic": "financial",
+        "grouping": "deudor",
+        "group_value": "0",
+        "n": 3921,
+        "dropout_count": 1109,
+        "graduate_count": 2108,
+        "enrolled_count": 704,
+        "dropout_rate": 0.28283601122162716
+      },
+      {
+        "profile_id": "debtor_1",
+        "thematic": "financial",
+        "grouping": "deudor",
+        "group_value": "1",
+        "n": 503,
+        "dropout_count": 312,
+        "graduate_count": 101,
+        "enrolled_count": 90,
+        "dropout_rate": 0.6202783300198808
+      },
+      {
+        "profile_id": "scholarship_0",
+        "thematic": "financial",
+        "grouping": "beca",
+        "group_value": "0",
+        "n": 3325,
+        "dropout_count": 1287,
+        "graduate_count": 1374,
+        "enrolled_count": 664,
+        "dropout_rate": 0.38706766917293234
+      },
+      {
+        "profile_id": "scholarship_1",
+        "thematic": "financial",
+        "grouping": "beca",
+        "group_value": "1",
+        "n": 1099,
+        "dropout_count": 134,
+        "graduate_count": 835,
+        "enrolled_count": 130,
+        "dropout_rate": 0.12192902638762511
+      }
+    ],
+    "cohort_theme": "management",
+    "cohort_join": "payload.profile_ids -> SQLite.cohort_profiles.profile_id",
+    "interpretation": "Los perfiles describen cohortes portuguesas; la asociación con documentos colombianos es temática, sin enlace de personas ni inferencia causal."
+  },
+  {
+    "id": "T04",
+    "gold": [
+      {
+        "document_id": "men_bienestar_2016",
+        "pages": [
+          31
+        ],
+        "evidence_regex": "recoger\\s+iniciativas.{0,30}propuestas\\s+y\\s+opiniones",
+        "evidence_text": "recoger iniciativas, propuestas y opiniones"
+      }
+    ],
+    "latencies_ms": [
+      22.313623994705267,
+      21.528395998757333,
+      22.704343995428644
+    ],
+    "query": "¿Para qué deben funcionar en doble vía los canales de comunicación de bienestar, de acuerdo con el MEN?",
+    "backend": "local",
+    "hits": [
+      {
+        "rank": 1,
+        "score": 0.8601859835243963,
+        "cosine_numpy": 0.860185980796814,
+        "cosine_error": 2.727582382178184e-09,
+        "text": "El posicionamiento también debe tener en cuenta la socialización del concepto, de las estrategias y del equipo de trabajo entre toda la comunidad educativa para contribuir a su empoderamiento y sentido de pertenencia. Este aspecto también hace parte de los elementos de la acreditación voluntaria del CNA: la necesidad de contar con planes de divulgación para que el bienestar sea suficientemente conocido por todos los actores. En ese sentido es necesario contar con canales de comunicación con los diferentes estamentos que funcionen de manera bidireccional, no solo para difundir las estrategias, sino para recoger iniciativas, propuestas y opiniones.\n\n7.3 Caracterización de la población A partir del concepto de bienestar propuesto en estos lineamientos, la institución debe definir el alcance de las estrategias para los diferentes grupos de beneficiaros de la política de bienestar. Existe un consenso sobre los principales actores: estudiantes, docentes y administrativos, pero respecto a familias, egresados, jubilados y a la comunidad en general cada institución puede decidir su incidencia de acuerdo con sus intereses y posibilidades. Cabe resaltar el papel fundamental que juega la familia en el éxito de los procesos de formación integral como red de apoyo social y como corresponsable.",
+        "doc_id": "men_bienestar_2016",
+        "page": 31,
+        "title": "Lineamientos de política de bienestar para instituciones de educación superior",
+        "url": "https://usbcali.edu.co/wp-content/uploads/2023/10/lineamientos_de_politica_de_bienestar_para_ies.pdf",
+        "thematic": "management",
+        "profile_ids": [
+          "approval_0",
+          "approval_1_5",
+          "approval_6_plus",
+          "scholarship_0",
+          "debtor_0",
+          "scholarship_1",
+          "debtor_1"
+        ]
+      },
+      {
+        "rank": 2,
+        "score": 0.8498778811723111,
+        "cosine_numpy": 0.8498778343200684,
+        "cosine_error": 4.685224275213784e-08,
+        "text": "El posicionamiento es necesario para contribuir a que el bienestar sea un asunto estra­ tégico, que goce del reconocimiento formal de los niveles directivos más altos y su parti­ cipación en estas instancias, pero también en el imaginario y las prácticas cotidianas de toda la comunidad educativa. De esta manera no solo es espera que pueda cumplir con las funciones establecidas en el marco normativo sino también atender las condiciones parti­ culares de cada institución.\n\nEn primer lugar, es necesario que las directivas reconozcan la importancia del bienes­ tar, lo que se evidencia en su comunicación directa con la rectoría y el consejo directivo de la institución, por ejemplo; y en su autonomía y participación en espacios estratégicos de decisión con voz y voto. Esto implica la inclusión del bienestar en los procesos de planeación estratégica, pero también operativa y financiera.",
+        "doc_id": "men_bienestar_2016",
+        "page": 30,
+        "title": "Lineamientos de política de bienestar para instituciones de educación superior",
+        "url": "https://usbcali.edu.co/wp-content/uploads/2023/10/lineamientos_de_politica_de_bienestar_para_ies.pdf",
+        "thematic": "management",
+        "profile_ids": [
+          "approval_0",
+          "approval_1_5",
+          "approval_6_plus",
+          "scholarship_0",
+          "debtor_0",
+          "scholarship_1",
+          "debtor_1"
+        ]
+      },
+      {
+        "rank": 3,
+        "score": 0.8454493557702042,
+        "cosine_numpy": 0.8454493880271912,
+        "cosine_error": 3.225698697040258e-08,
+        "text": "En las últimas décadas, el papel de la educación superior se ha replanteado para ofrecer una formación integral a partir de un enfoque de desarrollo humano. Abordar las dimen­ siones complementarias a las académicas en una institución superior es una tarea que ge­ neralmente descansa en las áreas de bienestar y, por esta razón, el Ministerio identificó la necesidad de consolidar una política de bienestar para las instituciones de educación supe­ rior que les sirva como referente para que puedan generar oportunidades que les permitan cumplir con su misión, funciones y disposiciones emanadas de la legislación nacional.\n\nEste documento se compone de dos partes: la primera incluye la política de bienestar para las instituciones de educación superior y la segunda contiene elementos que servirán de guía orientadora para que las instituciones definan sus propias políticas, configuren o fortalezcan sus sistemas de bienestar y desarrollen estrategias en el marco de la autono­ mía institucional otorgada por la Constitución Nacional y la Ley 30.\n\nEstos lineamientos de política son resultado de un proceso de construcción participativo que busca fomentar en las instituciones el desarrollo humano integral de la comunidad educativa en el marco del proceso de aseguramiento de la calidad de la educación superior.\n\n1. MINISTERIO DE EDUCACIÓN NACIONAL. Sistema Nacional de Información de la Educación Superior (SNIES). Cálculos:",
+        "doc_id": "men_bienestar_2016",
+        "page": 8,
+        "title": "Lineamientos de política de bienestar para instituciones de educación superior",
+        "url": "https://usbcali.edu.co/wp-content/uploads/2023/10/lineamientos_de_politica_de_bienestar_para_ies.pdf",
+        "thematic": "management",
+        "profile_ids": [
+          "approval_0",
+          "approval_1_5",
+          "approval_6_plus",
+          "scholarship_0",
+          "debtor_0",
+          "scholarship_1",
+          "debtor_1"
+        ]
+      }
+    ],
+    "cohorts": [
+      {
+        "profile_id": "approval_0",
+        "thematic": "academic",
+        "grouping": "aprobadas_sem1",
+        "group_value": "0",
+        "n": 718,
+        "dropout_count": 570,
+        "graduate_count": 77,
+        "enrolled_count": 71,
+        "dropout_rate": 0.7938718662952646
+      },
+      {
+        "profile_id": "approval_1_5",
+        "thematic": "academic",
+        "grouping": "aprobadas_sem1",
+        "group_value": "1-5",
+        "n": 1712,
+        "dropout_count": 647,
+        "graduate_count": 559,
+        "enrolled_count": 506,
+        "dropout_rate": 0.37792056074766356
+      },
+      {
+        "profile_id": "approval_6_plus",
+        "thematic": "academic",
+        "grouping": "aprobadas_sem1",
+        "group_value": "6+",
+        "n": 1994,
+        "dropout_count": 204,
+        "graduate_count": 1573,
+        "enrolled_count": 217,
+        "dropout_rate": 0.10230692076228685
+      },
+      {
+        "profile_id": "debtor_0",
+        "thematic": "financial",
+        "grouping": "deudor",
+        "group_value": "0",
+        "n": 3921,
+        "dropout_count": 1109,
+        "graduate_count": 2108,
+        "enrolled_count": 704,
+        "dropout_rate": 0.28283601122162716
+      },
+      {
+        "profile_id": "debtor_1",
+        "thematic": "financial",
+        "grouping": "deudor",
+        "group_value": "1",
+        "n": 503,
+        "dropout_count": 312,
+        "graduate_count": 101,
+        "enrolled_count": 90,
+        "dropout_rate": 0.6202783300198808
+      },
+      {
+        "profile_id": "scholarship_0",
+        "thematic": "financial",
+        "grouping": "beca",
+        "group_value": "0",
+        "n": 3325,
+        "dropout_count": 1287,
+        "graduate_count": 1374,
+        "enrolled_count": 664,
+        "dropout_rate": 0.38706766917293234
+      },
+      {
+        "profile_id": "scholarship_1",
+        "thematic": "financial",
+        "grouping": "beca",
+        "group_value": "1",
+        "n": 1099,
+        "dropout_count": 134,
+        "graduate_count": 835,
+        "enrolled_count": 130,
+        "dropout_rate": 0.12192902638762511
+      }
+    ],
+    "cohort_theme": "management",
+    "cohort_join": "payload.profile_ids -> SQLite.cohort_profiles.profile_id",
+    "interpretation": "Los perfiles describen cohortes portuguesas; la asociación con documentos colombianos es temática, sin enlace de personas ni inferencia causal."
+  },
+  {
+    "id": "T05",
+    "gold": [
+      {
+        "document_id": "ueb_exito_2024",
+        "pages": [
+          19
+        ],
+        "evidence_regex": "fuera\\s+del\\s+horario\\s+de\\s+clases",
+        "evidence_text": "fuera del horario de clases"
+      }
+    ],
+    "latencies_ms": [
+      24.766669994278345,
+      28.455144994950388,
+      27.006340002117213
+    ],
+    "query": "En la Universidad El Bosque, ¿para qué sirven las tutorías disciplinares y quiénes las orientan?",
+    "backend": "local",
+    "hits": [
+      {
+        "rank": 1,
+        "score": 0.8919414732594901,
+        "cosine_numpy": 0.891941487789154,
+        "cosine_error": 1.452966391646271e-08,
+        "text": "• Analizar las variables relacionadas con el éxito estudiantil para proponer estrategias que favorezcan el logro de los resultados de aprendizaje.\n\nCoordinación de calidad • Analizar, medir y reportar periódicamente en el marco de los procesos de autoevaluación del programa los resultados de la gestión del éxito estudiantil.\n\nSecretaría Académica • Trabajar de manera conjunta con los Coordinadores de éxito estudiantil apoyando a las decanaturas en la implementación de la Política de Éxito Estudiantil.\n\nEstudiante\n\n• Alcanzar el éxito académico asumiendo su responsabilidad como ser autónomo y agente activo en su aprendizaje de acuerdo con el Modelo Pedagógico Institucional, en el que el estudiante es el centro del proceso de enseñanza aprendizaje.\n\n• Apoyar el proceso académico y de aprendizaje en los estudiantes de la Universidad El Bosque.\n\n• Facilitar el desarrollo de grupos de estudio a través de su capacidad de orientación en procesos académicos.\n\n• Desarrollar habilidades de estudio en los estudiantes tutorados.\n\nTutor Par\n\n• Realizar un seguimiento y reporte a las áreas encargadas sobre el progreso de los estudiantes vinculados al programa de tutorías.\n\n• Trabajar con docentes y otros estudiantes tutores para promover el programa de tutorías en la comunidad estudiantil.",
+        "doc_id": "ueb_exito_2024",
+        "page": 33,
+        "title": "Política para el éxito estudiantil y lineamientos",
+        "url": "https://www.unbosque.edu.co/sites/default/files/2024-10/PoliticadeExitoEstudiantil.pdf",
+        "thematic": "academic",
+        "profile_ids": [
+          "approval_0",
+          "approval_1_5",
+          "approval_6_plus"
+        ]
+      },
+      {
+        "rank": 2,
+        "score": 0.8746401095034917,
+        "cosine_numpy": 0.8746401071548462,
+        "cosine_error": 2.3486455003052242e-09,
+        "text": "En este contexto, incluye la permanencia y graduación oportuna y efectiva; el logro académico comprendido como el cumplimiento de los resultados de aprendizaje previstos; el desarrollo de habilidades y competencias críticas y fundamentales para el fortalecimiento personal, laboral y el ejercicio de una ciudadanía global; el bienestar personal, emocional y psicosocial de los estudiantes; la participación y compromiso con su educación y la preparación efectiva para la transición a la vida pos universitaria, ya sea para la inserción al mundo ocupacional o avanzar hacia estudios de posgrado y formación continua.\n\nGraduación oportuna. Estudiante que ha recibido su título en la Universidad El Bosque como muestra de la culminación de su ciclo académico en los tiempos estimados de acuerdo con el plan de estudios y el cumplimiento de los requisitos de grado de acuerdo con la normatividad vigente.\n\nGuía de aprendizaje. Se trata de la hoja de ruta de la asignatura. Allí se incluyen orientaciones sobre las consultas que el estudiante debe realizar (contenidos, lecturas, videos o demás definidos desde la autoría del curso) y las actividades que debe realizar para una adecuada comprensión de los contenidos de la unidad.",
+        "doc_id": "ueb_exito_2024",
+        "page": 17,
+        "title": "Política para el éxito estudiantil y lineamientos",
+        "url": "https://www.unbosque.edu.co/sites/default/files/2024-10/PoliticadeExitoEstudiantil.pdf",
+        "thematic": "academic",
+        "profile_ids": [
+          "approval_0",
+          "approval_1_5",
+          "approval_6_plus"
+        ]
+      },
+      {
+        "rank": 3,
+        "score": 0.8708025568388216,
+        "cosine_numpy": 0.8708025813102722,
+        "cosine_error": 2.447145064365941e-08,
+        "text": "Lineamientos para garantizar información relevante y oportuna del Observatorio para el Éxito Estudiantil\n\nLa gestión del éxito estudiantil en la Universidad El Bosque tendrá como insumo principal para su seguimiento, evaluación y mejora continua al Observatorio para el Éxito Estudiantil con el cual, se pretende generar información de valor para la toma de decisiones informadas y la generación de acciones y estrategias enfocadas en la prevención de la deserción. A continuación, se presentan los lineamientos para garantizar la pertinencia y uso eficiente del Observatorio:\n\n• Los programas académicos reportan información en los canales definidos por la Universidad sobre las acciones, seguimientos, talleres, estrategias entre otros procesos relacionados que influyan en el aprendizaje del estudiante.\n\n• Implementar procesos para la actualización periódica de la información cuantitativa y cualitativa de los estudiantes que permitan contar con una caracterización actualizada y datos sobre variables relevantes para el éxito estudiantil.\n\n• Garantizar que la información académica, como notas y fallas, esté actualizada dentro de los sistemas de gestión definidos por la Universidad en los tiempos estipulados.",
+        "doc_id": "ueb_exito_2024",
+        "page": 31,
+        "title": "Política para el éxito estudiantil y lineamientos",
+        "url": "https://www.unbosque.edu.co/sites/default/files/2024-10/PoliticadeExitoEstudiantil.pdf",
+        "thematic": "management",
+        "profile_ids": [
+          "approval_0",
+          "approval_1_5",
+          "approval_6_plus",
+          "scholarship_0",
+          "debtor_0",
+          "scholarship_1",
+          "debtor_1"
+        ]
+      }
+    ],
+    "cohorts": [
+      {
+        "profile_id": "approval_0",
+        "thematic": "academic",
+        "grouping": "aprobadas_sem1",
+        "group_value": "0",
+        "n": 718,
+        "dropout_count": 570,
+        "graduate_count": 77,
+        "enrolled_count": 71,
+        "dropout_rate": 0.7938718662952646
+      },
+      {
+        "profile_id": "approval_1_5",
+        "thematic": "academic",
+        "grouping": "aprobadas_sem1",
+        "group_value": "1-5",
+        "n": 1712,
+        "dropout_count": 647,
+        "graduate_count": 559,
+        "enrolled_count": 506,
+        "dropout_rate": 0.37792056074766356
+      },
+      {
+        "profile_id": "approval_6_plus",
+        "thematic": "academic",
+        "grouping": "aprobadas_sem1",
+        "group_value": "6+",
+        "n": 1994,
+        "dropout_count": 204,
+        "graduate_count": 1573,
+        "enrolled_count": 217,
+        "dropout_rate": 0.10230692076228685
+      }
+    ],
+    "cohort_theme": "academic",
+    "cohort_join": "payload.profile_ids -> SQLite.cohort_profiles.profile_id",
+    "interpretation": "Los perfiles describen cohortes portuguesas; la asociación con documentos colombianos es temática, sin enlace de personas ni inferencia causal."
+  },
+  {
+    "id": "T06",
+    "gold": [
+      {
+        "document_id": "ueb_exito_2024",
+        "pages": [
+          26
+        ],
+        "evidence_regex": "tutores\\s+pares.{0,25}tutor[ií]as\\s+disciplinares",
+        "evidence_text": "tutores pares, tutorías disciplinares"
+      }
+    ],
+    "latencies_ms": [
+      27.116755001770798,
+      25.13754200481344,
+      26.30262399907224
+    ],
+    "query": "¿Qué estrategias prevé El Bosque para asignaturas que concentran pérdidas académicas?",
+    "backend": "local",
+    "hits": [
+      {
+        "rank": 1,
+        "score": 0.8675959298303326,
+        "cosine_numpy": 0.8675960302352905,
+        "cosine_error": 1.0040495790342163e-07,
+        "text": "• Definir junto a los programas académicos y el Centro de Diversidad, Equidad e Inclusión (DEI) las estrategias de acompañamiento y orientación académica diferenciales para estudiantes neurodivergentes, con discapacidades temporales o crónicas y rendimiento académico excepcional.\n\n• Determinar de acuerdo con las características de la población estudiantil, los estudiantes que por sus niveles de riesgo deben tener atención psicopedagógica individual o grupal por parte de los profesionales de la Coordinación de éxito estudiantil o definir la necesidad de remisión al área de apoyo institucional que se requiera.\n\n• Identificar las asignaturas con mayor porcentaje de pérdida académica y aplicar estrategias como: tutores pares, tutorías disciplinares, entre otras, de acuerdo con los conceptos y definiciones establecidos en la presente Política.\n\n• Orientar a los estudiantes en las posibles trayectorias de aprendizaje y rutas de formación que ofrece la Universidad acorde con sus características, intereses y necesidades de inmersión en la vida laboral.\n\n15 . \u0007La designación del tiempo de trabajo, la cantidad de coordinadores por estudiantes y la actualización de funciones en pro de los lineamientos de la presente Política, se definirán en conjunto con los programas académicos y DIGINEXA, previa aprobación de las instancias directivas de la Universidad El Bosque.",
+        "doc_id": "ueb_exito_2024",
+        "page": 26,
+        "title": "Política para el éxito estudiantil y lineamientos",
+        "url": "https://www.unbosque.edu.co/sites/default/files/2024-10/PoliticadeExitoEstudiantil.pdf",
+        "thematic": "academic",
+        "profile_ids": [
+          "approval_0",
+          "approval_1_5",
+          "approval_6_plus"
+        ]
+      },
+      {
+        "rank": 2,
+        "score": 0.8656250378037842,
+        "cosine_numpy": 0.8656251430511475,
+        "cosine_error": 1.0524736326900097e-07,
+        "text": "Lineamientos para garantizar información relevante y oportuna del Observatorio para el Éxito Estudiantil\n\nLa gestión del éxito estudiantil en la Universidad El Bosque tendrá como insumo principal para su seguimiento, evaluación y mejora continua al Observatorio para el Éxito Estudiantil con el cual, se pretende generar información de valor para la toma de decisiones informadas y la generación de acciones y estrategias enfocadas en la prevención de la deserción. A continuación, se presentan los lineamientos para garantizar la pertinencia y uso eficiente del Observatorio:\n\n• Los programas académicos reportan información en los canales definidos por la Universidad sobre las acciones, seguimientos, talleres, estrategias entre otros procesos relacionados que influyan en el aprendizaje del estudiante.\n\n• Implementar procesos para la actualización periódica de la información cuantitativa y cualitativa de los estudiantes que permitan contar con una caracterización actualizada y datos sobre variables relevantes para el éxito estudiantil.\n\n• Garantizar que la información académica, como notas y fallas, esté actualizada dentro de los sistemas de gestión definidos por la Universidad en los tiempos estipulados.",
+        "doc_id": "ueb_exito_2024",
+        "page": 31,
+        "title": "Política para el éxito estudiantil y lineamientos",
+        "url": "https://www.unbosque.edu.co/sites/default/files/2024-10/PoliticadeExitoEstudiantil.pdf",
+        "thematic": "management",
+        "profile_ids": [
+          "approval_0",
+          "approval_1_5",
+          "approval_6_plus",
+          "scholarship_0",
+          "debtor_0",
+          "scholarship_1",
+          "debtor_1"
+        ]
+      },
+      {
+        "rank": 3,
+        "score": 0.8624329086057639,
+        "cosine_numpy": 0.8624329566955566,
+        "cosine_error": 4.8089792703542855e-08,
+        "text": "• Adelantar acciones y estrategias que permitan identificar, analizar, comprender y atender fenómenos que afecten o puedan afectar a los estudiantes en su bienestar personal, emocional y psicosocial y el logro de sus resultados de aprendizaje. El diseño de dichas acciones y estrategias tendrán como insumo las variables y mediciones disponibles en el Observatorio para el Éxito Estudiantil construido y gestionado desde DIGINEXA. Partiendo de los hallazgos evidenciados, las acciones y estrategias se generarán en articulación con Bienestar Universitario, dada la naturaleza de la afectación.\n\n• Designar dentro de cada unidad académica al menos un Coordinador de éxito estudiantil con un número mínimo de horas de trabajo15 para la gestión de los procesos de acompañamiento y seguimiento de los estudiantes en las facultades, departamentos y programas. Este rol es fundamental para el funcionamiento efectivo de la Política de Éxito Estudiantil dentro de la Universidad El Bosque, ya que desempeña funciones clave para apoyar el desarrollo integral de los estudiantes y fomentar su éxito académico y personal. Las funciones se detallan en la gobernanza de la presente Política.",
+        "doc_id": "ueb_exito_2024",
+        "page": 26,
+        "title": "Política para el éxito estudiantil y lineamientos",
+        "url": "https://www.unbosque.edu.co/sites/default/files/2024-10/PoliticadeExitoEstudiantil.pdf",
+        "thematic": "academic",
+        "profile_ids": [
+          "approval_0",
+          "approval_1_5",
+          "approval_6_plus"
+        ]
+      }
+    ],
+    "cohorts": [
+      {
+        "profile_id": "approval_0",
+        "thematic": "academic",
+        "grouping": "aprobadas_sem1",
+        "group_value": "0",
+        "n": 718,
+        "dropout_count": 570,
+        "graduate_count": 77,
+        "enrolled_count": 71,
+        "dropout_rate": 0.7938718662952646
+      },
+      {
+        "profile_id": "approval_1_5",
+        "thematic": "academic",
+        "grouping": "aprobadas_sem1",
+        "group_value": "1-5",
+        "n": 1712,
+        "dropout_count": 647,
+        "graduate_count": 559,
+        "enrolled_count": 506,
+        "dropout_rate": 0.37792056074766356
+      },
+      {
+        "profile_id": "approval_6_plus",
+        "thematic": "academic",
+        "grouping": "aprobadas_sem1",
+        "group_value": "6+",
+        "n": 1994,
+        "dropout_count": 204,
+        "graduate_count": 1573,
+        "enrolled_count": 217,
+        "dropout_rate": 0.10230692076228685
+      }
+    ],
+    "cohort_theme": "academic",
+    "cohort_join": "payload.profile_ids -> SQLite.cohort_profiles.profile_id",
+    "interpretation": "Los perfiles describen cohortes portuguesas; la asociación con documentos colombianos es temática, sin enlace de personas ni inferencia causal."
+  },
+  {
+    "id": "T07",
+    "gold": [
+      {
+        "document_id": "ueb_exito_2024",
+        "pages": [
+          31
+        ],
+        "evidence_regex": "2\\s+ejercicios\\s+anuales",
+        "evidence_text": "2 ejercicios anuales"
+      }
+    ],
+    "latencies_ms": [
+      35.09020899946336,
+      29.593365994514897,
+      34.714430999883916
+    ],
+    "query": "¿Con qué frecuencia mínima deben analizar las áreas de El Bosque la información del Observatorio para el Éxito Estudiantil?",
+    "backend": "local",
+    "hits": [
+      {
+        "rank": 1,
+        "score": 0.9017811773030617,
+        "cosine_numpy": 0.9017812609672546,
+        "cosine_error": 8.366419290695148e-08,
+        "text": "Lineamientos para garantizar información relevante y oportuna del Observatorio para el Éxito Estudiantil\n\nLa gestión del éxito estudiantil en la Universidad El Bosque tendrá como insumo principal para su seguimiento, evaluación y mejora continua al Observatorio para el Éxito Estudiantil con el cual, se pretende generar información de valor para la toma de decisiones informadas y la generación de acciones y estrategias enfocadas en la prevención de la deserción. A continuación, se presentan los lineamientos para garantizar la pertinencia y uso eficiente del Observatorio:\n\n• Los programas académicos reportan información en los canales definidos por la Universidad sobre las acciones, seguimientos, talleres, estrategias entre otros procesos relacionados que influyan en el aprendizaje del estudiante.\n\n• Implementar procesos para la actualización periódica de la información cuantitativa y cualitativa de los estudiantes que permitan contar con una caracterización actualizada y datos sobre variables relevantes para el éxito estudiantil.\n\n• Garantizar que la información académica, como notas y fallas, esté actualizada dentro de los sistemas de gestión definidos por la Universidad en los tiempos estipulados.",
+        "doc_id": "ueb_exito_2024",
+        "page": 31,
+        "title": "Política para el éxito estudiantil y lineamientos",
+        "url": "https://www.unbosque.edu.co/sites/default/files/2024-10/PoliticadeExitoEstudiantil.pdf",
+        "thematic": "management",
+        "profile_ids": [
+          "approval_0",
+          "approval_1_5",
+          "approval_6_plus",
+          "scholarship_0",
+          "debtor_0",
+          "scholarship_1",
+          "debtor_1"
+        ]
+      },
+      {
+        "rank": 2,
+        "score": 0.8790125403627056,
+        "cosine_numpy": 0.8790125250816345,
+        "cosine_error": 1.5281071075179398e-08,
+        "text": "• Adelantar acciones y estrategias que permitan identificar, analizar, comprender y atender fenómenos que afecten o puedan afectar a los estudiantes en su bienestar personal, emocional y psicosocial y el logro de sus resultados de aprendizaje. El diseño de dichas acciones y estrategias tendrán como insumo las variables y mediciones disponibles en el Observatorio para el Éxito Estudiantil construido y gestionado desde DIGINEXA. Partiendo de los hallazgos evidenciados, las acciones y estrategias se generarán en articulación con Bienestar Universitario, dada la naturaleza de la afectación.\n\n• Designar dentro de cada unidad académica al menos un Coordinador de éxito estudiantil con un número mínimo de horas de trabajo15 para la gestión de los procesos de acompañamiento y seguimiento de los estudiantes en las facultades, departamentos y programas. Este rol es fundamental para el funcionamiento efectivo de la Política de Éxito Estudiantil dentro de la Universidad El Bosque, ya que desempeña funciones clave para apoyar el desarrollo integral de los estudiantes y fomentar su éxito académico y personal. Las funciones se detallan en la gobernanza de la presente Política.",
+        "doc_id": "ueb_exito_2024",
+        "page": 26,
+        "title": "Política para el éxito estudiantil y lineamientos",
+        "url": "https://www.unbosque.edu.co/sites/default/files/2024-10/PoliticadeExitoEstudiantil.pdf",
+        "thematic": "academic",
+        "profile_ids": [
+          "approval_0",
+          "approval_1_5",
+          "approval_6_plus"
+        ]
+      },
+      {
+        "rank": 3,
+        "score": 0.8686681799997023,
+        "cosine_numpy": 0.8686681985855103,
+        "cosine_error": 1.8585808003734883e-08,
+        "text": "Regula el registro calificado, da relevancia a la necesidad de potencializar los procesos de enseñanza aprendizaje, fortaleciendo las acciones en torno a lo académico y la formación docente.\n\nFuente. DIGINEXA, mayo 2024.\n\nContexto institucional\n\nLa Política de Éxito Estudiantil aprobada por el Consejo Directivo en 2013 sienta sus bases en la Misión institucional y su postulado de promoción de la dignidad y de la persona humana en su integralidad, lo que ha permitido a la Universidad consolidar una serie de procesos, procedimientos y estrategias que, con una clara base conceptual, han redundado en la evolución positiva de sus tasas de deserción y retención en los últimos años manteniendo resultados favorables a nivel nacional. Es así como, según el Sistema para la Prevención de la Deserción de la Educación Superior (SPADIES) 3.0 la tasa de retención promedio de la Universidad El Bosque en los últimos cinco años de medición (entre 2018 y 2022) es superior al 93%.",
+        "doc_id": "ueb_exito_2024",
+        "page": 12,
+        "title": "Política para el éxito estudiantil y lineamientos",
+        "url": "https://www.unbosque.edu.co/sites/default/files/2024-10/PoliticadeExitoEstudiantil.pdf",
+        "thematic": "management",
+        "profile_ids": [
+          "approval_0",
+          "approval_1_5",
+          "approval_6_plus",
+          "scholarship_0",
+          "debtor_0",
+          "scholarship_1",
+          "debtor_1"
+        ]
+      }
+    ],
+    "cohorts": [
+      {
+        "profile_id": "approval_0",
+        "thematic": "academic",
+        "grouping": "aprobadas_sem1",
+        "group_value": "0",
+        "n": 718,
+        "dropout_count": 570,
+        "graduate_count": 77,
+        "enrolled_count": 71,
+        "dropout_rate": 0.7938718662952646
+      },
+      {
+        "profile_id": "approval_1_5",
+        "thematic": "academic",
+        "grouping": "aprobadas_sem1",
+        "group_value": "1-5",
+        "n": 1712,
+        "dropout_count": 647,
+        "graduate_count": 559,
+        "enrolled_count": 506,
+        "dropout_rate": 0.37792056074766356
+      },
+      {
+        "profile_id": "approval_6_plus",
+        "thematic": "academic",
+        "grouping": "aprobadas_sem1",
+        "group_value": "6+",
+        "n": 1994,
+        "dropout_count": 204,
+        "graduate_count": 1573,
+        "enrolled_count": 217,
+        "dropout_rate": 0.10230692076228685
+      },
+      {
+        "profile_id": "debtor_0",
+        "thematic": "financial",
+        "grouping": "deudor",
+        "group_value": "0",
+        "n": 3921,
+        "dropout_count": 1109,
+        "graduate_count": 2108,
+        "enrolled_count": 704,
+        "dropout_rate": 0.28283601122162716
+      },
+      {
+        "profile_id": "debtor_1",
+        "thematic": "financial",
+        "grouping": "deudor",
+        "group_value": "1",
+        "n": 503,
+        "dropout_count": 312,
+        "graduate_count": 101,
+        "enrolled_count": 90,
+        "dropout_rate": 0.6202783300198808
+      },
+      {
+        "profile_id": "scholarship_0",
+        "thematic": "financial",
+        "grouping": "beca",
+        "group_value": "0",
+        "n": 3325,
+        "dropout_count": 1287,
+        "graduate_count": 1374,
+        "enrolled_count": 664,
+        "dropout_rate": 0.38706766917293234
+      },
+      {
+        "profile_id": "scholarship_1",
+        "thematic": "financial",
+        "grouping": "beca",
+        "group_value": "1",
+        "n": 1099,
+        "dropout_count": 134,
+        "graduate_count": 835,
+        "enrolled_count": 130,
+        "dropout_rate": 0.12192902638762511
+      }
+    ],
+    "cohort_theme": "management",
+    "cohort_join": "payload.profile_ids -> SQLite.cohort_profiles.profile_id",
+    "interpretation": "Los perfiles describen cohortes portuguesas; la asociación con documentos colombianos es temática, sin enlace de personas ni inferencia causal."
+  },
+  {
+    "id": "T08",
+    "gold": [
+      {
+        "document_id": "ueb_exito_2024",
+        "pages": [
+          30
+        ],
+        "evidence_regex": "motivaci[oó]n.{0,180}sentido\\s+de\\s+pertenencia.{0,110}persistencia",
+        "evidence_text": "motivación; sentido de pertenencia; persistencia"
+      }
+    ],
+    "latencies_ms": [
+      23.017139996227343,
+      19.7874680015957,
+      19.125444996461738
+    ],
+    "query": "¿Qué dimensiones del compromiso estudiantil identifica la política de El Bosque?",
+    "backend": "local",
+    "hits": [
+      {
+        "rank": 1,
+        "score": 0.8889558844826411,
+        "cosine_numpy": 0.8889559507369995,
+        "cosine_error": 6.625435844398453e-08,
+        "text": "1. INTRODUCCIÓN\n\nEn esta Política se expone el alcance, los propósitos, lineamientos, gobernanza y la gestión del éxito estudiantil en la Universidad El Bosque (UEB), no como un concepto emergente en la vida institucional sino como su evolución a partir de la aprobación e implementación de la primera Política en 2013. Desde entonces, se han presentado características cambiantes de los estudiantes que ingresan a la Universidad, un nuevo marco normativo para la acreditación de alta calidad y el largo trasegar de la Universidad en la implementación de estrategias enfocadas al éxito de los estudiantes en la vida universitaria.\n\nEn este sentido, el dimensionamiento integral del concepto de éxito estudiantil de la Universidad El Bosque que sustenta los planteamientos de la presente Política, contempla lo siguiente:\n\n• La permanencia y graduación oportuna y efectiva de los estudiantes de la Universidad, tanto de pregrado como de posgrado y en todas sus modalidades (virtual, presencial, a distancia e híbrida).",
+        "doc_id": "ueb_exito_2024",
+        "page": 7,
+        "title": "Política para el éxito estudiantil y lineamientos",
+        "url": "https://www.unbosque.edu.co/sites/default/files/2024-10/PoliticadeExitoEstudiantil.pdf",
+        "thematic": "management",
+        "profile_ids": [
+          "approval_0",
+          "approval_1_5",
+          "approval_6_plus",
+          "scholarship_0",
+          "debtor_0",
+          "scholarship_1",
+          "debtor_1"
+        ]
+      },
+      {
+        "rank": 2,
+        "score": 0.8810243851216681,
+        "cosine_numpy": 0.8810244202613831,
+        "cosine_error": 3.513971491564405e-08,
+        "text": "Compromiso estudiantil (Student Engagement)8. Se define como el compromiso activo y emocional de los estudiantes con su proceso de aprendizaje y su entorno académico, siendo estos factores determinantes para alcanzar el éxito durante su formación en la Universidad El Bosque. En el marco de la Política de Éxito Estudiantil el Student Engagement se desarrollará bajo 3 dimensiones:\n\n• Motivación. Se caracteriza por las estrategias y acciones diseñadas exclusivamente para inspirar y estimular a los estudiantes a alcanzar su máximo potencial académico y personal. Estrategias enfocadas en generar metas claras, empoderamiento en su proceso de formación, ambiente de aprendizaje positivo y retroalimentación constructiva9.\n\n• Sentido de pertenencia. Se entiende como el nivel de vinculación y apropiación que sienten los estudiantes hacia la UEB. Se caracteriza por el entusiasmo, la inspiración, el orgullo por su programa y la Universidad, la interacción con la comunidad universitaria y el aprovechamiento de actividades para su formación integral.\n\n8. \u0007Conceptualización de los profesionales de DIGINEXA, tomado a partir del texto de Martínez (2017). ¿Qué es el «Student Engagement»? El reto de poner al estudiante en el centro del sistema.",
+        "doc_id": "ueb_exito_2024",
+        "page": 15,
+        "title": "Política para el éxito estudiantil y lineamientos",
+        "url": "https://www.unbosque.edu.co/sites/default/files/2024-10/PoliticadeExitoEstudiantil.pdf",
+        "thematic": "academic",
+        "profile_ids": [
+          "approval_0",
+          "approval_1_5",
+          "approval_6_plus"
+        ]
+      },
+      {
+        "rank": 3,
+        "score": 0.8703558882087354,
+        "cosine_numpy": 0.8703559637069702,
+        "cosine_error": 7.549823477503992e-08,
+        "text": "• Adelantar acciones y estrategias que permitan identificar, analizar, comprender y atender fenómenos que afecten o puedan afectar a los estudiantes en su bienestar personal, emocional y psicosocial y el logro de sus resultados de aprendizaje. El diseño de dichas acciones y estrategias tendrán como insumo las variables y mediciones disponibles en el Observatorio para el Éxito Estudiantil construido y gestionado desde DIGINEXA. Partiendo de los hallazgos evidenciados, las acciones y estrategias se generarán en articulación con Bienestar Universitario, dada la naturaleza de la afectación.\n\n• Designar dentro de cada unidad académica al menos un Coordinador de éxito estudiantil con un número mínimo de horas de trabajo15 para la gestión de los procesos de acompañamiento y seguimiento de los estudiantes en las facultades, departamentos y programas. Este rol es fundamental para el funcionamiento efectivo de la Política de Éxito Estudiantil dentro de la Universidad El Bosque, ya que desempeña funciones clave para apoyar el desarrollo integral de los estudiantes y fomentar su éxito académico y personal. Las funciones se detallan en la gobernanza de la presente Política.",
+        "doc_id": "ueb_exito_2024",
+        "page": 26,
+        "title": "Política para el éxito estudiantil y lineamientos",
+        "url": "https://www.unbosque.edu.co/sites/default/files/2024-10/PoliticadeExitoEstudiantil.pdf",
+        "thematic": "academic",
+        "profile_ids": [
+          "approval_0",
+          "approval_1_5",
+          "approval_6_plus"
+        ]
+      }
+    ],
+    "cohorts": [
+      {
+        "profile_id": "approval_0",
+        "thematic": "academic",
+        "grouping": "aprobadas_sem1",
+        "group_value": "0",
+        "n": 718,
+        "dropout_count": 570,
+        "graduate_count": 77,
+        "enrolled_count": 71,
+        "dropout_rate": 0.7938718662952646
+      },
+      {
+        "profile_id": "approval_1_5",
+        "thematic": "academic",
+        "grouping": "aprobadas_sem1",
+        "group_value": "1-5",
+        "n": 1712,
+        "dropout_count": 647,
+        "graduate_count": 559,
+        "enrolled_count": 506,
+        "dropout_rate": 0.37792056074766356
+      },
+      {
+        "profile_id": "approval_6_plus",
+        "thematic": "academic",
+        "grouping": "aprobadas_sem1",
+        "group_value": "6+",
+        "n": 1994,
+        "dropout_count": 204,
+        "graduate_count": 1573,
+        "enrolled_count": 217,
+        "dropout_rate": 0.10230692076228685
+      },
+      {
+        "profile_id": "debtor_0",
+        "thematic": "financial",
+        "grouping": "deudor",
+        "group_value": "0",
+        "n": 3921,
+        "dropout_count": 1109,
+        "graduate_count": 2108,
+        "enrolled_count": 704,
+        "dropout_rate": 0.28283601122162716
+      },
+      {
+        "profile_id": "debtor_1",
+        "thematic": "financial",
+        "grouping": "deudor",
+        "group_value": "1",
+        "n": 503,
+        "dropout_count": 312,
+        "graduate_count": 101,
+        "enrolled_count": 90,
+        "dropout_rate": 0.6202783300198808
+      },
+      {
+        "profile_id": "scholarship_0",
+        "thematic": "financial",
+        "grouping": "beca",
+        "group_value": "0",
+        "n": 3325,
+        "dropout_count": 1287,
+        "graduate_count": 1374,
+        "enrolled_count": 664,
+        "dropout_rate": 0.38706766917293234
+      },
+      {
+        "profile_id": "scholarship_1",
+        "thematic": "financial",
+        "grouping": "beca",
+        "group_value": "1",
+        "n": 1099,
+        "dropout_count": 134,
+        "graduate_count": 835,
+        "enrolled_count": 130,
+        "dropout_rate": 0.12192902638762511
+      }
+    ],
+    "cohort_theme": "management",
+    "cohort_join": "payload.profile_ids -> SQLite.cohort_profiles.profile_id",
+    "interpretation": "Los perfiles describen cohortes portuguesas; la asociación con documentos colombianos es temática, sin enlace de personas ni inferencia causal."
+  },
+  {
+    "id": "T09",
+    "gold": [
+      {
+        "document_id": "unal_acompanamiento_2022",
+        "pages": [
+          28
+        ],
+        "evidence_text": "instancias de bienestar universitario",
+        "evidence_regex": "instancias\\s+de\\s+bienestar\\s+universitario"
+      }
+    ],
+    "latencies_ms": [
+      22.9815159982536,
+      23.24133300135145,
+      23.914164004963823
+    ],
+    "query": "Según la guía de posgrado de la UNAL, ¿hacia qué servicios puede orientar el tutor cuando identifica dificultades personales, familiares o económicas?",
+    "backend": "local",
+    "hits": [
+      {
+        "rank": 1,
+        "score": 0.8731835874649185,
+        "cosine_numpy": 0.8731836080551147,
+        "cosine_error": 2.0590196214698153e-08,
+        "text": "No obstante, en caso de que el tutor detecte alguna dificultad en aspectos no académicos (por ejemplo, de índole personal, familiar, psicosocial, eco­ nómica, de salud, etcétera), puede informar al estudiante de la existencia de instancias de bienestar universitario, bien sea de Facultad o de Sede, en dónde podrán brindarle asesoría.\n\nPara cumplir esta función académica es fundamental que los profesores tutores conozcan: i) la estructura del programa curricular en el que son tutores, sus posibilidades y normas; ii) la composición, procedimientos y funcionamiento de los Comités Asesores del programa curricular; iii) la com­ posición, procedimientos y funcionamiento del Consejo de Facultad; iv) las instancias de bienestar universitario y sus funciones, de la Facultad y de la Sede; v) las normas específicas de la Facultad; vi) las normas generales de la Universidad, y vii) las instancias a las cuales recurrir en caso de duda.",
+        "doc_id": "unal_acompanamiento_2022",
+        "page": 28,
+        "title": "Guía de acompañamiento para estudiantes y tutores de Posgrado de la Universidad Nacional de Colombia",
+        "url": "https://posgrados.unal.edu.co/wp-content/uploads/2024/01/GuiaAcompanamientoEstudiantesTutores_Agosto2022.pdf",
+        "thematic": "academic",
+        "profile_ids": [
+          "approval_0",
+          "approval_1_5",
+          "approval_6_plus"
+        ]
+      },
+      {
+        "rank": 2,
+        "score": 0.8681331652878013,
+        "cosine_numpy": 0.8681331872940063,
+        "cosine_error": 2.2006205080415953e-08,
+        "text": "Universidad Nacional de Colombia Vicerrectoría Académica Dirección Nacional de Programas de Posgrado\n\nGuía de acompañamiento para estudiantes y tutores de Posgrado de la Universidad Nacional de Colombia\n\nCuarta Edición\n\nAgosto de 2022\n\nUNIVERSIDAD NACIONAL DE COLOMBIA Carrera 45 No. 26 – 85, Edificio Uriel Gutiérrez, Oficina 505 Teléfono: 57 (1) 316 52 14 - Conmutador 57 (1) 316 5000 Ext. 18075\n\nCorreo Electrónico: dirposgrado_nal@unal.edu.co\n\nwww.posgrados.unal.edu.co",
+        "doc_id": "unal_acompanamiento_2022",
+        "page": 3,
+        "title": "Guía de acompañamiento para estudiantes y tutores de Posgrado de la Universidad Nacional de Colombia",
+        "url": "https://posgrados.unal.edu.co/wp-content/uploads/2024/01/GuiaAcompanamientoEstudiantesTutores_Agosto2022.pdf",
+        "thematic": "academic",
+        "profile_ids": [
+          "approval_0",
+          "approval_1_5",
+          "approval_6_plus"
+        ]
+      },
+      {
+        "rank": 3,
+        "score": 0.8670827488362429,
+        "cosine_numpy": 0.8670827150344849,
+        "cosine_error": 3.380175805922647e-08,
+        "text": "Es importante que las personas aspirantes y nuevos estudiantes conozcan las líneas de investigación en las que participan los miembros de los diferen­ tes programas curriculares. Asimismo, los tutores deben tener un panorama general de estas líneas y los grupos de investigación con el fin de que puedan orientar a los estudiantes -especialmente a aquellos nuevos en la Universi­ dad- sobre los grupos y líneas en los que podrán participar. Si desea cono­ cer más sobre las líneas de investigación de cada programa, siga el enlace www.posgrados.unal.edu.co, en la sección programas de posgrado.",
+        "doc_id": "unal_acompanamiento_2022",
+        "page": 12,
+        "title": "Guía de acompañamiento para estudiantes y tutores de Posgrado de la Universidad Nacional de Colombia",
+        "url": "https://posgrados.unal.edu.co/wp-content/uploads/2024/01/GuiaAcompanamientoEstudiantesTutores_Agosto2022.pdf",
+        "thematic": "academic",
+        "profile_ids": [
+          "approval_0",
+          "approval_1_5",
+          "approval_6_plus"
+        ]
+      }
+    ],
+    "cohorts": [],
+    "cohort_theme": "financial",
+    "cohort_join": "payload.profile_ids -> SQLite.cohort_profiles.profile_id",
+    "interpretation": "Los perfiles describen cohortes portuguesas; la asociación con documentos colombianos es temática, sin enlace de personas ni inferencia causal."
+  },
+  {
+    "id": "T10",
+    "gold": [
+      {
+        "document_id": "unal_acompanamiento_2022",
+        "pages": [
+          29
+        ],
+        "evidence_text": "selección de asignaturas",
+        "evidence_regex": "selecci[oó]n\\s+de\\s+asignaturas"
+      }
+    ],
+    "latencies_ms": [
+      22.727057999873068,
+      23.40522599843098,
+      22.024783997039776
+    ],
+    "query": "¿En qué decisiones del programa de posgrado deben asistir el tutor o el comité de tutores a los estudiantes de la UNAL?",
+    "backend": "local",
+    "hits": [
+      {
+        "rank": 1,
+        "score": 0.8904509710380559,
+        "cosine_numpy": 0.8904509544372559,
+        "cosine_error": 1.6600800067934074e-08,
+        "text": "¿QUÉ PUEDE ESPERAR DEL ACOMPAÑAMIENTO ACADÉMICO POR PARTE DE SU TUTOR Y, POSTERIORMENTE, DE SU DIRECTOR DE TRABAJO FINAL O TESIS?\n\nLa tutoría académica en los programas de posgrado es el acompañamien­ to académico que hace un profesor o un grupo de profesores (Comité de tutores) de la Universidad Nacional de Colombia a los estudiantes. Estos profesores serán, entonces, el enlace entre el estudiante y la Universidad como institución. En el caso de los Comités de tutores, deberá nombrarse un tutor principal quien estará inscrito en el sistema de información académica.\n\nEl tutor o los Comités de tutores (comité definido para el nivel de formación de doctorado Acuerdo 033 de 2008 del CSU, artículo 3) deben asistir a los estudiantes en “la selección de asignaturas, en la determinación del tema del trabajo final o la tesis y en la formulación definitiva del proyecto de te­ sis”. En caso de que se haya establecido un Comité de tutores para los pro­ gramas de doctorado, su funcionamiento dependerá de la respectiva norma establecida por la Facultad para el programa curricular.",
+        "doc_id": "unal_acompanamiento_2022",
+        "page": 29,
+        "title": "Guía de acompañamiento para estudiantes y tutores de Posgrado de la Universidad Nacional de Colombia",
+        "url": "https://posgrados.unal.edu.co/wp-content/uploads/2024/01/GuiaAcompanamientoEstudiantesTutores_Agosto2022.pdf",
+        "thematic": "academic",
+        "profile_ids": [
+          "approval_0",
+          "approval_1_5",
+          "approval_6_plus"
+        ]
+      },
+      {
+        "rank": 2,
+        "score": 0.8864818439803225,
+        "cosine_numpy": 0.8864818811416626,
+        "cosine_error": 3.716134011622074e-08,
+        "text": "Es importante que las personas aspirantes y nuevos estudiantes conozcan las líneas de investigación en las que participan los miembros de los diferen­ tes programas curriculares. Asimismo, los tutores deben tener un panorama general de estas líneas y los grupos de investigación con el fin de que puedan orientar a los estudiantes -especialmente a aquellos nuevos en la Universi­ dad- sobre los grupos y líneas en los que podrán participar. Si desea cono­ cer más sobre las líneas de investigación de cada programa, siga el enlace www.posgrados.unal.edu.co, en la sección programas de posgrado.",
+        "doc_id": "unal_acompanamiento_2022",
+        "page": 12,
+        "title": "Guía de acompañamiento para estudiantes y tutores de Posgrado de la Universidad Nacional de Colombia",
+        "url": "https://posgrados.unal.edu.co/wp-content/uploads/2024/01/GuiaAcompanamientoEstudiantesTutores_Agosto2022.pdf",
+        "thematic": "academic",
+        "profile_ids": [
+          "approval_0",
+          "approval_1_5",
+          "approval_6_plus"
+        ]
+      },
+      {
+        "rank": 3,
+        "score": 0.8736546644963071,
+        "cosine_numpy": 0.8736547231674194,
+        "cosine_error": 5.867111230184463e-08,
+        "text": "Universidad Nacional de Colombia Vicerrectoría Académica Dirección Nacional de Programas de Posgrado\n\nGuía de acompañamiento para estudiantes y tutores de Posgrado de la Universidad Nacional de Colombia\n\nCuarta Edición\n\nAgosto de 2022\n\nUNIVERSIDAD NACIONAL DE COLOMBIA Carrera 45 No. 26 – 85, Edificio Uriel Gutiérrez, Oficina 505 Teléfono: 57 (1) 316 52 14 - Conmutador 57 (1) 316 5000 Ext. 18075\n\nCorreo Electrónico: dirposgrado_nal@unal.edu.co\n\nwww.posgrados.unal.edu.co",
+        "doc_id": "unal_acompanamiento_2022",
+        "page": 3,
+        "title": "Guía de acompañamiento para estudiantes y tutores de Posgrado de la Universidad Nacional de Colombia",
+        "url": "https://posgrados.unal.edu.co/wp-content/uploads/2024/01/GuiaAcompanamientoEstudiantesTutores_Agosto2022.pdf",
+        "thematic": "academic",
+        "profile_ids": [
+          "approval_0",
+          "approval_1_5",
+          "approval_6_plus"
+        ]
+      }
+    ],
+    "cohorts": [
+      {
+        "profile_id": "approval_0",
+        "thematic": "academic",
+        "grouping": "aprobadas_sem1",
+        "group_value": "0",
+        "n": 718,
+        "dropout_count": 570,
+        "graduate_count": 77,
+        "enrolled_count": 71,
+        "dropout_rate": 0.7938718662952646
+      },
+      {
+        "profile_id": "approval_1_5",
+        "thematic": "academic",
+        "grouping": "aprobadas_sem1",
+        "group_value": "1-5",
+        "n": 1712,
+        "dropout_count": 647,
+        "graduate_count": 559,
+        "enrolled_count": 506,
+        "dropout_rate": 0.37792056074766356
+      },
+      {
+        "profile_id": "approval_6_plus",
+        "thematic": "academic",
+        "grouping": "aprobadas_sem1",
+        "group_value": "6+",
+        "n": 1994,
+        "dropout_count": 204,
+        "graduate_count": 1573,
+        "enrolled_count": 217,
+        "dropout_rate": 0.10230692076228685
+      }
+    ],
+    "cohort_theme": "management",
+    "cohort_join": "payload.profile_ids -> SQLite.cohort_profiles.profile_id",
+    "interpretation": "Los perfiles describen cohortes portuguesas; la asociación con documentos colombianos es temática, sin enlace de personas ni inferencia causal."
+  },
+  {
+    "id": "T11",
+    "gold": [
+      {
+        "document_id": "unal_acompanamiento_2022",
+        "pages": [
+          32
+        ],
+        "evidence_text": "entrenamiento básico en actividades de apoyo a la docencia",
+        "evidence_regex": "entrenamiento\\s+b[aá]sico\\s+en\\s+actividades\\s+de\\s+apoyo\\s+a\\s+la\\s+docencia"
+      }
+    ],
+    "latencies_ms": [
+      22.134368002298288,
+      21.29545999923721,
+      22.876240000186954
+    ],
+    "query": "¿Cuál es el objetivo formativo de la Beca Auxiliar Docente descrita en la guía de la UNAL?",
+    "backend": "local",
+    "hits": [
+      {
+        "rank": 1,
+        "score": 0.8683796144267232,
+        "cosine_numpy": 0.8683796525001526,
+        "cosine_error": 3.807342940920222e-08,
+        "text": "BECA AUXILIAR DOCENTE (Acuerdo 28 de 2010 de Consejo Superior Universitario (Artículos 24 - 31 y 37 - 42), “Sistema Nacional de Becas para Estudiantes de Posgrado de la Universidad Nacional de Colombia”, Capítulo IV). (Resolución RG-5 de 2011 de Rectoría, “método de normalización de los puntajes para los candidatos de las becas, el requisito de prueba internacio­ nal de segunda lengua y la participación de los estudiantes con admisión por tránsito entre niveles de posgrado y admisión automática, en las diferentes modalidades de becas establecidas en el Acuerdo 028 de 2010 del Consejo Superior Universitario”).",
+        "doc_id": "unal_acompanamiento_2022",
+        "page": 43,
+        "title": "Guía de acompañamiento para estudiantes y tutores de Posgrado de la Universidad Nacional de Colombia",
+        "url": "https://posgrados.unal.edu.co/wp-content/uploads/2024/01/GuiaAcompanamientoEstudiantesTutores_Agosto2022.pdf",
+        "thematic": "financial",
+        "profile_ids": [
+          "scholarship_0",
+          "debtor_0",
+          "scholarship_1",
+          "debtor_1"
+        ]
+      },
+      {
+        "rank": 2,
+        "score": 0.859374446248781,
+        "cosine_numpy": 0.8593745231628418,
+        "cosine_error": 7.691406078702556e-08,
+        "text": "Objetivos\n\nObjetivo General\n\nPromover un ambiente universitario que fomente el éxito estudiantil a través de la creación de un entorno inclusivo que reconozca y valore las diferencias individuales y colectivas; que garantice la igualdad de oportunidades y acceso a los recursos y apoyos necesarios para que los estudiantes permanezcan; logren los resultados de aprendizaje previstos en sus planes de estudio y rutas de formación escogidas autónomamente; se promueva su bienestar personal, emocional y psicosocial; se comprometan con su formación integral; y se gradúen oportunamente con las habilidades y competencias necesarias para insertarse en el mundo ocupacional.\n\nObjetivos Específicos\n\n• Dar un marco conceptual y operativo para diseñar e implementar estrategias que faciliten el acceso equitativo e incluyente a los recursos, apoyos académicos, financieros y oportunidades de participación en la vida universitaria de los estudiantes que permitan mejorar su permanencia, el logro de los resultados de aprendizaje previstos y la graduación oportuna.\n\n• Orientar a las unidades académicas y administrativas en el diseño, gestión e implementación de estrategias para reconocer trayectorias y desafíos de los estudiantes y ofrecer servicios de apoyo integrales, accesibles y efectivos.",
+        "doc_id": "ueb_exito_2024",
+        "page": 24,
+        "title": "Política para el éxito estudiantil y lineamientos",
+        "url": "https://www.unbosque.edu.co/sites/default/files/2024-10/PoliticadeExitoEstudiantil.pdf",
+        "thematic": "academic",
+        "profile_ids": [
+          "approval_0",
+          "approval_1_5",
+          "approval_6_plus"
+        ]
+      },
+      {
+        "rank": 3,
+        "score": 0.8521121913532456,
+        "cosine_numpy": 0.8521122336387634,
+        "cosine_error": 4.2285517865003897e-08,
+        "text": "• Participar activamente en los talleres que programe éxito estudiantil-DIGINEXA y apoyar la labor de inducción, caracterización y los demás apoyos que se requieran.\n\n• Realizar seguimiento a los estudiantes en ausencia intersemestral o desertores cada periodo académico, con el fin de identificar las causas y orientarlos para su continuidad en la Universidad.\n\n• Participar de los escenarios de cualificación e implementar las estrategias en ellos para brindar soporte académico.\n\n• Retroalimentar los procesos curriculares y de mejoramiento continuo del programa desde la perspectiva del éxito estudiantil en los escenarios del Comité Curricular y de autoevaluación.\n\n• Orientar a los estudiantes a acudir a los diferentes escenarios de apoyo con que cuenta la Universidad según la necesidad de los mismos y activar la ruta de atención en crisis de acuerdo al procedimiento institucional en caso de requerirse.\n\nÁrea de Egresados\n\n• Diseñar y realizar permanentemente actividades presenciales y virtuales destinadas a la preparación de proyectos académicos (postulación a posgrados, cursos de educación continua, becas, formaciones médicas avanzadas, entre otros).\n\nLíder de Bienestar Universitario\n\n• Generar programas y actividades que garanticen el bienestar personal, emocional y psicosocial de los estudiantes en consonancia con la Política de Bienestar Universitario.",
+        "doc_id": "ueb_exito_2024",
+        "page": 34,
+        "title": "Política para el éxito estudiantil y lineamientos",
+        "url": "https://www.unbosque.edu.co/sites/default/files/2024-10/PoliticadeExitoEstudiantil.pdf",
+        "thematic": "academic",
+        "profile_ids": [
+          "approval_0",
+          "approval_1_5",
+          "approval_6_plus"
+        ]
+      }
+    ],
+    "cohorts": [
+      {
+        "profile_id": "debtor_0",
+        "thematic": "financial",
+        "grouping": "deudor",
+        "group_value": "0",
+        "n": 3921,
+        "dropout_count": 1109,
+        "graduate_count": 2108,
+        "enrolled_count": 704,
+        "dropout_rate": 0.28283601122162716
+      },
+      {
+        "profile_id": "debtor_1",
+        "thematic": "financial",
+        "grouping": "deudor",
+        "group_value": "1",
+        "n": 503,
+        "dropout_count": 312,
+        "graduate_count": 101,
+        "enrolled_count": 90,
+        "dropout_rate": 0.6202783300198808
+      },
+      {
+        "profile_id": "scholarship_0",
+        "thematic": "financial",
+        "grouping": "beca",
+        "group_value": "0",
+        "n": 3325,
+        "dropout_count": 1287,
+        "graduate_count": 1374,
+        "enrolled_count": 664,
+        "dropout_rate": 0.38706766917293234
+      },
+      {
+        "profile_id": "scholarship_1",
+        "thematic": "financial",
+        "grouping": "beca",
+        "group_value": "1",
+        "n": 1099,
+        "dropout_count": 134,
+        "graduate_count": 835,
+        "enrolled_count": 130,
+        "dropout_rate": 0.12192902638762511
+      }
+    ],
+    "cohort_theme": "financial",
+    "cohort_join": "payload.profile_ids -> SQLite.cohort_profiles.profile_id",
+    "interpretation": "Los perfiles describen cohortes portuguesas; la asociación con documentos colombianos es temática, sin enlace de personas ni inferencia causal."
+  },
+  {
+    "id": "T12",
+    "gold": [
+      {
+        "document_id": "unal_acompanamiento_2022",
+        "pages": [
+          32
+        ],
+        "evidence_text": "formación de nuevos docentes",
+        "evidence_regex": "formaci[oó]n\\s+de\\s+nuevos\\s+docentes"
+      }
+    ],
+    "latencies_ms": [
+      34.78761999576818,
+      26.440189001732506,
+      30.460512003628537
+    ],
+    "query": "¿Qué propósito académico tiene la Beca Asistente Docente en la guía de acompañamiento de posgrado de la UNAL?",
+    "backend": "local",
+    "hits": [
+      {
+        "rank": 1,
+        "score": 0.8763382331137481,
+        "cosine_numpy": 0.8763381838798523,
+        "cosine_error": 4.9233895849098985e-08,
+        "text": "BECAS, ESTÍMULOS Y DISTINCIONES\n\nBECA ASISTENTE DOCENTE (Acuerdo 28 de 2010 de Consejo Superior Universitario (Artículos 15 - 23 y 37 - 42), “Sistema Nacional de Becas para Estudiantes de Posgrado de la Universidad Nacional de Colombia”, Capítulo III). (Resolución RG-5 de 2011 de Rectoría, “método de normalización de los puntajes para los candidatos de las becas, el requisito de prueba internacio­ nal de segunda lengua y la participación de los estudiantes con admisión por tránsito entre niveles de posgrado y admisión automática, en las diferentes modalidades de becas establecidas en el Acuerdo 028 de 2010 del Consejo Superior Universitario”).",
+        "doc_id": "unal_acompanamiento_2022",
+        "page": 43,
+        "title": "Guía de acompañamiento para estudiantes y tutores de Posgrado de la Universidad Nacional de Colombia",
+        "url": "https://posgrados.unal.edu.co/wp-content/uploads/2024/01/GuiaAcompanamientoEstudiantesTutores_Agosto2022.pdf",
+        "thematic": "financial",
+        "profile_ids": [
+          "scholarship_0",
+          "debtor_0",
+          "scholarship_1",
+          "debtor_1"
+        ]
+      },
+      {
+        "rank": 2,
+        "score": 0.8692081738526855,
+        "cosine_numpy": 0.8692080974578857,
+        "cosine_error": 7.639479970844576e-08,
+        "text": "CAPÍTULO CINCO\n\nACOMPAÑAMIENTO ACADÉMICO\n\n¿QUÉ ES EL ACOMPAÑAMIENTO ACADÉMICO PARA LOS PROGRAMAS CURRICULARES DE POSGRADO? (ACUERDO 028 DE 2010 DEL CONSEJO ACADÉMICO, ARTÍCULOS 2, 4 Y 6)\n\nEl Sistema de Acompañamiento Estudiantil de la Universidad Nacional de Colombia es “un conjunto articulado de políticas, lineamientos, actores, ac­ tividades, medios académicos y de bienestar que, partiendo del reconoci­ miento de las libertades, oportunidades y diferencias individuales, apoya y asesora a los estudiantes de pregrado y posgrado de la Universidad Nacional de Colombia con el fin de facilitar la adaptación, la permanencia y la culmi­ nación exitosa de su formación profesional”.\n\nEn su componente académico para estudiantes de posgrado, este sistema busca que los estudiantes cuenten con el apoyo de un profesor quien será su tutor académico y los guiará en aspectos relacionados con el programa curricular. La presente Guía deberá ayudar a los tutores en dicha tarea.",
+        "doc_id": "unal_acompanamiento_2022",
+        "page": 28,
+        "title": "Guía de acompañamiento para estudiantes y tutores de Posgrado de la Universidad Nacional de Colombia",
+        "url": "https://posgrados.unal.edu.co/wp-content/uploads/2024/01/GuiaAcompanamientoEstudiantesTutores_Agosto2022.pdf",
+        "thematic": "academic",
+        "profile_ids": [
+          "approval_0",
+          "approval_1_5",
+          "approval_6_plus"
+        ]
+      },
+      {
+        "rank": 3,
+        "score": 0.8688558825268355,
+        "cosine_numpy": 0.8688558340072632,
+        "cosine_error": 4.8519572359850827e-08,
+        "text": "CAPÍTULO SEIS\n\nBECAS, ESTÍMULOS Y DISTINCIONES\n\n¿QUÉ BECAS SE OTORGAN DESDE LAS SEDES DE LA UNIVERSIDAD PARA CURSAR PROGRAMAS DE POSGRADO?\n\nEl Consejo de Sede o el Comité Académico Administrativo de Sede de Pre­ sencia Nacional tienen la potestad de definir los criterios de asignación y designar semestralmente los cupos para que los estudiantes de posgrado accedan a la Beca Asistente Docente. Las Facultades también podrán vin­ cular, con cargo a sus propios recursos esta beca (Acuerdo 28 de 2010 del CSU; Capítulo III).\n\nLa Beca Asistente Docente promueve la formación de nuevos docentes y, a su vez, permite a los estudiantes la oportunidad de adquirir o mejorar sus des­ trezas en áreas del conocimiento afines con su formación profesional.Esta dirigida a estudiantes de nivel de doctorado, maestría o especialidad del área de la salud de la Universidad Nacional de Colombia, que cumplan con los requisitos estipulados en el Acuerdo 28 de 2010 del CSU, artículo 18.\n\n¿QUÉ BECAS SE OTORGAN DESDE LAS FACULTADES DE LA UNIVERSIDAD PARA CURSAR PROGRAMAS DE POSGRADO?",
+        "doc_id": "unal_acompanamiento_2022",
+        "page": 32,
+        "title": "Guía de acompañamiento para estudiantes y tutores de Posgrado de la Universidad Nacional de Colombia",
+        "url": "https://posgrados.unal.edu.co/wp-content/uploads/2024/01/GuiaAcompanamientoEstudiantesTutores_Agosto2022.pdf",
+        "thematic": "financial",
+        "profile_ids": [
+          "scholarship_0",
+          "debtor_0",
+          "scholarship_1",
+          "debtor_1"
+        ]
+      }
+    ],
+    "cohorts": [
+      {
+        "profile_id": "approval_0",
+        "thematic": "academic",
+        "grouping": "aprobadas_sem1",
+        "group_value": "0",
+        "n": 718,
+        "dropout_count": 570,
+        "graduate_count": 77,
+        "enrolled_count": 71,
+        "dropout_rate": 0.7938718662952646
+      },
+      {
+        "profile_id": "approval_1_5",
+        "thematic": "academic",
+        "grouping": "aprobadas_sem1",
+        "group_value": "1-5",
+        "n": 1712,
+        "dropout_count": 647,
+        "graduate_count": 559,
+        "enrolled_count": 506,
+        "dropout_rate": 0.37792056074766356
+      },
+      {
+        "profile_id": "approval_6_plus",
+        "thematic": "academic",
+        "grouping": "aprobadas_sem1",
+        "group_value": "6+",
+        "n": 1994,
+        "dropout_count": 204,
+        "graduate_count": 1573,
+        "enrolled_count": 217,
+        "dropout_rate": 0.10230692076228685
+      }
+    ],
+    "cohort_theme": "academic",
+    "cohort_join": "payload.profile_ids -> SQLite.cohort_profiles.profile_id",
+    "interpretation": "Los perfiles describen cohortes portuguesas; la asociación con documentos colombianos es temática, sin enlace de personas ni inferencia causal."
+  }
+]

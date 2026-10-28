@@ -1,0 +1,192 @@
+{
+  "benchmark_id": "trayectoria_uci_passage_v1",
+  "version": 1,
+  "frozen_at": "2026-10-28T01:07:03.447286+00:00",
+  "page_numbering": "Páginas físicas del PDF, base 1",
+  "gold_unit": "document_page_and_passage_evidence",
+  "construction": "Preguntas y localizaciones anotadas a partir de lectura directa de fuentes antes de ejecutar la búsqueda semántica. No se ajustaron etiquetas a resultados de recuperación.",
+  "relevance_rule": "Coincidencia simultánea de document_id, página física dentro de gold.pages y evidence_regex en el texto del fragmento. Aplicar re.IGNORECASE y re.DOTALL después de unir palabras cortadas al fin de línea, normalizar espacios y retirar caracteres de control. Las alternativas de gold son disyuntivas.",
+  "evaluation_scope": "Banco de comprobación elaborado para el corpus; no es una validación externa ni una evaluación de decisiones individuales.",
+  "questions": [
+    {
+      "id": "T01",
+      "query": "Según los lineamientos del MEN, ¿qué apoyos contempla la promoción socioeconómica para personas con dificultades económicas?",
+      "gold": [
+        {
+          "document_id": "men_bienestar_2016",
+          "pages": [
+            28
+          ],
+          "evidence_regex": "otorgamiento\\s+de\\s+becas.{0,80}subsidios",
+          "evidence_text": "otorgamiento de becas, subsidios"
+        }
+      ],
+      "expected_aspect": "Becas, apoyos de sostenimiento para alimentación o transporte, educación financiera y emprendimiento."
+    },
+    {
+      "id": "T02",
+      "query": "¿Cómo debería actualizarse la caracterización de la comunidad educativa, según el MEN?",
+      "gold": [
+        {
+          "document_id": "men_bienestar_2016",
+          "pages": [
+            32
+          ],
+          "evidence_regex": "ejercicio\\s+din[aá]mico.{0,35}sistem[aá]tico",
+          "evidence_text": "ejercicio dinámico, sistemático"
+        }
+      ],
+      "expected_aspect": "Aplicación periódica, con responsable y periodicidad definidos, considerando cambios en cohortes y necesidades."
+    },
+    {
+      "id": "T03",
+      "query": "¿Qué características propone el MEN para un sistema institucional de bienestar?",
+      "gold": [
+        {
+          "document_id": "men_bienestar_2016",
+          "pages": [
+            28
+          ],
+          "evidence_regex": "Coherente.{0,550}Flexible.{0,400}Sostenible",
+          "evidence_text": "Coherente. Flexible. Sostenible."
+        }
+      ],
+      "expected_aspect": "Coherencia con contexto y misión, flexibilidad ante cambios y capacidad de sostenerse en el tiempo."
+    },
+    {
+      "id": "T04",
+      "query": "¿Para qué deben funcionar en doble vía los canales de comunicación de bienestar, de acuerdo con el MEN?",
+      "gold": [
+        {
+          "document_id": "men_bienestar_2016",
+          "pages": [
+            31
+          ],
+          "evidence_regex": "recoger\\s+iniciativas.{0,30}propuestas\\s+y\\s+opiniones",
+          "evidence_text": "recoger iniciativas, propuestas y opiniones"
+        }
+      ],
+      "expected_aspect": "Comunicar las estrategias y recibir aportes de los distintos estamentos de la comunidad."
+    },
+    {
+      "id": "T05",
+      "query": "En la Universidad El Bosque, ¿para qué sirven las tutorías disciplinares y quiénes las orientan?",
+      "gold": [
+        {
+          "document_id": "ueb_exito_2024",
+          "pages": [
+            19
+          ],
+          "evidence_regex": "fuera\\s+del\\s+horario\\s+de\\s+clases",
+          "evidence_text": "fuera del horario de clases"
+        }
+      ],
+      "expected_aspect": "Espacios extracurriculares con docentes y tutores pares para afianzar conceptos, despejar dudas y consolidar aprendizajes."
+    },
+    {
+      "id": "T06",
+      "query": "¿Qué estrategias prevé El Bosque para asignaturas que concentran pérdidas académicas?",
+      "gold": [
+        {
+          "document_id": "ueb_exito_2024",
+          "pages": [
+            26
+          ],
+          "evidence_regex": "tutores\\s+pares.{0,25}tutor[ií]as\\s+disciplinares",
+          "evidence_text": "tutores pares, tutorías disciplinares"
+        }
+      ],
+      "expected_aspect": "Identificar las asignaturas y aplicar tutoría entre pares o tutorías disciplinares según las necesidades."
+    },
+    {
+      "id": "T07",
+      "query": "¿Con qué frecuencia mínima deben analizar las áreas de El Bosque la información del Observatorio para el Éxito Estudiantil?",
+      "gold": [
+        {
+          "document_id": "ueb_exito_2024",
+          "pages": [
+            31
+          ],
+          "evidence_regex": "2\\s+ejercicios\\s+anuales",
+          "evidence_text": "2 ejercicios anuales"
+        }
+      ],
+      "expected_aspect": "Al menos dos análisis y evaluaciones al año para orientar ajustes y acciones de mejora."
+    },
+    {
+      "id": "T08",
+      "query": "¿Qué dimensiones del compromiso estudiantil identifica la política de El Bosque?",
+      "gold": [
+        {
+          "document_id": "ueb_exito_2024",
+          "pages": [
+            30
+          ],
+          "evidence_regex": "motivaci[oó]n.{0,180}sentido\\s+de\\s+pertenencia.{0,110}persistencia",
+          "evidence_text": "motivación; sentido de pertenencia; persistencia"
+        }
+      ],
+      "expected_aspect": "Motivación hacia la formación, pertenencia institucional y persistencia en las actividades universitarias."
+    },
+    {
+      "id": "T09",
+      "query": "Según la guía de posgrado de la UNAL, ¿hacia qué servicios puede orientar el tutor cuando identifica dificultades personales, familiares o económicas?",
+      "gold": [
+        {
+          "document_id": "unal_acompanamiento_2022",
+          "pages": [
+            28
+          ],
+          "evidence_text": "instancias de bienestar universitario",
+          "evidence_regex": "instancias\\s+de\\s+bienestar\\s+universitario"
+        }
+      ],
+      "expected_aspect": "Orientación hacia las instancias de bienestar de Facultad o Sede para recibir asesoría."
+    },
+    {
+      "id": "T10",
+      "query": "¿En qué decisiones del programa de posgrado deben asistir el tutor o el comité de tutores a los estudiantes de la UNAL?",
+      "gold": [
+        {
+          "document_id": "unal_acompanamiento_2022",
+          "pages": [
+            29
+          ],
+          "evidence_text": "selección de asignaturas",
+          "evidence_regex": "selecci[oó]n\\s+de\\s+asignaturas"
+        }
+      ],
+      "expected_aspect": "Elección de asignaturas, definición del tema del trabajo final o tesis y formulación del proyecto de tesis."
+    },
+    {
+      "id": "T11",
+      "query": "¿Cuál es el objetivo formativo de la Beca Auxiliar Docente descrita en la guía de la UNAL?",
+      "gold": [
+        {
+          "document_id": "unal_acompanamiento_2022",
+          "pages": [
+            32
+          ],
+          "evidence_text": "entrenamiento básico en actividades de apoyo a la docencia",
+          "evidence_regex": "entrenamiento\\s+b[aá]sico\\s+en\\s+actividades\\s+de\\s+apoyo\\s+a\\s+la\\s+docencia"
+        }
+      ],
+      "expected_aspect": "Preparación inicial para apoyar labores de docencia, de acuerdo con la descripción de la modalidad en la edición de 2022."
+    },
+    {
+      "id": "T12",
+      "query": "¿Qué propósito académico tiene la Beca Asistente Docente en la guía de acompañamiento de posgrado de la UNAL?",
+      "gold": [
+        {
+          "document_id": "unal_acompanamiento_2022",
+          "pages": [
+            32
+          ],
+          "evidence_text": "formación de nuevos docentes",
+          "evidence_regex": "formaci[oó]n\\s+de\\s+nuevos\\s+docentes"
+        }
+      ],
+      "expected_aspect": "Formar docentes y desarrollar destrezas afines a la formación profesional del estudiante."
+    }
+  ]
+}

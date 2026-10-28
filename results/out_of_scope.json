@@ -1,0 +1,353 @@
+{
+  "query": "¿Cuál es la política de devolución de un teléfono comprado por Internet?",
+  "backend": "local",
+  "hits": [
+    {
+      "rank": 1,
+      "dense_rank": 6,
+      "score": 0.7905829636022224,
+      "cosine_numpy": 0.7905830144882202,
+      "cosine_error": 5.088599785985082e-08,
+      "chunk_id": "146975f0-fba3-563a-b120-cf8ceca6dc6a",
+      "text": "Adicionalmente, la presente Política se enlaza con los retos y objetivos del PDI 2022-2027, el cual está centrado en la salud y calidad de vida, entendido como el equilibrio entre las capacidades individuales y los diferentes factores externos. Como acciones se plantean, entre otras, implementar una oferta educativa flexible centrada en el estudiante con trayectorias de aprendizaje y rutas de formación que brinden a los estudiantes mejores opciones de formación mediante la adopción de nuevas tecnologías, y fomentar el desarrollo de competencias globales y digitales con las que no solo se fortalezcan los procesos de aprendizaje, sino que aseguren el éxito profesional y el desempeño laboral.\n\nConceptos y definiciones orientadoras\n\nPara el entendimiento e implementación de la presente Política es necesario tener en cuenta las siguientes definiciones orientadoras:\n\nAlerta temprana. Se define como la identificación a tiempo de los diferentes tipos de fenómenos (académicos, psicopedagógicos y socioeconómicos, entre otros), por los cuales los estudiantes son vulnerables y están en riesgo de desertar del sistema educativo7.",
+      "doc_id": "ueb_exito_2024",
+      "page": 14,
+      "title": "Política para el éxito estudiantil y lineamientos",
+      "url": "https://www.unbosque.edu.co/sites/default/files/2024-10/PoliticadeExitoEstudiantil.pdf",
+      "thematic": "academic",
+      "profile_ids": [
+        "approval_0",
+        "approval_1_5",
+        "approval_6_plus"
+      ],
+      "rerank_score": -7.648222923278809
+    },
+    {
+      "rank": 2,
+      "dense_rank": 16,
+      "score": 0.7864745646138889,
+      "cosine_numpy": 0.7864745855331421,
+      "cosine_error": 2.091925321856536e-08,
+      "chunk_id": "38b1af99-01a8-54bb-9ffc-d40b6a0e4249",
+      "text": "El proceso de construcción participativa de la política consistió en la elaboración de un documento base que fue presentado en cinco mesas regionales de trabajo para su revisión y validación. Los participantes, representantes de las áreas de bienestar y planeación de las instituciones de educación superior. Adicionalmente, se estableció un canal de comu­ nicación digital por medio del cual las instituciones enviaron sus comentarios de agosto a octubre de 2016.\n\nLas mesas se llevaron a cabo en Barranquilla, Bucaramanga, Cali, Medellín y Bogotá du­ rante los meses de agosto y septiembre de 2016. En total asistieron 179 instituciones de educación superior.\n\nPolítica de Bienestar Para Las Instituciones de Educación Superior\n\nCon el apoyo de la Asociación Colombiana de Universidades (Ascun), la Asociación Co­ lombiana de Instituciones de Educación Superior con Educación Tecnológica (Aciet) y el Fondo de Desarrollo de la Educación Superior (Fodesep) se realizó una convocatoria de ex­ periencias y se seleccionaron algunas para ser compartidas en cada mesa de trabajo en un conversatorio. En las mesas se conformaron equipos de trabajo para la revisión detallada de la propuesta. Sus objetivos fueron los siguientes:\n\n1. Identificar elementos de experiencias regionales en torno al bienestar en las",
+      "doc_id": "men_bienestar_2016",
+      "page": 9,
+      "title": "Lineamientos de política de bienestar para instituciones de educación superior",
+      "url": "https://usbcali.edu.co/wp-content/uploads/2023/10/lineamientos_de_politica_de_bienestar_para_ies.pdf",
+      "thematic": "management",
+      "profile_ids": [
+        "approval_0",
+        "approval_1_5",
+        "approval_6_plus",
+        "scholarship_0",
+        "debtor_0",
+        "scholarship_1",
+        "debtor_1"
+      ],
+      "rerank_score": -7.919521808624268
+    },
+    {
+      "rank": 3,
+      "dense_rank": 5,
+      "score": 0.7910019665888375,
+      "cosine_numpy": 0.7910020351409912,
+      "cosine_error": 6.855215373136048e-08,
+      "chunk_id": "9d22dd78-9264-5cd8-aad9-b0d2d5ffe95c",
+      "text": "2. \u0007https://cdn.eventscase.com/www.whec2022.org/uploads/users/699058/uploads/6be1788a20aecc20c5468118ef386ed5f0271e46d0298d778d4c1ca2b235400e7d52e159117000427c73517b38607ed00208.62833bc1b5d6a.pdf\n\n3. \u0007Tomado de: https://www.mineducacion.gov.co/1780/articles-363488_recurso_17.pdf",
+      "doc_id": "ueb_exito_2024",
+      "page": 11,
+      "title": "Política para el éxito estudiantil y lineamientos",
+      "url": "https://www.unbosque.edu.co/sites/default/files/2024-10/PoliticadeExitoEstudiantil.pdf",
+      "thematic": "management",
+      "profile_ids": [
+        "approval_0",
+        "approval_1_5",
+        "approval_6_plus",
+        "scholarship_0",
+        "debtor_0",
+        "scholarship_1",
+        "debtor_1"
+      ],
+      "rerank_score": -7.975734233856201
+    }
+  ],
+  "cohorts": [
+    {
+      "profile_id": "approval_0",
+      "thematic": "academic",
+      "grouping": "aprobadas_sem1",
+      "group_value": "0",
+      "n": 718,
+      "dropout_count": 570,
+      "graduate_count": 77,
+      "enrolled_count": 71,
+      "dropout_rate": 0.7938718662952646
+    },
+    {
+      "profile_id": "approval_1_5",
+      "thematic": "academic",
+      "grouping": "aprobadas_sem1",
+      "group_value": "1-5",
+      "n": 1712,
+      "dropout_count": 647,
+      "graduate_count": 559,
+      "enrolled_count": 506,
+      "dropout_rate": 0.37792056074766356
+    },
+    {
+      "profile_id": "approval_6_plus",
+      "thematic": "academic",
+      "grouping": "aprobadas_sem1",
+      "group_value": "6+",
+      "n": 1994,
+      "dropout_count": 204,
+      "graduate_count": 1573,
+      "enrolled_count": 217,
+      "dropout_rate": 0.10230692076228685
+    },
+    {
+      "profile_id": "debtor_0",
+      "thematic": "financial",
+      "grouping": "deudor",
+      "group_value": "0",
+      "n": 3921,
+      "dropout_count": 1109,
+      "graduate_count": 2108,
+      "enrolled_count": 704,
+      "dropout_rate": 0.28283601122162716
+    },
+    {
+      "profile_id": "debtor_1",
+      "thematic": "financial",
+      "grouping": "deudor",
+      "group_value": "1",
+      "n": 503,
+      "dropout_count": 312,
+      "graduate_count": 101,
+      "enrolled_count": 90,
+      "dropout_rate": 0.6202783300198808
+    },
+    {
+      "profile_id": "scholarship_0",
+      "thematic": "financial",
+      "grouping": "beca",
+      "group_value": "0",
+      "n": 3325,
+      "dropout_count": 1287,
+      "graduate_count": 1374,
+      "enrolled_count": 664,
+      "dropout_rate": 0.38706766917293234
+    },
+    {
+      "profile_id": "scholarship_1",
+      "thematic": "financial",
+      "grouping": "beca",
+      "group_value": "1",
+      "n": 1099,
+      "dropout_count": 134,
+      "graduate_count": 835,
+      "enrolled_count": 130,
+      "dropout_rate": 0.12192902638762511
+    }
+  ],
+  "cohort_theme": "management",
+  "ranking_method": "rerank",
+  "candidate_count": 20,
+  "source_scope": {
+    "mode": "all_sources",
+    "document_id": null,
+    "matched_source_ids": [],
+    "matched_aliases": {},
+    "policy": "solo_una_fuente_explicita_activa_filtro; cero_o_varias_consultan_todo_el_corpus"
+  },
+  "reranker_pair_format": "query | Titulo: title + Pasaje: text",
+  "candidate_trace": [
+    {
+      "chunk_id": "5b571fe6-f665-5de6-84ae-9061fc73366d",
+      "doc_id": "ueb_exito_2024",
+      "page": 21,
+      "dense_rank": 1,
+      "score": 0.7987814910415854,
+      "cosine_error": 2.312620028810386e-08,
+      "rerank_score": -8.760773658752441
+    },
+    {
+      "chunk_id": "d805103b-5d10-5d60-94d8-821c9cfc07b7",
+      "doc_id": "ueb_exito_2024",
+      "page": 29,
+      "dense_rank": 2,
+      "score": 0.7942185037949105,
+      "cosine_error": 3.6396739844235526e-08,
+      "rerank_score": -8.106257438659668
+    },
+    {
+      "chunk_id": "251b8795-46c6-50f5-bd32-54772e134245",
+      "doc_id": "ueb_exito_2024",
+      "page": 45,
+      "dense_rank": 3,
+      "score": 0.7933964346004815,
+      "cosine_error": 3.8330426721522315e-08,
+      "rerank_score": -10.300682067871094
+    },
+    {
+      "chunk_id": "6433e903-3af5-54f6-8cb6-4401f23acba4",
+      "doc_id": "ueb_exito_2024",
+      "page": 8,
+      "dense_rank": 4,
+      "score": 0.7916263884195855,
+      "cosine_error": 5.375427880593975e-09,
+      "rerank_score": -8.198513984680176
+    },
+    {
+      "chunk_id": "9d22dd78-9264-5cd8-aad9-b0d2d5ffe95c",
+      "doc_id": "ueb_exito_2024",
+      "page": 11,
+      "dense_rank": 5,
+      "score": 0.7910019665888375,
+      "cosine_error": 6.855215373136048e-08,
+      "rerank_score": -7.975734233856201
+    },
+    {
+      "chunk_id": "146975f0-fba3-563a-b120-cf8ceca6dc6a",
+      "doc_id": "ueb_exito_2024",
+      "page": 14,
+      "dense_rank": 6,
+      "score": 0.7905829636022224,
+      "cosine_error": 5.088599785985082e-08,
+      "rerank_score": -7.648222923278809
+    },
+    {
+      "chunk_id": "bd0e2ac6-22ef-5ca2-86d6-bb8cbe1e9f48",
+      "doc_id": "men_bienestar_2016",
+      "page": 35,
+      "dense_rank": 7,
+      "score": 0.7902535712819319,
+      "cosine_error": 6.793925955150826e-08,
+      "rerank_score": -8.29200267791748
+    },
+    {
+      "chunk_id": "6b19c180-09e6-591a-a5f0-eea1cf3b4efa",
+      "doc_id": "ueb_exito_2024",
+      "page": 26,
+      "dense_rank": 8,
+      "score": 0.7892398431783727,
+      "cosine_error": 4.02444788605294e-08,
+      "rerank_score": -8.57178783416748
+    },
+    {
+      "chunk_id": "3f00a808-d5de-5516-8c66-67b752ac2faa",
+      "doc_id": "ueb_exito_2024",
+      "page": 20,
+      "dense_rank": 9,
+      "score": 0.7885330650633801,
+      "cosine_error": 2.6481724924032335e-08,
+      "rerank_score": -8.55212116241455
+    },
+    {
+      "chunk_id": "383ca4a7-4bfc-5577-b255-95f0ffd181f7",
+      "doc_id": "unal_acompanamiento_2022",
+      "page": 39,
+      "dense_rank": 10,
+      "score": 0.7885328392591155,
+      "cosine_error": 7.34720551065493e-08,
+      "rerank_score": -9.247185707092285
+    },
+    {
+      "chunk_id": "93c127d3-55fd-57c2-9140-5262c71926b7",
+      "doc_id": "ueb_exito_2024",
+      "page": 39,
+      "dense_rank": 11,
+      "score": 0.788165999805083,
+      "cosine_error": 4.633749517424235e-08,
+      "rerank_score": -9.690238952636719
+    },
+    {
+      "chunk_id": "a672baab-d756-53e8-941c-a70eed44dbf0",
+      "doc_id": "men_bienestar_2016",
+      "page": 3,
+      "dense_rank": 12,
+      "score": 0.7880939372328405,
+      "cosine_error": 1.2710440588925564e-08,
+      "rerank_score": -9.16981029510498
+    },
+    {
+      "chunk_id": "d131f0d6-9758-548d-b5b5-9ad56c329b6a",
+      "doc_id": "men_bienestar_2016",
+      "page": 51,
+      "dense_rank": 13,
+      "score": 0.7880623994712711,
+      "cosine_error": 5.379868739385785e-08,
+      "rerank_score": -8.512917518615723
+    },
+    {
+      "chunk_id": "ea34958a-e6d4-524c-a3f8-90583e30db84",
+      "doc_id": "men_bienestar_2016",
+      "page": 35,
+      "dense_rank": 14,
+      "score": 0.7873627392182572,
+      "cosine_error": 7.473132779267644e-08,
+      "rerank_score": -8.850151062011719
+    },
+    {
+      "chunk_id": "3e9564ab-96b7-512b-a432-0a4a63915414",
+      "doc_id": "ueb_exito_2024",
+      "page": 13,
+      "dense_rank": 15,
+      "score": 0.7868895055611779,
+      "cosine_error": 4.750889048832363e-08,
+      "rerank_score": -9.457098007202148
+    },
+    {
+      "chunk_id": "38b1af99-01a8-54bb-9ffc-d40b6a0e4249",
+      "doc_id": "men_bienestar_2016",
+      "page": 9,
+      "dense_rank": 16,
+      "score": 0.7864745646138889,
+      "cosine_error": 2.091925321856536e-08,
+      "rerank_score": -7.919521808624268
+    },
+    {
+      "chunk_id": "fbe8d591-ff38-54c1-9707-4f137ea0fd7f",
+      "doc_id": "men_bienestar_2016",
+      "page": 52,
+      "dense_rank": 17,
+      "score": 0.7857673582120376,
+      "cosine_error": 1.8210844499044754e-08,
+      "rerank_score": -9.52944278717041
+    },
+    {
+      "chunk_id": "d02d33fd-7e0e-5d7d-b381-c748e0b5a149",
+      "doc_id": "ueb_exito_2024",
+      "page": 47,
+      "dense_rank": 18,
+      "score": 0.7852157182367694,
+      "cosine_error": 7.68033612263963e-08,
+      "rerank_score": -8.970515251159668
+    },
+    {
+      "chunk_id": "41894f20-ab41-5282-84a7-6916e306e1d9",
+      "doc_id": "ueb_exito_2024",
+      "page": 1,
+      "dense_rank": 19,
+      "score": 0.7835756152563116,
+      "cosine_error": 3.877353460524091e-08,
+      "rerank_score": -9.732562065124512
+    },
+    {
+      "chunk_id": "8b9ecd9c-0486-5e93-a331-f21a79c89146",
+      "doc_id": "ueb_exito_2024",
+      "page": 2,
+      "dense_rank": 20,
+      "score": 0.7834300723107015,
+      "cosine_error": 2.717660319007109e-08,
+      "rerank_score": -9.559539794921875
+    }
+  ],
+  "candidate_max_cosine_error": 7.68033612263963e-08,
+  "reranker_model": "cross-encoder/mmarco-mMiniLMv2-L12-H384-v1",
+  "reranker_revision": "1427fd652930e4ba29e8149678df786c240d8825",
+  "pair_max_tokens": 316,
+  "cohort_join": "payload.profile_ids -> SQLite.cohort_profiles.profile_id",
+  "interpretation": "Los perfiles describen cohortes portuguesas; la asociación con documentos colombianos es temática, sin enlace de personas ni inferencia causal.",
+  "scope_decision": "fuera_del_dominio; no_se_genera_respuesta"
+}

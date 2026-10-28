@@ -1,0 +1,13 @@
+id,query,hit_at_3,mrr_at_3,ndcg_at_3,latency_p50_ms,latency_p95_ms,top1_score,stable_top3,relevant_ranks
+T01,"Según los lineamientos del MEN, ¿qué apoyos contempla la promoción socioeconómica para personas con dificultades económicas?",1,1.0,1.0,22.184822002600413,23.674376000417396,0.8498537234713215,True,1
+T02,"¿Cómo debería actualizarse la caracterización de la comunidad educativa, según el MEN?",0,0.0,0.0,21.204775002843235,21.441133900225395,0.8725032800842998,True,
+T03,¿Qué características propone el MEN para un sistema institucional de bienestar?,1,0.5,0.6309297535714575,19.829619996016845,21.92061249879771,0.8726172481602537,True,2
+T04,"¿Para qué deben funcionar en doble vía los canales de comunicación de bienestar, de acuerdo con el MEN?",1,1.0,1.0,22.313623994705267,22.665271995356306,0.8601859835243963,True,1
+T05,"En la Universidad El Bosque, ¿para qué sirven las tutorías disciplinares y quiénes las orientan?",0,0.0,0.0,27.006340002117213,28.31026449566707,0.8919414732594901,True,
+T06,¿Qué estrategias prevé El Bosque para asignaturas que concentran pérdidas académicas?,1,1.0,1.0,26.30262399907224,27.035341901500942,0.8675959298303326,True,1
+T07,¿Con qué frecuencia mínima deben analizar las áreas de El Bosque la información del Observatorio para el Éxito Estudiantil?,0,0.0,0.0,34.714430999883916,35.05263119950541,0.9017811773030617,True,
+T08,¿Qué dimensiones del compromiso estudiantil identifica la política de El Bosque?,0,0.0,0.0,19.7874680015957,22.694172796764178,0.8889558844826411,True,
+T09,"Según la guía de posgrado de la UNAL, ¿hacia qué servicios puede orientar el tutor cuando identifica dificultades personales, familiares o económicas?",1,1.0,1.0,23.24133300135145,23.846880904602585,0.8731835874649185,True,1
+T10,¿En qué decisiones del programa de posgrado deben asistir el tutor o el comité de tutores a los estudiantes de la UNAL?,1,1.0,1.0,22.727057999873068,23.337409198575187,0.8904509710380559,True,1
+T11,¿Cuál es el objetivo formativo de la Beca Auxiliar Docente descrita en la guía de la UNAL?,0,0.0,0.0,22.134368002298288,22.802052800398087,0.8683796144267232,True,
+T12,¿Qué propósito académico tiene la Beca Asistente Docente en la guía de acompañamiento de posgrado de la UNAL?,1,0.3333333333333333,0.5,30.460512003628537,34.35490919655422,0.8763382331137481,True,3

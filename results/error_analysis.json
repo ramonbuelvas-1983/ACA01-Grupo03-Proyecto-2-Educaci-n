@@ -1,0 +1,1494 @@
+{
+  "schema_version": 1,
+  "created_at_utc": "2026-10-28T01:26:23.644725+00:00",
+  "purpose": "Diagnóstico descriptivo posterior de fallos, sin modificar algoritmo, configuración, corpus, preguntas o etiquetas.",
+  "input_sha256": {
+    "src/pipeline.py": "10abd0b92e5c462819cdb07eb027dd8d7d86fbd05e3d3f0e165c126d9feec3aa",
+    "data/evaluation.json": "92cc358cabdd5140985407948a4e2d81c84f03018e81a9c366623f578b8c6bca",
+    "data/holdout.json": "cd91a15d0e098636b8294f1b6c8d39bfece37186f80baa70fd395daf65c54639",
+    "results/summary.json": "719845207be8b54191d7510984ab0027c573151b7a6b1fde45fd654111e2c5d6",
+    "results/search_results.json": "c91c5cfd63c86bd708636d2309f48d1dc39f191c7061b465c9cf2724de7c0cd2",
+    "results/holdout_summary.json": "96c36dce42ff0816c0d11c2c2c6d4eabd07cc2b1cdef9049344ad20590bdaf61",
+    "results/holdout_search_results.json": "bfbec9f7ac01d9ea5b42f493086892363b7a222b44ac75d0d473c388f690d405",
+    "results/dense_comparison_summary.json": "d11badfee769adde2ed6e8029b75260dcd8985c51f04faea5de846bb89563fa0"
+  },
+  "backend": "local",
+  "candidate_pool": 20,
+  "definitions": {
+    "hit": "Existe al menos un pasaje que satisface fuente, página y ancla textual entre los tres resultados finales.",
+    "candidate-miss": "Ninguno de los veinte candidatos densos cumple el criterio de relevancia, aunque la evidencia existe en el corpus fragmentado.",
+    "rerank-miss": "La evidencia pertinente está entre los veinte candidatos densos, pero queda fuera de los tres resultados finales.",
+    "candidate_coverage_at_20": "Proporción de preguntas cuyo conjunto de candidatos contiene al menos un pasaje pertinente. No es recall exhaustivo de documentos."
+  },
+  "method": "Se reconstruyeron únicamente la extracción y la fragmentación, sin recalcular embeddings ni ejecutar búsquedas. La regla de relevancia del pipeline se aplicó a los textos identificados por los UUID de candidate_trace y se contrastó con las recuperaciones guardadas.",
+  "test_summary": {
+    "command": "python -m unittest discover -s tests -v",
+    "tests_run": 9,
+    "failures": 0,
+    "errors": 0,
+    "exit_code": 0
+  },
+  "split_results": {
+    "development": {
+      "benchmark": "evaluation.json",
+      "benchmark_sha256": "92cc358cabdd5140985407948a4e2d81c84f03018e81a9c366623f578b8c6bca",
+      "n_queries": 12,
+      "counts": {
+        "hit": 9,
+        "candidate-miss": 2,
+        "rerank-miss": 1
+      },
+      "candidate_coverage_at_20": {
+        "count": 10,
+        "fraction": 0.8333333333333334
+      },
+      "hit_at_3": 0.75,
+      "metrics": {
+        "n_queries": 12,
+        "latency_measurements": 36,
+        "repeats_per_query": 3,
+        "hit_at_3": 0.75,
+        "mrr_at_3": 0.6527777777777778,
+        "ndcg_at_3": 0.6775774794642881,
+        "latency_p50_ms": 1519.110550500045,
+        "latency_p95_ms": 1804.999844500344,
+        "backend": "local",
+        "stable_queries": 12,
+        "benchmark_sha256": "92cc358cabdd5140985407948a4e2d81c84f03018e81a9c366623f578b8c6bca",
+        "gold_unit": "documento_pagina_y_evidencia_del_pasaje_cuando_definida",
+        "max_cosine_error": 1.3185222491607362e-07,
+        "ranking_method": "rerank",
+        "candidate_pool": 20,
+        "reranker_model": "cross-encoder/mmarco-mMiniLMv2-L12-H384-v1",
+        "reranker_revision": "1427fd652930e4ba29e8149678df786c240d8825",
+        "split": "development",
+        "benchmark_file": "evaluation.json",
+        "scope": "banco_disenado_de_consultas; sin_generalizacion_estadistica"
+      },
+      "questions": [
+        {
+          "id": "T01",
+          "query": "Según los lineamientos del MEN, ¿qué apoyos contempla la promoción socioeconómica para personas con dificultades económicas?",
+          "classification": "hit",
+          "source_scope": {
+            "mode": "explicit_single_source",
+            "document_id": "men_bienestar_2016",
+            "matched_source_ids": [
+              "men_bienestar_2016"
+            ],
+            "matched_aliases": {
+              "men_bienestar_2016": [
+                "MEN"
+              ]
+            },
+            "policy": "solo_una_fuente_explicita_activa_filtro; cero_o_varias_consultan_todo_el_corpus"
+          },
+          "gold": [
+            {
+              "document_id": "men_bienestar_2016",
+              "pages": [
+                28
+              ],
+              "evidence_regex": "otorgamiento\\s+de\\s+becas.{0,80}subsidios",
+              "evidence_text": "otorgamiento de becas, subsidios"
+            }
+          ],
+          "gold_available_in_corpus": true,
+          "gold_chunk_ids": [
+            "a4b5abf1-30a6-5de8-b5bb-fcbc4e8e85ed"
+          ],
+          "matching_candidates": [
+            {
+              "chunk_id": "a4b5abf1-30a6-5de8-b5bb-fcbc4e8e85ed",
+              "doc_id": "men_bienestar_2016",
+              "page": 28,
+              "dense_rank": 1,
+              "score": 0.8498537234713215,
+              "cosine_error": 3.057225761438076e-08,
+              "rerank_score": 1.5861581563949585,
+              "final_rerank_rank": 1
+            }
+          ],
+          "matching_top3_ranks": [
+            1
+          ],
+          "top3": [
+            {
+              "rank": 1,
+              "dense_rank": 1,
+              "doc_id": "men_bienestar_2016",
+              "page": 28,
+              "chunk_id": "a4b5abf1-30a6-5de8-b5bb-fcbc4e8e85ed",
+              "cosine": 0.8498537234713215,
+              "rerank_score": 1.5861581563949585,
+              "matches_gold": true
+            },
+            {
+              "rank": 2,
+              "dense_rank": 3,
+              "doc_id": "men_bienestar_2016",
+              "page": 34,
+              "chunk_id": "63c1f630-a7c8-5cfd-84d2-c3ff27d144f5",
+              "cosine": 0.8389355529469694,
+              "rerank_score": -3.1063501834869385,
+              "matches_gold": false
+            },
+            {
+              "rank": 3,
+              "dense_rank": 20,
+              "doc_id": "men_bienestar_2016",
+              "page": 14,
+              "chunk_id": "02713550-66da-577f-8c6a-9ad5b23cad58",
+              "cosine": 0.8245659742336775,
+              "rerank_score": -5.652655601501465,
+              "matches_gold": false
+            }
+          ]
+        },
+        {
+          "id": "T02",
+          "query": "¿Cómo debería actualizarse la caracterización de la comunidad educativa, según el MEN?",
+          "classification": "rerank-miss",
+          "source_scope": {
+            "mode": "explicit_single_source",
+            "document_id": "men_bienestar_2016",
+            "matched_source_ids": [
+              "men_bienestar_2016"
+            ],
+            "matched_aliases": {
+              "men_bienestar_2016": [
+                "MEN"
+              ]
+            },
+            "policy": "solo_una_fuente_explicita_activa_filtro; cero_o_varias_consultan_todo_el_corpus"
+          },
+          "gold": [
+            {
+              "document_id": "men_bienestar_2016",
+              "pages": [
+                32
+              ],
+              "evidence_regex": "ejercicio\\s+din[aá]mico.{0,35}sistem[aá]tico",
+              "evidence_text": "ejercicio dinámico, sistemático"
+            }
+          ],
+          "gold_available_in_corpus": true,
+          "gold_chunk_ids": [
+            "5ed93919-bca8-53ed-aa78-2c0813c9355c"
+          ],
+          "matching_candidates": [
+            {
+              "chunk_id": "5ed93919-bca8-53ed-aa78-2c0813c9355c",
+              "doc_id": "men_bienestar_2016",
+              "page": 32,
+              "dense_rank": 9,
+              "score": 0.8435662042943193,
+              "cosine_error": 2.5018806582011166e-08,
+              "rerank_score": -2.4341838359832764,
+              "final_rerank_rank": 5
+            }
+          ],
+          "matching_top3_ranks": [],
+          "top3": [
+            {
+              "rank": 1,
+              "dense_rank": 5,
+              "doc_id": "men_bienestar_2016",
+              "page": 44,
+              "chunk_id": "75fa2dfe-cc46-5f23-bed1-461e5b1f7bcb",
+              "cosine": 0.8488109976411912,
+              "rerank_score": 0.8556934595108032,
+              "matches_gold": false
+            },
+            {
+              "rank": 2,
+              "dense_rank": 10,
+              "doc_id": "men_bienestar_2016",
+              "page": 35,
+              "chunk_id": "ea34958a-e6d4-524c-a3f8-90583e30db84",
+              "cosine": 0.8419255778263685,
+              "rerank_score": -1.8030893802642822,
+              "matches_gold": false
+            },
+            {
+              "rank": 3,
+              "dense_rank": 18,
+              "doc_id": "men_bienestar_2016",
+              "page": 31,
+              "chunk_id": "5dbf2e66-243e-54d8-8233-a860d2dafb5a",
+              "cosine": 0.836123264466656,
+              "rerank_score": -2.2572896480560303,
+              "matches_gold": false
+            }
+          ]
+        },
+        {
+          "id": "T03",
+          "query": "¿Qué características propone el MEN para un sistema institucional de bienestar?",
+          "classification": "hit",
+          "source_scope": {
+            "mode": "explicit_single_source",
+            "document_id": "men_bienestar_2016",
+            "matched_source_ids": [
+              "men_bienestar_2016"
+            ],
+            "matched_aliases": {
+              "men_bienestar_2016": [
+                "MEN"
+              ]
+            },
+            "policy": "solo_una_fuente_explicita_activa_filtro; cero_o_varias_consultan_todo_el_corpus"
+          },
+          "gold": [
+            {
+              "document_id": "men_bienestar_2016",
+              "pages": [
+                28
+              ],
+              "evidence_regex": "Coherente.{0,550}Flexible.{0,400}Sostenible",
+              "evidence_text": "Coherente. Flexible. Sostenible."
+            }
+          ],
+          "gold_available_in_corpus": true,
+          "gold_chunk_ids": [
+            "8d02b0c8-b09d-5963-a8d9-ecec91b049b4"
+          ],
+          "matching_candidates": [
+            {
+              "chunk_id": "8d02b0c8-b09d-5963-a8d9-ecec91b049b4",
+              "doc_id": "men_bienestar_2016",
+              "page": 28,
+              "dense_rank": 2,
+              "score": 0.8686588677911065,
+              "cosine_error": 9.20744636090376e-08,
+              "rerank_score": 3.3771629333496094,
+              "final_rerank_rank": 2
+            }
+          ],
+          "matching_top3_ranks": [
+            2
+          ],
+          "top3": [
+            {
+              "rank": 1,
+              "dense_rank": 1,
+              "doc_id": "men_bienestar_2016",
+              "page": 18,
+              "chunk_id": "61e346d4-5605-513d-bc53-c7170f5fbf28",
+              "cosine": 0.8726172481602537,
+              "rerank_score": 4.118859767913818,
+              "matches_gold": false
+            },
+            {
+              "rank": 2,
+              "dense_rank": 2,
+              "doc_id": "men_bienestar_2016",
+              "page": 28,
+              "chunk_id": "8d02b0c8-b09d-5963-a8d9-ecec91b049b4",
+              "cosine": 0.8686588677911065,
+              "rerank_score": 3.3771629333496094,
+              "matches_gold": true
+            },
+            {
+              "rank": 3,
+              "dense_rank": 18,
+              "doc_id": "men_bienestar_2016",
+              "page": 27,
+              "chunk_id": "fc40f547-88d4-54d4-a399-1f1b4f77394a",
+              "cosine": 0.8489079321054298,
+              "rerank_score": 3.125014543533325,
+              "matches_gold": false
+            }
+          ]
+        },
+        {
+          "id": "T04",
+          "query": "¿Para qué deben funcionar en doble vía los canales de comunicación de bienestar, de acuerdo con el MEN?",
+          "classification": "hit",
+          "source_scope": {
+            "mode": "explicit_single_source",
+            "document_id": "men_bienestar_2016",
+            "matched_source_ids": [
+              "men_bienestar_2016"
+            ],
+            "matched_aliases": {
+              "men_bienestar_2016": [
+                "MEN"
+              ]
+            },
+            "policy": "solo_una_fuente_explicita_activa_filtro; cero_o_varias_consultan_todo_el_corpus"
+          },
+          "gold": [
+            {
+              "document_id": "men_bienestar_2016",
+              "pages": [
+                31
+              ],
+              "evidence_regex": "recoger\\s+iniciativas.{0,30}propuestas\\s+y\\s+opiniones",
+              "evidence_text": "recoger iniciativas, propuestas y opiniones"
+            }
+          ],
+          "gold_available_in_corpus": true,
+          "gold_chunk_ids": [
+            "5dbf2e66-243e-54d8-8233-a860d2dafb5a"
+          ],
+          "matching_candidates": [
+            {
+              "chunk_id": "5dbf2e66-243e-54d8-8233-a860d2dafb5a",
+              "doc_id": "men_bienestar_2016",
+              "page": 31,
+              "dense_rank": 1,
+              "score": 0.8601859835243963,
+              "cosine_error": 2.727582382178184e-09,
+              "rerank_score": 0.27985990047454834,
+              "final_rerank_rank": 1
+            }
+          ],
+          "matching_top3_ranks": [
+            1
+          ],
+          "top3": [
+            {
+              "rank": 1,
+              "dense_rank": 1,
+              "doc_id": "men_bienestar_2016",
+              "page": 31,
+              "chunk_id": "5dbf2e66-243e-54d8-8233-a860d2dafb5a",
+              "cosine": 0.8601859835243963,
+              "rerank_score": 0.27985990047454834,
+              "matches_gold": true
+            },
+            {
+              "rank": 2,
+              "dense_rank": 14,
+              "doc_id": "men_bienestar_2016",
+              "page": 14,
+              "chunk_id": "da404542-421f-5787-a1c0-053258740aa2",
+              "cosine": 0.8365852836645585,
+              "rerank_score": -5.088901519775391,
+              "matches_gold": false
+            },
+            {
+              "rank": 3,
+              "dense_rank": 2,
+              "doc_id": "men_bienestar_2016",
+              "page": 30,
+              "chunk_id": "1b6ebb6a-acfc-5c15-8d7a-53486ab88095",
+              "cosine": 0.8498778811723111,
+              "rerank_score": -5.219951152801514,
+              "matches_gold": false
+            }
+          ]
+        },
+        {
+          "id": "T05",
+          "query": "En la Universidad El Bosque, ¿para qué sirven las tutorías disciplinares y quiénes las orientan?",
+          "classification": "candidate-miss",
+          "source_scope": {
+            "mode": "explicit_single_source",
+            "document_id": "ueb_exito_2024",
+            "matched_source_ids": [
+              "ueb_exito_2024"
+            ],
+            "matched_aliases": {
+              "ueb_exito_2024": [
+                "Universidad El Bosque",
+                "El Bosque"
+              ]
+            },
+            "policy": "solo_una_fuente_explicita_activa_filtro; cero_o_varias_consultan_todo_el_corpus"
+          },
+          "gold": [
+            {
+              "document_id": "ueb_exito_2024",
+              "pages": [
+                19
+              ],
+              "evidence_regex": "fuera\\s+del\\s+horario\\s+de\\s+clases",
+              "evidence_text": "fuera del horario de clases"
+            }
+          ],
+          "gold_available_in_corpus": true,
+          "gold_chunk_ids": [
+            "1d3912f3-4c6a-50bb-b966-1dcd5ababae6"
+          ],
+          "matching_candidates": [],
+          "matching_top3_ranks": [],
+          "top3": [
+            {
+              "rank": 1,
+              "dense_rank": 4,
+              "doc_id": "ueb_exito_2024",
+              "page": 26,
+              "chunk_id": "6b19c180-09e6-591a-a5f0-eea1cf3b4efa",
+              "cosine": 0.8684578269898083,
+              "rerank_score": 2.058586359024048,
+              "matches_gold": false
+            },
+            {
+              "rank": 2,
+              "dense_rank": 1,
+              "doc_id": "ueb_exito_2024",
+              "page": 33,
+              "chunk_id": "729fee8b-c0d1-5b6f-b923-25ce4d10ee0c",
+              "cosine": 0.8919414732594901,
+              "rerank_score": 1.5579378604888916,
+              "matches_gold": false
+            },
+            {
+              "rank": 3,
+              "dense_rank": 2,
+              "doc_id": "ueb_exito_2024",
+              "page": 17,
+              "chunk_id": "fd2fc762-ae2d-5e91-bb5e-fc7dfb5768db",
+              "cosine": 0.8746401095034917,
+              "rerank_score": -0.5426185727119446,
+              "matches_gold": false
+            }
+          ]
+        },
+        {
+          "id": "T06",
+          "query": "¿Qué estrategias prevé El Bosque para asignaturas que concentran pérdidas académicas?",
+          "classification": "hit",
+          "source_scope": {
+            "mode": "explicit_single_source",
+            "document_id": "ueb_exito_2024",
+            "matched_source_ids": [
+              "ueb_exito_2024"
+            ],
+            "matched_aliases": {
+              "ueb_exito_2024": [
+                "El Bosque"
+              ]
+            },
+            "policy": "solo_una_fuente_explicita_activa_filtro; cero_o_varias_consultan_todo_el_corpus"
+          },
+          "gold": [
+            {
+              "document_id": "ueb_exito_2024",
+              "pages": [
+                26
+              ],
+              "evidence_regex": "tutores\\s+pares.{0,25}tutor[ií]as\\s+disciplinares",
+              "evidence_text": "tutores pares, tutorías disciplinares"
+            }
+          ],
+          "gold_available_in_corpus": true,
+          "gold_chunk_ids": [
+            "6b19c180-09e6-591a-a5f0-eea1cf3b4efa"
+          ],
+          "matching_candidates": [
+            {
+              "chunk_id": "6b19c180-09e6-591a-a5f0-eea1cf3b4efa",
+              "doc_id": "ueb_exito_2024",
+              "page": 26,
+              "dense_rank": 1,
+              "score": 0.8675959298303326,
+              "cosine_error": 1.0040495790342163e-07,
+              "rerank_score": 3.724505662918091,
+              "final_rerank_rank": 1
+            }
+          ],
+          "matching_top3_ranks": [
+            1
+          ],
+          "top3": [
+            {
+              "rank": 1,
+              "dense_rank": 1,
+              "doc_id": "ueb_exito_2024",
+              "page": 26,
+              "chunk_id": "6b19c180-09e6-591a-a5f0-eea1cf3b4efa",
+              "cosine": 0.8675959298303326,
+              "rerank_score": 3.724505662918091,
+              "matches_gold": true
+            },
+            {
+              "rank": 2,
+              "dense_rank": 3,
+              "doc_id": "ueb_exito_2024",
+              "page": 26,
+              "chunk_id": "7b353062-de87-5943-940e-e7f5576dfcb5",
+              "cosine": 0.8624329086057639,
+              "rerank_score": 0.16948246955871582,
+              "matches_gold": false
+            },
+            {
+              "rank": 3,
+              "dense_rank": 2,
+              "doc_id": "ueb_exito_2024",
+              "page": 31,
+              "chunk_id": "c0c8039b-922b-527b-82e7-260908321937",
+              "cosine": 0.8656250378037842,
+              "rerank_score": -0.028717607259750366,
+              "matches_gold": false
+            }
+          ]
+        },
+        {
+          "id": "T07",
+          "query": "¿Con qué frecuencia mínima deben analizar las áreas de El Bosque la información del Observatorio para el Éxito Estudiantil?",
+          "classification": "hit",
+          "source_scope": {
+            "mode": "explicit_single_source",
+            "document_id": "ueb_exito_2024",
+            "matched_source_ids": [
+              "ueb_exito_2024"
+            ],
+            "matched_aliases": {
+              "ueb_exito_2024": [
+                "El Bosque"
+              ]
+            },
+            "policy": "solo_una_fuente_explicita_activa_filtro; cero_o_varias_consultan_todo_el_corpus"
+          },
+          "gold": [
+            {
+              "document_id": "ueb_exito_2024",
+              "pages": [
+                31
+              ],
+              "evidence_regex": "2\\s+ejercicios\\s+anuales",
+              "evidence_text": "2 ejercicios anuales"
+            }
+          ],
+          "gold_available_in_corpus": true,
+          "gold_chunk_ids": [
+            "01713c11-dde4-52be-be00-60b341c72f8f"
+          ],
+          "matching_candidates": [
+            {
+              "chunk_id": "01713c11-dde4-52be-be00-60b341c72f8f",
+              "doc_id": "ueb_exito_2024",
+              "page": 31,
+              "dense_rank": 6,
+              "score": 0.8640946655511232,
+              "cosine_error": 9.036126513706222e-09,
+              "rerank_score": 1.9164040088653564,
+              "final_rerank_rank": 3
+            }
+          ],
+          "matching_top3_ranks": [
+            3
+          ],
+          "top3": [
+            {
+              "rank": 1,
+              "dense_rank": 2,
+              "doc_id": "ueb_exito_2024",
+              "page": 26,
+              "chunk_id": "7b353062-de87-5943-940e-e7f5576dfcb5",
+              "cosine": 0.8790125403627056,
+              "rerank_score": 3.4834394454956055,
+              "matches_gold": false
+            },
+            {
+              "rank": 2,
+              "dense_rank": 1,
+              "doc_id": "ueb_exito_2024",
+              "page": 31,
+              "chunk_id": "c0c8039b-922b-527b-82e7-260908321937",
+              "cosine": 0.9017811773030617,
+              "rerank_score": 2.5846188068389893,
+              "matches_gold": false
+            },
+            {
+              "rank": 3,
+              "dense_rank": 6,
+              "doc_id": "ueb_exito_2024",
+              "page": 31,
+              "chunk_id": "01713c11-dde4-52be-be00-60b341c72f8f",
+              "cosine": 0.8640946655511232,
+              "rerank_score": 1.9164040088653564,
+              "matches_gold": true
+            }
+          ]
+        },
+        {
+          "id": "T08",
+          "query": "¿Qué dimensiones del compromiso estudiantil identifica la política de El Bosque?",
+          "classification": "candidate-miss",
+          "source_scope": {
+            "mode": "explicit_single_source",
+            "document_id": "ueb_exito_2024",
+            "matched_source_ids": [
+              "ueb_exito_2024"
+            ],
+            "matched_aliases": {
+              "ueb_exito_2024": [
+                "El Bosque"
+              ]
+            },
+            "policy": "solo_una_fuente_explicita_activa_filtro; cero_o_varias_consultan_todo_el_corpus"
+          },
+          "gold": [
+            {
+              "document_id": "ueb_exito_2024",
+              "pages": [
+                30
+              ],
+              "evidence_regex": "motivaci[oó]n.{0,180}sentido\\s+de\\s+pertenencia.{0,110}persistencia",
+              "evidence_text": "motivación; sentido de pertenencia; persistencia"
+            }
+          ],
+          "gold_available_in_corpus": true,
+          "gold_chunk_ids": [
+            "3029533d-12af-59d8-80d0-2810e6a15ad2"
+          ],
+          "matching_candidates": [],
+          "matching_top3_ranks": [],
+          "top3": [
+            {
+              "rank": 1,
+              "dense_rank": 2,
+              "doc_id": "ueb_exito_2024",
+              "page": 15,
+              "chunk_id": "a1f26203-10e8-5b26-b6b7-07fe3b3a99f7",
+              "cosine": 0.8810243851216681,
+              "rerank_score": 10.561643600463867,
+              "matches_gold": false
+            },
+            {
+              "rank": 2,
+              "dense_rank": 1,
+              "doc_id": "ueb_exito_2024",
+              "page": 7,
+              "chunk_id": "314bab37-ccd8-5e02-ba50-80e647f5381d",
+              "cosine": 0.8889558844826411,
+              "rerank_score": 6.694579601287842,
+              "matches_gold": false
+            },
+            {
+              "rank": 3,
+              "dense_rank": 12,
+              "doc_id": "ueb_exito_2024",
+              "page": 17,
+              "chunk_id": "fd2fc762-ae2d-5e91-bb5e-fc7dfb5768db",
+              "cosine": 0.8551712091757453,
+              "rerank_score": 3.205118417739868,
+              "matches_gold": false
+            }
+          ]
+        },
+        {
+          "id": "T09",
+          "query": "Según la guía de posgrado de la UNAL, ¿hacia qué servicios puede orientar el tutor cuando identifica dificultades personales, familiares o económicas?",
+          "classification": "hit",
+          "source_scope": {
+            "mode": "explicit_single_source",
+            "document_id": "unal_acompanamiento_2022",
+            "matched_source_ids": [
+              "unal_acompanamiento_2022"
+            ],
+            "matched_aliases": {
+              "unal_acompanamiento_2022": [
+                "UNAL"
+              ]
+            },
+            "policy": "solo_una_fuente_explicita_activa_filtro; cero_o_varias_consultan_todo_el_corpus"
+          },
+          "gold": [
+            {
+              "document_id": "unal_acompanamiento_2022",
+              "pages": [
+                28
+              ],
+              "evidence_text": "instancias de bienestar universitario",
+              "evidence_regex": "instancias\\s+de\\s+bienestar\\s+universitario"
+            }
+          ],
+          "gold_available_in_corpus": true,
+          "gold_chunk_ids": [
+            "d0e87cd9-ac56-552e-83e7-14c098c9a32d"
+          ],
+          "matching_candidates": [
+            {
+              "chunk_id": "d0e87cd9-ac56-552e-83e7-14c098c9a32d",
+              "doc_id": "unal_acompanamiento_2022",
+              "page": 28,
+              "dense_rank": 1,
+              "score": 0.8731835874649185,
+              "cosine_error": 2.0590196214698153e-08,
+              "rerank_score": 4.415217399597168,
+              "final_rerank_rank": 1
+            }
+          ],
+          "matching_top3_ranks": [
+            1
+          ],
+          "top3": [
+            {
+              "rank": 1,
+              "dense_rank": 1,
+              "doc_id": "unal_acompanamiento_2022",
+              "page": 28,
+              "chunk_id": "d0e87cd9-ac56-552e-83e7-14c098c9a32d",
+              "cosine": 0.8731835874649185,
+              "rerank_score": 4.415217399597168,
+              "matches_gold": true
+            },
+            {
+              "rank": 2,
+              "dense_rank": 3,
+              "doc_id": "unal_acompanamiento_2022",
+              "page": 12,
+              "chunk_id": "24dfeef3-a12d-5ecd-8f9c-834f94500293",
+              "cosine": 0.8670827488362429,
+              "rerank_score": 2.170761823654175,
+              "matches_gold": false
+            },
+            {
+              "rank": 3,
+              "dense_rank": 5,
+              "doc_id": "unal_acompanamiento_2022",
+              "page": 13,
+              "chunk_id": "41fba333-cb43-5548-9c45-92e27d29f4d9",
+              "cosine": 0.8577542946394412,
+              "rerank_score": -0.38116148114204407,
+              "matches_gold": false
+            }
+          ]
+        },
+        {
+          "id": "T10",
+          "query": "¿En qué decisiones del programa de posgrado deben asistir el tutor o el comité de tutores a los estudiantes de la UNAL?",
+          "classification": "hit",
+          "source_scope": {
+            "mode": "explicit_single_source",
+            "document_id": "unal_acompanamiento_2022",
+            "matched_source_ids": [
+              "unal_acompanamiento_2022"
+            ],
+            "matched_aliases": {
+              "unal_acompanamiento_2022": [
+                "UNAL"
+              ]
+            },
+            "policy": "solo_una_fuente_explicita_activa_filtro; cero_o_varias_consultan_todo_el_corpus"
+          },
+          "gold": [
+            {
+              "document_id": "unal_acompanamiento_2022",
+              "pages": [
+                29
+              ],
+              "evidence_text": "selección de asignaturas",
+              "evidence_regex": "selecci[oó]n\\s+de\\s+asignaturas"
+            }
+          ],
+          "gold_available_in_corpus": true,
+          "gold_chunk_ids": [
+            "4ef704b9-8794-5fdd-ae8a-900fa6b136ab"
+          ],
+          "matching_candidates": [
+            {
+              "chunk_id": "4ef704b9-8794-5fdd-ae8a-900fa6b136ab",
+              "doc_id": "unal_acompanamiento_2022",
+              "page": 29,
+              "dense_rank": 1,
+              "score": 0.8904509710380559,
+              "cosine_error": 1.6600800067934074e-08,
+              "rerank_score": 6.742050647735596,
+              "final_rerank_rank": 1
+            }
+          ],
+          "matching_top3_ranks": [
+            1
+          ],
+          "top3": [
+            {
+              "rank": 1,
+              "dense_rank": 1,
+              "doc_id": "unal_acompanamiento_2022",
+              "page": 29,
+              "chunk_id": "4ef704b9-8794-5fdd-ae8a-900fa6b136ab",
+              "cosine": 0.8904509710380559,
+              "rerank_score": 6.742050647735596,
+              "matches_gold": true
+            },
+            {
+              "rank": 2,
+              "dense_rank": 2,
+              "doc_id": "unal_acompanamiento_2022",
+              "page": 12,
+              "chunk_id": "24dfeef3-a12d-5ecd-8f9c-834f94500293",
+              "cosine": 0.8864818439803225,
+              "rerank_score": 6.0383172035217285,
+              "matches_gold": false
+            },
+            {
+              "rank": 3,
+              "dense_rank": 9,
+              "doc_id": "unal_acompanamiento_2022",
+              "page": 19,
+              "chunk_id": "c7208cd4-fa88-53b2-bac1-0d621be94f45",
+              "cosine": 0.8597273751763428,
+              "rerank_score": 2.9263060092926025,
+              "matches_gold": false
+            }
+          ]
+        },
+        {
+          "id": "T11",
+          "query": "¿Cuál es el objetivo formativo de la Beca Auxiliar Docente descrita en la guía de la UNAL?",
+          "classification": "hit",
+          "source_scope": {
+            "mode": "explicit_single_source",
+            "document_id": "unal_acompanamiento_2022",
+            "matched_source_ids": [
+              "unal_acompanamiento_2022"
+            ],
+            "matched_aliases": {
+              "unal_acompanamiento_2022": [
+                "UNAL"
+              ]
+            },
+            "policy": "solo_una_fuente_explicita_activa_filtro; cero_o_varias_consultan_todo_el_corpus"
+          },
+          "gold": [
+            {
+              "document_id": "unal_acompanamiento_2022",
+              "pages": [
+                32
+              ],
+              "evidence_text": "entrenamiento básico en actividades de apoyo a la docencia",
+              "evidence_regex": "entrenamiento\\s+b[aá]sico\\s+en\\s+actividades\\s+de\\s+apoyo\\s+a\\s+la\\s+docencia"
+            }
+          ],
+          "gold_available_in_corpus": true,
+          "gold_chunk_ids": [
+            "fcbaedec-92ba-56a2-af04-c82b6c78c4e0"
+          ],
+          "matching_candidates": [
+            {
+              "chunk_id": "fcbaedec-92ba-56a2-af04-c82b6c78c4e0",
+              "doc_id": "unal_acompanamiento_2022",
+              "page": 32,
+              "dense_rank": 4,
+              "score": 0.8434098990825547,
+              "cosine_error": 5.6419001692731285e-08,
+              "rerank_score": 2.3349225521087646,
+              "final_rerank_rank": 1
+            }
+          ],
+          "matching_top3_ranks": [
+            1
+          ],
+          "top3": [
+            {
+              "rank": 1,
+              "dense_rank": 4,
+              "doc_id": "unal_acompanamiento_2022",
+              "page": 32,
+              "chunk_id": "fcbaedec-92ba-56a2-af04-c82b6c78c4e0",
+              "cosine": 0.8434098990825547,
+              "rerank_score": 2.3349225521087646,
+              "matches_gold": true
+            },
+            {
+              "rank": 2,
+              "dense_rank": 6,
+              "doc_id": "unal_acompanamiento_2022",
+              "page": 32,
+              "chunk_id": "92ecc4ae-4510-583c-ad87-4c70c9d5fe04",
+              "cosine": 0.8419428642349392,
+              "rerank_score": 2.262503147125244,
+              "matches_gold": false
+            },
+            {
+              "rank": 3,
+              "dense_rank": 5,
+              "doc_id": "unal_acompanamiento_2022",
+              "page": 7,
+              "chunk_id": "e51e6fbc-844b-54ef-84fc-13ff31814d2c",
+              "cosine": 0.8422627982731814,
+              "rerank_score": 1.4298045635223389,
+              "matches_gold": false
+            }
+          ]
+        },
+        {
+          "id": "T12",
+          "query": "¿Qué propósito académico tiene la Beca Asistente Docente en la guía de acompañamiento de posgrado de la UNAL?",
+          "classification": "hit",
+          "source_scope": {
+            "mode": "explicit_single_source",
+            "document_id": "unal_acompanamiento_2022",
+            "matched_source_ids": [
+              "unal_acompanamiento_2022"
+            ],
+            "matched_aliases": {
+              "unal_acompanamiento_2022": [
+                "UNAL"
+              ]
+            },
+            "policy": "solo_una_fuente_explicita_activa_filtro; cero_o_varias_consultan_todo_el_corpus"
+          },
+          "gold": [
+            {
+              "document_id": "unal_acompanamiento_2022",
+              "pages": [
+                32
+              ],
+              "evidence_text": "formación de nuevos docentes",
+              "evidence_regex": "formaci[oó]n\\s+de\\s+nuevos\\s+docentes"
+            }
+          ],
+          "gold_available_in_corpus": true,
+          "gold_chunk_ids": [
+            "92ecc4ae-4510-583c-ad87-4c70c9d5fe04"
+          ],
+          "matching_candidates": [
+            {
+              "chunk_id": "92ecc4ae-4510-583c-ad87-4c70c9d5fe04",
+              "doc_id": "unal_acompanamiento_2022",
+              "page": 32,
+              "dense_rank": 3,
+              "score": 0.8688558825268355,
+              "cosine_error": 4.8519572359850827e-08,
+              "rerank_score": 6.478212833404541,
+              "final_rerank_rank": 1
+            }
+          ],
+          "matching_top3_ranks": [
+            1
+          ],
+          "top3": [
+            {
+              "rank": 1,
+              "dense_rank": 3,
+              "doc_id": "unal_acompanamiento_2022",
+              "page": 32,
+              "chunk_id": "92ecc4ae-4510-583c-ad87-4c70c9d5fe04",
+              "cosine": 0.8688558825268355,
+              "rerank_score": 6.478212833404541,
+              "matches_gold": true
+            },
+            {
+              "rank": 2,
+              "dense_rank": 13,
+              "doc_id": "unal_acompanamiento_2022",
+              "page": 8,
+              "chunk_id": "23d8ba5d-d0f7-57f8-814d-e72ac72be6bc",
+              "cosine": 0.8467175960768109,
+              "rerank_score": 4.495307445526123,
+              "matches_gold": false
+            },
+            {
+              "rank": 3,
+              "dense_rank": 2,
+              "doc_id": "unal_acompanamiento_2022",
+              "page": 28,
+              "chunk_id": "a4e47d1b-bc60-5535-8dc4-70e52e7cce03",
+              "cosine": 0.8692081738526855,
+              "rerank_score": 3.9174869060516357,
+              "matches_gold": false
+            }
+          ]
+        }
+      ]
+    },
+    "holdout": {
+      "benchmark": "holdout.json",
+      "benchmark_sha256": "cd91a15d0e098636b8294f1b6c8d39bfece37186f80baa70fd395daf65c54639",
+      "n_queries": 6,
+      "counts": {
+        "hit": 5,
+        "candidate-miss": 1,
+        "rerank-miss": 0
+      },
+      "candidate_coverage_at_20": {
+        "count": 5,
+        "fraction": 0.8333333333333334
+      },
+      "hit_at_3": 0.8333333333333334,
+      "metrics": {
+        "n_queries": 6,
+        "latency_measurements": 18,
+        "repeats_per_query": 3,
+        "hit_at_3": 0.8333333333333334,
+        "mrr_at_3": 0.8333333333333334,
+        "ndcg_at_3": 0.8333333333333334,
+        "latency_p50_ms": 1482.545979997667,
+        "latency_p95_ms": 1669.3372617050043,
+        "backend": "local",
+        "stable_queries": 6,
+        "benchmark_sha256": "cd91a15d0e098636b8294f1b6c8d39bfece37186f80baa70fd395daf65c54639",
+        "gold_unit": "documento_pagina_y_evidencia_del_pasaje_cuando_definida",
+        "max_cosine_error": 1.1693137347279503e-07,
+        "ranking_method": "rerank",
+        "candidate_pool": 20,
+        "reranker_model": "cross-encoder/mmarco-mMiniLMv2-L12-H384-v1",
+        "reranker_revision": "1427fd652930e4ba29e8149678df786c240d8825",
+        "split": "holdout",
+        "benchmark_file": "holdout.json",
+        "scope": "banco_disenado_de_consultas; sin_generalizacion_estadistica"
+      },
+      "questions": [
+        {
+          "id": "H01",
+          "query": "Según el MEN, ¿cómo deben aprovecharse las experiencias que deja la implementación de proyectos de bienestar institucional?",
+          "classification": "candidate-miss",
+          "source_scope": {
+            "mode": "explicit_single_source",
+            "document_id": "men_bienestar_2016",
+            "matched_source_ids": [
+              "men_bienestar_2016"
+            ],
+            "matched_aliases": {
+              "men_bienestar_2016": [
+                "MEN"
+              ]
+            },
+            "policy": "solo_una_fuente_explicita_activa_filtro; cero_o_varias_consultan_todo_el_corpus"
+          },
+          "gold": [
+            {
+              "document_id": "men_bienestar_2016",
+              "pages": [
+                35
+              ],
+              "evidence_regex": "sistematizan\\s+y\\s+comparten",
+              "evidence_text": "sistematizan y comparten"
+            }
+          ],
+          "gold_available_in_corpus": true,
+          "gold_chunk_ids": [
+            "bd0e2ac6-22ef-5ca2-86d6-bb8cbe1e9f48"
+          ],
+          "matching_candidates": [],
+          "matching_top3_ranks": [],
+          "top3": [
+            {
+              "rank": 1,
+              "dense_rank": 13,
+              "doc_id": "men_bienestar_2016",
+              "page": 35,
+              "chunk_id": "ea34958a-e6d4-524c-a3f8-90583e30db84",
+              "cosine": 0.8640866776676785,
+              "rerank_score": 1.7361961603164673,
+              "matches_gold": false
+            },
+            {
+              "rank": 2,
+              "dense_rank": 2,
+              "doc_id": "men_bienestar_2016",
+              "page": 18,
+              "chunk_id": "61e346d4-5605-513d-bc53-c7170f5fbf28",
+              "cosine": 0.876164835750173,
+              "rerank_score": 1.66294264793396,
+              "matches_gold": false
+            },
+            {
+              "rank": 3,
+              "dense_rank": 14,
+              "doc_id": "men_bienestar_2016",
+              "page": 50,
+              "chunk_id": "7c6b5b06-b851-50b5-8810-697665526191",
+              "cosine": 0.86242798020854,
+              "rerank_score": 1.4750895500183105,
+              "matches_gold": false
+            }
+          ]
+        },
+        {
+          "id": "H02",
+          "query": "¿Qué propone el MEN para preparar la atención de emergencias y situaciones de alto riesgo dentro del campus?",
+          "classification": "hit",
+          "source_scope": {
+            "mode": "explicit_single_source",
+            "document_id": "men_bienestar_2016",
+            "matched_source_ids": [
+              "men_bienestar_2016"
+            ],
+            "matched_aliases": {
+              "men_bienestar_2016": [
+                "MEN"
+              ]
+            },
+            "policy": "solo_una_fuente_explicita_activa_filtro; cero_o_varias_consultan_todo_el_corpus"
+          },
+          "gold": [
+            {
+              "document_id": "men_bienestar_2016",
+              "pages": [
+                29
+              ],
+              "evidence_regex": "elaboraci[oó]n\\s+y\\s+socializaci[oó]n\\s+de\\s+protocolos",
+              "evidence_text": "elaboración y socialización de protocolos"
+            }
+          ],
+          "gold_available_in_corpus": true,
+          "gold_chunk_ids": [
+            "44ed1478-f8cd-5d2e-8a47-b125356c3ce0"
+          ],
+          "matching_candidates": [
+            {
+              "chunk_id": "44ed1478-f8cd-5d2e-8a47-b125356c3ce0",
+              "doc_id": "men_bienestar_2016",
+              "page": 29,
+              "dense_rank": 4,
+              "score": 0.832645326132921,
+              "cosine_error": 9.012684465403709e-08,
+              "rerank_score": 2.7596781253814697,
+              "final_rerank_rank": 1
+            }
+          ],
+          "matching_top3_ranks": [
+            1
+          ],
+          "top3": [
+            {
+              "rank": 1,
+              "dense_rank": 4,
+              "doc_id": "men_bienestar_2016",
+              "page": 29,
+              "chunk_id": "44ed1478-f8cd-5d2e-8a47-b125356c3ce0",
+              "cosine": 0.832645326132921,
+              "rerank_score": 2.7596781253814697,
+              "matches_gold": true
+            },
+            {
+              "rank": 2,
+              "dense_rank": 18,
+              "doc_id": "men_bienestar_2016",
+              "page": 18,
+              "chunk_id": "a8ac10fe-ed35-5e52-95c0-f439b0e94177",
+              "cosine": 0.8215186287448528,
+              "rerank_score": -2.9051859378814697,
+              "matches_gold": false
+            },
+            {
+              "rank": 3,
+              "dense_rank": 3,
+              "doc_id": "men_bienestar_2016",
+              "page": 18,
+              "chunk_id": "61e346d4-5605-513d-bc53-c7170f5fbf28",
+              "cosine": 0.8330611267330105,
+              "rerank_score": -3.1518328189849854,
+              "matches_gold": false
+            }
+          ]
+        },
+        {
+          "id": "H03",
+          "query": "¿Con qué dependencia propone El Bosque articular el fortalecimiento de las competencias de lectura y escritura?",
+          "classification": "hit",
+          "source_scope": {
+            "mode": "explicit_single_source",
+            "document_id": "ueb_exito_2024",
+            "matched_source_ids": [
+              "ueb_exito_2024"
+            ],
+            "matched_aliases": {
+              "ueb_exito_2024": [
+                "El Bosque"
+              ]
+            },
+            "policy": "solo_una_fuente_explicita_activa_filtro; cero_o_varias_consultan_todo_el_corpus"
+          },
+          "gold": [
+            {
+              "document_id": "ueb_exito_2024",
+              "pages": [
+                27
+              ],
+              "evidence_regex": "Departamento\\s+de\\s+Humanidades.{0,280}lectura\\s+y\\s+escritura",
+              "evidence_text": "Departamento de Humanidades"
+            }
+          ],
+          "gold_available_in_corpus": true,
+          "gold_chunk_ids": [
+            "c7334acf-c32e-5912-870c-751c320eb9b9"
+          ],
+          "matching_candidates": [
+            {
+              "chunk_id": "c7334acf-c32e-5912-870c-751c320eb9b9",
+              "doc_id": "ueb_exito_2024",
+              "page": 27,
+              "dense_rank": 5,
+              "score": 0.8415161210033584,
+              "cosine_error": 1.6119749535192796e-08,
+              "rerank_score": 1.5748696327209473,
+              "final_rerank_rank": 1
+            }
+          ],
+          "matching_top3_ranks": [
+            1
+          ],
+          "top3": [
+            {
+              "rank": 1,
+              "dense_rank": 5,
+              "doc_id": "ueb_exito_2024",
+              "page": 27,
+              "chunk_id": "c7334acf-c32e-5912-870c-751c320eb9b9",
+              "cosine": 0.8415161210033584,
+              "rerank_score": 1.5748696327209473,
+              "matches_gold": true
+            },
+            {
+              "rank": 2,
+              "dense_rank": 20,
+              "doc_id": "ueb_exito_2024",
+              "page": 36,
+              "chunk_id": "49dad41e-c7dc-5ac4-ac3d-838937089e53",
+              "cosine": 0.8267803429507738,
+              "rerank_score": 0.14982707798480988,
+              "matches_gold": false
+            },
+            {
+              "rank": 3,
+              "dense_rank": 1,
+              "doc_id": "ueb_exito_2024",
+              "page": 27,
+              "chunk_id": "dc68c131-0fa1-5c6a-be51-013b5de65e59",
+              "cosine": 0.8641710912571314,
+              "rerank_score": -0.8872470855712891,
+              "matches_gold": false
+            }
+          ]
+        },
+        {
+          "id": "H04",
+          "query": "¿Qué componentes comprende el análisis CIMA utilizado por El Bosque para el mejoramiento de su política?",
+          "classification": "hit",
+          "source_scope": {
+            "mode": "explicit_single_source",
+            "document_id": "ueb_exito_2024",
+            "matched_source_ids": [
+              "ueb_exito_2024"
+            ],
+            "matched_aliases": {
+              "ueb_exito_2024": [
+                "El Bosque"
+              ]
+            },
+            "policy": "solo_una_fuente_explicita_activa_filtro; cero_o_varias_consultan_todo_el_corpus"
+          },
+          "gold": [
+            {
+              "document_id": "ueb_exito_2024",
+              "pages": [
+                39
+              ],
+              "evidence_regex": "Innovaci[oó]n.{0,30}Mejoramiento.{0,30}Adaptaci[oó]n",
+              "evidence_text": "Innovación, Mejoramiento, Adaptación"
+            }
+          ],
+          "gold_available_in_corpus": true,
+          "gold_chunk_ids": [
+            "93c127d3-55fd-57c2-9140-5262c71926b7"
+          ],
+          "matching_candidates": [
+            {
+              "chunk_id": "93c127d3-55fd-57c2-9140-5262c71926b7",
+              "doc_id": "ueb_exito_2024",
+              "page": 39,
+              "dense_rank": 3,
+              "score": 0.8540776384005455,
+              "cosine_error": 5.8399686420074204e-08,
+              "rerank_score": 3.398446798324585,
+              "final_rerank_rank": 1
+            }
+          ],
+          "matching_top3_ranks": [
+            1
+          ],
+          "top3": [
+            {
+              "rank": 1,
+              "dense_rank": 3,
+              "doc_id": "ueb_exito_2024",
+              "page": 39,
+              "chunk_id": "93c127d3-55fd-57c2-9140-5262c71926b7",
+              "cosine": 0.8540776384005455,
+              "rerank_score": 3.398446798324585,
+              "matches_gold": true
+            },
+            {
+              "rank": 2,
+              "dense_rank": 2,
+              "doc_id": "ueb_exito_2024",
+              "page": 41,
+              "chunk_id": "600f7cd7-4303-553a-a221-ad7d2fa2f3b5",
+              "cosine": 0.865770538624105,
+              "rerank_score": 0.36824876070022583,
+              "matches_gold": false
+            },
+            {
+              "rank": 3,
+              "dense_rank": 1,
+              "doc_id": "ueb_exito_2024",
+              "page": 38,
+              "chunk_id": "fa53d800-269e-5ded-85a3-653fe84357d0",
+              "cosine": 0.866336586541304,
+              "rerank_score": 0.3173230290412903,
+              "matches_gold": false
+            }
+          ]
+        },
+        {
+          "id": "H05",
+          "query": "Según la guía de posgrado de la UNAL, ¿qué dependencia coordina la movilidad de la comunidad académica?",
+          "classification": "hit",
+          "source_scope": {
+            "mode": "explicit_single_source",
+            "document_id": "unal_acompanamiento_2022",
+            "matched_source_ids": [
+              "unal_acompanamiento_2022"
+            ],
+            "matched_aliases": {
+              "unal_acompanamiento_2022": [
+                "UNAL"
+              ]
+            },
+            "policy": "solo_una_fuente_explicita_activa_filtro; cero_o_varias_consultan_todo_el_corpus"
+          },
+          "gold": [
+            {
+              "document_id": "unal_acompanamiento_2022",
+              "pages": [
+                27
+              ],
+              "evidence_regex": "miembros\\s+de\\s+la\\s+comunidad\\s+acad[eé]mica.{0,90}Direcci[oó]n\\s+de\\s+Relaciones\\s+Exteriores",
+              "evidence_text": "Relaciones Exteriores"
+            }
+          ],
+          "gold_available_in_corpus": true,
+          "gold_chunk_ids": [
+            "6c23fa7e-a765-58fd-8c9c-8fc2c29b2066"
+          ],
+          "matching_candidates": [
+            {
+              "chunk_id": "6c23fa7e-a765-58fd-8c9c-8fc2c29b2066",
+              "doc_id": "unal_acompanamiento_2022",
+              "page": 27,
+              "dense_rank": 1,
+              "score": 0.8783051042964155,
+              "cosine_error": 2.6743620096247867e-08,
+              "rerank_score": 6.467970371246338,
+              "final_rerank_rank": 1
+            }
+          ],
+          "matching_top3_ranks": [
+            1
+          ],
+          "top3": [
+            {
+              "rank": 1,
+              "dense_rank": 1,
+              "doc_id": "unal_acompanamiento_2022",
+              "page": 27,
+              "chunk_id": "6c23fa7e-a765-58fd-8c9c-8fc2c29b2066",
+              "cosine": 0.8783051042964155,
+              "rerank_score": 6.467970371246338,
+              "matches_gold": true
+            },
+            {
+              "rank": 2,
+              "dense_rank": 2,
+              "doc_id": "unal_acompanamiento_2022",
+              "page": 26,
+              "chunk_id": "09df7b3b-42cf-5ade-85e1-097cddb5652c",
+              "cosine": 0.8648374850362223,
+              "rerank_score": 1.2990221977233887,
+              "matches_gold": false
+            },
+            {
+              "rank": 3,
+              "dense_rank": 10,
+              "doc_id": "unal_acompanamiento_2022",
+              "page": 36,
+              "chunk_id": "e6df57b5-1280-53f4-86f6-f0ec148335b4",
+              "cosine": 0.8484632898597868,
+              "rerank_score": 0.5861800909042358,
+              "matches_gold": false
+            }
+          ]
+        },
+        {
+          "id": "H06",
+          "query": "¿En qué documento se establecen las fechas de las ceremonias de grado de la UNAL, según su guía de acompañamiento?",
+          "classification": "hit",
+          "source_scope": {
+            "mode": "explicit_single_source",
+            "document_id": "unal_acompanamiento_2022",
+            "matched_source_ids": [
+              "unal_acompanamiento_2022"
+            ],
+            "matched_aliases": {
+              "unal_acompanamiento_2022": [
+                "UNAL"
+              ]
+            },
+            "policy": "solo_una_fuente_explicita_activa_filtro; cero_o_varias_consultan_todo_el_corpus"
+          },
+          "gold": [
+            {
+              "document_id": "unal_acompanamiento_2022",
+              "pages": [
+                35
+              ],
+              "evidence_regex": "Calendario\\s+Acad[eé]mico\\s+General",
+              "evidence_text": "Calendario Académico General"
+            }
+          ],
+          "gold_available_in_corpus": true,
+          "gold_chunk_ids": [
+            "8830a7da-7284-5bee-8142-7b099f0f479f"
+          ],
+          "matching_candidates": [
+            {
+              "chunk_id": "8830a7da-7284-5bee-8142-7b099f0f479f",
+              "doc_id": "unal_acompanamiento_2022",
+              "page": 35,
+              "dense_rank": 1,
+              "score": 0.8865248988695563,
+              "cosine_error": 7.64302788835991e-08,
+              "rerank_score": 9.500836372375488,
+              "final_rerank_rank": 1
+            }
+          ],
+          "matching_top3_ranks": [
+            1
+          ],
+          "top3": [
+            {
+              "rank": 1,
+              "dense_rank": 1,
+              "doc_id": "unal_acompanamiento_2022",
+              "page": 35,
+              "chunk_id": "8830a7da-7284-5bee-8142-7b099f0f479f",
+              "cosine": 0.8865248988695563,
+              "rerank_score": 9.500836372375488,
+              "matches_gold": true
+            },
+            {
+              "rank": 2,
+              "dense_rank": 2,
+              "doc_id": "unal_acompanamiento_2022",
+              "page": 13,
+              "chunk_id": "a4ca97de-5824-5225-bb6d-39207859bdba",
+              "cosine": 0.8674306449183874,
+              "rerank_score": 2.39736270904541,
+              "matches_gold": false
+            },
+            {
+              "rank": 3,
+              "dense_rank": 4,
+              "doc_id": "unal_acompanamiento_2022",
+              "page": 13,
+              "chunk_id": "41fba333-cb43-5548-9c45-92e27d29f4d9",
+              "cosine": 0.8451956179878166,
+              "rerank_score": 1.1087971925735474,
+              "matches_gold": false
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "interpretation_scope": "Las clasificaciones describen estos bancos internos y la configuración registrada. La reserva no se utilizó para cambiar el recuperador; el diagnóstico no establece causalidad ni valida un umbral universal de similitud."
+}
