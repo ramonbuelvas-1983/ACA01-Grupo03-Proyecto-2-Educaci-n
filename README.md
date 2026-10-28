@@ -10,7 +10,7 @@ Los registros proceden de Portugal. Los documentos conservan el ámbito del Mini
 
 [Ejecutar en Google Colab](https://colab.research.google.com/github/ramonbuelvas-1983/ACA01-Grupo03-Proyecto-2-Educaci-n/blob/main/Trayectoria_UCI_ACA1.ipynb) · [Notebook ejecutado](Trayectoria_UCI_ACA1.ipynb) · [Póster PDF](entregables/Trayectoria_UCI_Poster.pdf) · [Video de sustentación, 4:40](entregables/Trayectoria_UCI_Sustentacion.mp4) · [Subtítulos](entregables/Trayectoria_UCI_Sustentacion.srt)
 
-El notebook registra una ejecución local completa: 15 celdas de código sin errores, 319 pasajes indexados, Hit@3 de 9/12 en desarrollo y 5/6 en reserva. La ejecución remota y su demostración requieren una sesión de Qdrant Cloud y credenciales privadas válidas.
+El notebook registra una ejecución local completa: 15 celdas de código sin errores, 319 pasajes indexados, Hit@3 de 9/12 en desarrollo y 5/6 en reserva. La verificación adicional desde terminal, registrada en `results/cloud_summary.json`, confirma 319 puntos en Qdrant Cloud, el índice `doc_id` de tipo `keyword`, idempotencia y 9/12 aciertos de desarrollo. El notebook y el video conservan su ejecución local; cada archivo de evidencia identifica su backend.
 
 ## Ejecutar el notebook
 
@@ -45,6 +45,21 @@ python -m src.pipeline --root . --backend cloud --provider e5 --retrieval rerank
 ```
 
 Las credenciales se leen exclusivamente desde variables de entorno o `.env`; nunca deben incluirse en celdas, capturas, salidas o repositorios. Un fallo remoto interrumpe la ejecución e informa su tipo sin mostrar secretos; no se activa un sustituto local. La evidencia de una ejecución local no acredita por sí misma la conexión cloud.
+
+## Herramientas por componente arquitectónico
+
+| Componente | Herramientas utilizadas |
+|---|---|
+| Ingesta y control del dataset | Python, pandas y SHA-256 |
+| Almacenamiento y perfiles tabulares | SQLite y SQL, mediante sqlite3 |
+| Extracción y fragmentación documental | PyMuPDF y tokenizador de Transformers |
+| Embeddings multilingües | SentenceTransformers, PyTorch y multilingual-e5-small, 384 dimensiones |
+| Índice vectorial y consultas | Qdrant Client; Qdrant local y Qdrant Cloud Free en AWS São Paulo |
+| Reordenamiento de candidatos | CrossEncoder mmarco-mMiniLMv2-L12-H384-v1 |
+| Configuración privada | python-dotenv y variables de entorno |
+| Experimentos y visualización | Jupyter/IPython, NumPy y Matplotlib |
+
+El póster se elaboró con ReportLab. El video combina gráficos de resultados, FFmpeg y narración sintética en español generada localmente con Piper.
 
 ## Datos, perfiles y corpus
 
@@ -100,7 +115,10 @@ python -m src.pipeline --root . --backend local --provider e5 --retrieval rerank
 | `data/evaluation.json` | Doce preguntas de desarrollo y evidencia pertinente |
 | `data/holdout.json` | Seis preguntas de reserva y evidencia pertinente |
 | `results/cohorts.sqlite` | Registros y perfiles agregados en SQL |
-| `results/summary.json` | Configuración, conteos y métricas |
+| `results/summary.json` | Configuración, conteos y métricas de la ejecución local |
+| `results/cloud_summary.json` | Verificación independiente del clúster remoto y métricas de desarrollo |
+| `results/cloud_search_results.json` | Respuestas reales de las doce consultas al clúster remoto |
+| `results/cloud_evaluation.csv` | Evaluación de desarrollo del CLI remoto |
 | `results/search_results.json` | Recuperaciones completas y latencias |
 | `results/evaluation.csv` | Resultados de desarrollo por pregunta |
 | `results/baseline/` | Ejecución densa histórica sin filtro de fuente, conservada por separado |
